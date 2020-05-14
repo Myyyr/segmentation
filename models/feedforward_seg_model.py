@@ -85,10 +85,12 @@ class FeedForwardSegmentation(BaseModel):
         elif split == 'test':
             with torch.no_grad():
                 self.prediction = self.net(Variable(self.input, volatile=True))
-                print(self.prediction.sum(dim = 1))
+                print("Sum 0 :",np.sum(self.prediction.gpu().numpy()[:,0,...]))
+                print("Sum 1 :",np.sum(self.prediction.gpu().numpy()[:,1,...]))
                 # Apply a softmax and return a segmentation map
                 self.logits = self.net.apply_argmax_softmax(self.prediction)
-                print(self.logits.sum(dim = 1))
+                print("Sum 0 :",np.sum(self.logits.gpu().numpy()[:,0,...]))
+                print("Sum 1 :",np.sum(self.logits.gpu().numpy()[:,1,...]))
                 self.pred_seg = self.logits.data.max(1)[1].unsqueeze(1)
                 print("Sum :", self.pred_seg.sum())
             
