@@ -88,7 +88,7 @@ class FeedForwardSegmentation(BaseModel):
                 # Apply a softmax and return a segmentation map
                 self.logits = self.net.apply_argmax_softmax(self.prediction)
                 self.pred_seg = self.logits.data.max(1)[1].unsqueeze(1)
-                # print("Sum :", self.pred_seg.sum())
+                print("Sum :", self.pred_seg.sum())
             
     def backward(self):
         self.loss_S = self.criterion(self.prediction, self.target)
