@@ -22,7 +22,7 @@ def get_network(name, n_classes, in_channels=3, feature_scale=4, tensor_dim='2D'
                       feature_scale=feature_scale,
                       is_deconv=False)
 
-    if name in ['unet', 'unet_ct_dsv']:
+    elif name in ['unet', 'unet_ct_dsv']:
         model = model(n_classes=n_classes,
                       is_batchnorm=True,
                       in_channels=in_channels,
