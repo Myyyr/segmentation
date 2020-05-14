@@ -293,6 +293,7 @@ class revunet_3D(nn.Module):
         del x1
 
         y = self.lastConv(y)
+        
 
 
 
