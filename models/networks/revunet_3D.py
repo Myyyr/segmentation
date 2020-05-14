@@ -216,10 +216,10 @@ class revunet_3D(nn.Module):
         self.dconv1 = makeReversibleComponent(channels[3], self.depth)
 
         self.up2    = UpSampler(channels[3], channels[2], spatial_sizes[2])
-        self.Dconv2 = makeReversibleComponent(channels[2], self.depth)
+        self.dconv2 = makeReversibleComponent(channels[2], self.depth)
 
         self.up3    = UpSampler(channels[2], channels[1], spatial_sizes[1])
-        self.Dconv3 = makeReversibleComponent(channels[1], self.depth)
+        self.dconv3 = makeReversibleComponent(channels[1], self.depth)
 
         self.up4    = UpSampler(channels[1], channels[0], spatial_sizes[0])
         self.dconv4 = makeReversibleComponent(channels[0], self.depth)
