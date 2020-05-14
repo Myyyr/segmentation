@@ -318,7 +318,7 @@ class revunet_3D(nn.Module):
 
     @staticmethod
     def apply_argmax_softmax(pred):
-        # log_p = F.softmax(pred, dim=1)
+        pred = F.softmax(pred, dim=1)
 
 
 

@@ -37,7 +37,6 @@ class SoftDiceLoss(nn.Module):
         batch_size = input.size(0)
 
         input = F.softmax(input, dim=1).view(batch_size, self.n_classes, -1)
-        print("Sum :", input.sum())
         target = self.one_hot_encoder(target).contiguous().view(batch_size, self.n_classes, -1)
 
         inter = torch.sum(input * target, 2) + smooth
