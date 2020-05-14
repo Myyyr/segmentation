@@ -8,11 +8,19 @@ from .unet_CT_single_att_dsv_3D import *
 from .unet_CT_multi_att_dsv_3D import *
 from .sononet import *
 from .sononet_grid_attention import *
+from .revunet_3D import *
 
 def get_network(name, n_classes, in_channels=3, feature_scale=4, tensor_dim='2D',
                 nonlocal_mode='embedded_gaussian', attention_dsample=(2,2,2),
                 aggregation_mode='concat'):
     model = _get_model_instance(name, tensor_dim)
+
+    if name in ['revunet']:
+        model = model(n_classes=n_classes,
+                      is_batchnorm=True,
+                      in_channels=in_channels,
+                      feature_scale=feature_scale,
+                      is_deconv=False)
 
     if name in ['unet', 'unet_ct_dsv']:
         model = model(n_classes=n_classes,
@@ -57,6 +65,7 @@ def get_network(name, n_classes, in_channels=3, feature_scale=4, tensor_dim='2D'
 
 def _get_model_instance(name, tensor_dim):
     return {
+        'revunet':{'3D':revunet_3D},
         'unet':{'2D': unet_2D, '3D': unet_3D},
         'unet_nonlocal':{'2D': unet_nonlocal_2D, '3D': unet_nonlocal_3D},
         'unet_grid_gating': {'3D': unet_grid_attention_3D},
