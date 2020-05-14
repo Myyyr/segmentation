@@ -12,7 +12,7 @@ from utils.error_logger import ErrorLogger
 from models import get_model
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = '1'
+os.environ["CUDA_VISIBLE_DEVICES"] = '3'
 
 def train(arguments):
 
