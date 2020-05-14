@@ -10,9 +10,18 @@ from utils.visualiser import Visualiser
 from utils.error_logger import ErrorLogger
 
 from models import get_model
+import torch
 
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = '3'
+
+def convert_bytes(size):
+    for x in ['bytes', 'KB', 'MB', 'GB', 'TB']:
+        if size < 1024.0:
+            return "%3.2f %s" % (size, x)
+        size /= 1024.0
+
+    return size
 
 def train(arguments):
 
@@ -43,9 +52,9 @@ def train(arguments):
     train_dataset = ds_class(ds_path, split='train',      transform=ds_transform['train'], preload_data=train_opts.preloadData)
     valid_dataset = ds_class(ds_path, split='validation', transform=ds_transform['valid'], preload_data=train_opts.preloadData)
     test_dataset  = ds_class(ds_path, split='test',       transform=ds_transform['valid'], preload_data=train_opts.preloadData)
-    train_loader = DataLoader(dataset=train_dataset, num_workers=1, batch_size=train_opts.batchSize, shuffle=True)
-    valid_loader = DataLoader(dataset=valid_dataset, num_workers=1, batch_size=train_opts.batchSize, shuffle=False)
-    test_loader  = DataLoader(dataset=test_dataset,  num_workers=1, batch_size=train_opts.batchSize, shuffle=False)
+    train_loader = DataLoader(dataset=train_dataset, num_workers=16, batch_size=train_opts.batchSize, shuffle=True)
+    valid_loader = DataLoader(dataset=valid_dataset, num_workers=16, batch_size=train_opts.batchSize, shuffle=False)
+    test_loader  = DataLoader(dataset=test_dataset,  num_workers=16, batch_size=train_opts.batchSize, shuffle=False)
 
     # Visualisation Parameters
     visualizer = Visualiser(json_opts.visualisation, save_dir=model.save_dir)
@@ -89,6 +98,7 @@ def train(arguments):
             visualizer.plot_current_errors(epoch, error_logger.get_errors(split), split_name=split)
             visualizer.print_current_errors(epoch, error_logger.get_errors(split), split_name=split)
         error_logger.reset()
+        print("Memory Usage :", convert_bytes(torch.cuda.max_memory_allocated()))
 
         # Save the model parameters
         if epoch % train_opts.save_epoch_freq == 0:

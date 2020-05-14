@@ -97,7 +97,7 @@ class DownSampler(nn.Module):
         # self.pad_front, self.pad_back = [add_chan//2]*2
         self.conv = nn.Conv3d(inChannels, outChannels, 1)
         self.maxpool = nn.MaxPool3d(kernel_size=(2, 2, 2))
-        # self.bn = nn.BatchNorm3d(outChannels)
+        self.bn = nn.BatchNorm3d(outChannels)
 
 
         # if inChannels%2 != 0:
@@ -106,6 +106,8 @@ class DownSampler(nn.Module):
     def forward(self, x):
         x = self.maxpool(x) # Reduce the spatial size
         x = self.conv(x) # increase the number of channels
+        x = F.relu(x)
+        x = self.bn(x)
 
         # pad = 1*(np.array(x.shape )% 2 != 0)
         #x = F.pad(x, (pad[4],0,pad[3],0,pad[2],0)) # add pad of size 1 in the non-divisible by 2 dimension
