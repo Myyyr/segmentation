@@ -314,6 +314,10 @@ class revunet_3D(nn.Module):
 
         # x = nn.Sigmoid()(x)
 
+        print(y.shape)
+
+        exit(0)
+
         return y
 
     @staticmethod
