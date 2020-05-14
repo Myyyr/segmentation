@@ -11,7 +11,7 @@ from .networks_other import get_scheduler, print_network, benchmark_fp_bp_time
 from .utils import segmentation_stats, get_optimizer, get_criterion
 from .networks.utils import HookBasedFeatureExtractor
 
-
+import numpy as np
 class FeedForwardSegmentation(BaseModel):
 
     def name(self):
