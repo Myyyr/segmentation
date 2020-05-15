@@ -37,8 +37,8 @@ class SoftDiceLoss(nn.Module):
         batch_size = input.size(0)
 
         input = F.softmax(input, dim=1)
-        print("In Loss Sum 0 :",np.sum(input.cpu().detach().numpy()[:,0,...]))
-        print("In Loss Sum 1 :",np.sum(input.cpu().detach().numpy()[:,1,...]))
+        # print("In Loss Sum 0 :",np.sum(input.cpu().detach().numpy()[:,0,...]))
+        # print("In Loss Sum 1 :",np.sum(input.cpu().detach().numpy()[:,1,...]))
         input = input.view(batch_size, self.n_classes, -1)
         target = self.one_hot_encoder(target).contiguous().view(batch_size, self.n_classes, -1)
 
