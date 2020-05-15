@@ -65,7 +65,7 @@ MAX_INTENSITY_SHIFT = 0.1
 class ResidualInner(nn.Module):
     def __init__(self, channels, groups):
         super(ResidualInner, self).__init__()
-        self.gn = nn.GroupNorm(groups, channels)
+        self.gn = nn.BatchNorm2d(channels)
         self.conv = nn.Conv3d(channels, channels, 3, padding=1, bias=False)
 
     def forward(self, x):
