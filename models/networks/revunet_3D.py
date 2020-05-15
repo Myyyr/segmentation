@@ -69,7 +69,7 @@ class ResidualInner(nn.Module):
         self.conv = nn.Conv3d(channels, channels, 3, padding=1, bias=False)
 
     def forward(self, x):
-        x = self.conv(F.leaky_relu(self.gn(x), inplace=INPLACE))
+        x = F.leaky_relu(self.gn(self.conv(x)), inplace=INPLACE)
         return x
 
 def makeReversibleSequence(channels):

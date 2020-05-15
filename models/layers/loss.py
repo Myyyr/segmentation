@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.nn.modules.loss import _Loss
 from torch.autograd import Function, Variable
-
+import numpy as np
 def cross_entropy_2D(input, target, weight=None, size_average=True):
     n, c, h, w = input.size()
     log_p = F.log_softmax(input, dim=1)
@@ -37,6 +37,8 @@ class SoftDiceLoss(nn.Module):
         batch_size = input.size(0)
 
         input = F.softmax(input, dim=1).view(batch_size, self.n_classes, -1)
+        print("In Loss Sum 0 :",np.sum(input.cpu().numpy()[:,0,...]))
+        print("In Loss Sum 1 :",np.sum(input.cpu().numpy()[:,1,...]))
         target = self.one_hot_encoder(target).contiguous().view(batch_size, self.n_classes, -1)
 
         inter = torch.sum(input * target, 2) + smooth
