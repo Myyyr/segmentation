@@ -162,3 +162,7 @@ class NoNewReversible(nn.Module):
         #x = torch.sigmoid(x)
         return x
 
+    @staticmethod
+    def apply_argmax_softmax(pred):
+        pred = F.softmax(pred, dim=1)
+        return pred
