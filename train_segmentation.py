@@ -13,7 +13,7 @@ from models import get_model
 import torch
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = '2'
+os.environ["CUDA_VISIBLE_DEVICES"] = '1'
 
 def convert_bytes(size):
     for x in ['bytes', 'KB', 'MB', 'GB', 'TB']:
