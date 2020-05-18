@@ -123,7 +123,7 @@ class DecoderModule(nn.Module):
 
 class NoNewReversible_big(nn.Module):
     def __init__(self):
-        super(NoNewReversible, self).__init__()
+        super(NoNewReversible_big, self).__init__()
         depth = 1
         self.levels = 5
 
