@@ -6,8 +6,7 @@
     "lr_policy": "step",
     "lr_decay_iters": 250,
     "batchSize": 2,
-    "preloadData": true,
-    "which_epoch": 480
+    "preloadData": true
   },
   "visualisation":{
     "display_port": 8097,
@@ -39,7 +38,7 @@
     "division_factor": 16,
     "input_nc": 1,
     "output_nc": 2,
-    "lr_rate": 0.025,
+    "lr_rate": 5e-2,
     "l2_reg_weight": 5e-4,
     "feature_scale": 4,
     "gpu_ids": [0],
