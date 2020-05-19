@@ -38,13 +38,13 @@
     "division_factor": 16,
     "input_nc": 1,
     "output_nc": 2,
-    "lr_rate": 5e-2,
+    "lr_rate": 5e-1,
     "l2_reg_weight": 5e-4,
     "feature_scale": 4,
     "gpu_ids": [0],
     "isTrain": true,
     "checkpoints_dir": "./checkpoints",
-    "experiment_name": "my_experiment_unet_ct_multi_att_dsv",
+    "experiment_name": "my_experiment_unet_ct_multi_att_dsv3",
     "criterion": "dice_loss"
   }
 }
