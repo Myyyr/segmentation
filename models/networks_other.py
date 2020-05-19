@@ -98,7 +98,7 @@ def get_scheduler(optimizer, opt):
             return lr_l
         scheduler = lr_scheduler.LambdaLR(optimizer, lr_lambda=lambda_rule)
     elif opt.lr_policy == 'step':
-        scheduler = lr_scheduler.StepLR(optimizer, step_size=opt.lr_decay_iters, gamma=0.5, last_epoch = opt.which_epoch)
+        scheduler = lr_scheduler.StepLR(optimizer, step_size=opt.lr_decay_iters, gamma=0.5)
     elif opt.lr_policy == 'step2':
         scheduler = lr_scheduler.StepLR(optimizer, step_size=opt.lr_decay_iters, gamma=0.1)
     elif opt.lr_policy == 'plateau':
