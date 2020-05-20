@@ -10,6 +10,7 @@ from .sononet import *
 from .sononet_grid_attention import *
 from .revunet_3D import *
 from .revunet_3D_big import *
+from .vnet import *
 
 def get_network(name, n_classes, in_channels=3, feature_scale=4, tensor_dim='2D',
                 nonlocal_mode='embedded_gaussian', attention_dsample=(2,2,2),
@@ -17,6 +18,9 @@ def get_network(name, n_classes, in_channels=3, feature_scale=4, tensor_dim='2D'
     model = _get_model_instance(name, tensor_dim)
 
     if name in ['revunet', 'revunet_big']:
+        model = model()
+
+    elif name in ['vnet']:
         model = model()
 
     elif name in ['unet', 'unet_ct_dsv']:
@@ -62,6 +66,7 @@ def get_network(name, n_classes, in_channels=3, feature_scale=4, tensor_dim='2D'
 
 def _get_model_instance(name, tensor_dim):
     return {
+        'vnet':{'3D':VNet},
         'revunet':{'3D':NoNewReversible},
         'revunet_big':{'3D':NoNewReversible_big},
         'unet':{'2D': unet_2D, '3D': unet_3D},
