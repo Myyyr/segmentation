@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ================ Training Loss (Wed May 20 11:41:13 2020) ================
 (epoch: 0, split: train) Seg_Loss: 0.526 
 (epoch: 0, split: validation) 
@@ -2411,3 +2412,1378 @@
 (epoch: 803, split: train) Seg_Loss: 0.063 
 (epoch: 803, split: validation) 
 (epoch: 803, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.777 
+=======
+epoch: 0, Seg_Loss: 0.482, Overall_Acc: 0.949, Mean_IOU: 0.502, Class_0: 0.974, Class_1: 0.101 
+epoch: 1, Seg_Loss: 0.421, Overall_Acc: 0.994, Mean_IOU: 0.551, Class_0: 0.997, Class_1: 0.182 
+epoch: 2, Seg_Loss: 0.496, Overall_Acc: 0.996, Mean_IOU: 0.499, Class_0: 0.998, Class_1: 0.002 
+epoch: 3, Seg_Loss: 0.417, Overall_Acc: 0.996, Mean_IOU: 0.548, Class_0: 0.998, Class_1: 0.169 
+epoch: 4, Seg_Loss: 0.318, Overall_Acc: 0.994, Mean_IOU: 0.614, Class_0: 0.997, Class_1: 0.381 
+epoch: 5, Seg_Loss: 0.354, Overall_Acc: 0.996, Mean_IOU: 0.597, Class_0: 0.998, Class_1: 0.298 
+epoch: 6, Seg_Loss: 0.331, Overall_Acc: 0.996, Mean_IOU: 0.609, Class_0: 0.998, Class_1: 0.348 
+epoch: 7, Seg_Loss: 0.381, Overall_Acc: 0.997, Mean_IOU: 0.573, Class_0: 0.998, Class_1: 0.239 
+epoch: 8, Seg_Loss: 0.344, Overall_Acc: 0.996, Mean_IOU: 0.595, Class_0: 0.998, Class_1: 0.317 
+epoch: 9, Seg_Loss: 0.398, Overall_Acc: 0.997, Mean_IOU: 0.563, Class_0: 0.998, Class_1: 0.202 
+epoch: 10, Seg_Loss: 0.253, Overall_Acc: 0.996, Mean_IOU: 0.679, Class_0: 0.998, Class_1: 0.504 
+epoch: 11, Seg_Loss: 0.283, Overall_Acc: 0.997, Mean_IOU: 0.652, Class_0: 0.998, Class_1: 0.439 
+epoch: 12, Seg_Loss: 0.258, Overall_Acc: 0.996, Mean_IOU: 0.668, Class_0: 0.998, Class_1: 0.495 
+epoch: 13, Seg_Loss: 0.280, Overall_Acc: 0.997, Mean_IOU: 0.648, Class_0: 0.998, Class_1: 0.443 
+epoch: 14, Seg_Loss: 0.367, Overall_Acc: 0.997, Mean_IOU: 0.585, Class_0: 0.998, Class_1: 0.264 
+epoch: 15, Seg_Loss: 0.229, Overall_Acc: 0.997, Mean_IOU: 0.700, Class_0: 0.998, Class_1: 0.549 
+epoch: 16, Seg_Loss: 0.263, Overall_Acc: 0.997, Mean_IOU: 0.668, Class_0: 0.998, Class_1: 0.479 
+epoch: 17, Seg_Loss: 0.342, Overall_Acc: 0.997, Mean_IOU: 0.602, Class_0: 0.998, Class_1: 0.316 
+epoch: 18, Seg_Loss: 0.248, Overall_Acc: 0.996, Mean_IOU: 0.674, Class_0: 0.998, Class_1: 0.512 
+epoch: 19, Seg_Loss: 0.370, Overall_Acc: 0.997, Mean_IOU: 0.585, Class_0: 0.998, Class_1: 0.260 
+epoch: 20, Seg_Loss: 0.238, Overall_Acc: 0.995, Mean_IOU: 0.679, Class_0: 0.997, Class_1: 0.531 
+epoch: 21, Seg_Loss: 0.226, Overall_Acc: 0.997, Mean_IOU: 0.699, Class_0: 0.999, Class_1: 0.550 
+epoch: 22, Seg_Loss: 0.206, Overall_Acc: 0.997, Mean_IOU: 0.718, Class_0: 0.999, Class_1: 0.594 
+epoch: 23, Seg_Loss: 0.202, Overall_Acc: 0.997, Mean_IOU: 0.724, Class_0: 0.999, Class_1: 0.600 
+epoch: 24, Seg_Loss: 0.221, Overall_Acc: 0.996, Mean_IOU: 0.699, Class_0: 0.998, Class_1: 0.568 
+epoch: 25, Seg_Loss: 0.194, Overall_Acc: 0.998, Mean_IOU: 0.733, Class_0: 0.999, Class_1: 0.616 
+epoch: 26, Seg_Loss: 0.195, Overall_Acc: 0.997, Mean_IOU: 0.732, Class_0: 0.999, Class_1: 0.614 
+epoch: 27, Seg_Loss: 0.203, Overall_Acc: 0.997, Mean_IOU: 0.724, Class_0: 0.999, Class_1: 0.599 
+epoch: 28, Seg_Loss: 0.172, Overall_Acc: 0.997, Mean_IOU: 0.755, Class_0: 0.999, Class_1: 0.662 
+epoch: 29, Seg_Loss: 0.173, Overall_Acc: 0.998, Mean_IOU: 0.751, Class_0: 0.999, Class_1: 0.659 
+epoch: 30, Seg_Loss: 0.179, Overall_Acc: 0.998, Mean_IOU: 0.751, Class_0: 0.999, Class_1: 0.646 
+epoch: 31, Seg_Loss: 0.171, Overall_Acc: 0.997, Mean_IOU: 0.754, Class_0: 0.999, Class_1: 0.661 
+epoch: 32, Seg_Loss: 0.170, Overall_Acc: 0.998, Mean_IOU: 0.753, Class_0: 0.999, Class_1: 0.665 
+epoch: 33, Seg_Loss: 0.157, Overall_Acc: 0.998, Mean_IOU: 0.772, Class_0: 0.999, Class_1: 0.690 
+epoch: 34, Seg_Loss: 0.163, Overall_Acc: 0.998, Mean_IOU: 0.767, Class_0: 0.999, Class_1: 0.677 
+epoch: 35, Seg_Loss: 0.217, Overall_Acc: 0.997, Mean_IOU: 0.708, Class_0: 0.998, Class_1: 0.573 
+epoch: 36, Seg_Loss: 0.181, Overall_Acc: 0.997, Mean_IOU: 0.741, Class_0: 0.999, Class_1: 0.643 
+epoch: 37, Seg_Loss: 0.151, Overall_Acc: 0.998, Mean_IOU: 0.777, Class_0: 0.999, Class_1: 0.705 
+epoch: 38, Seg_Loss: 0.290, Overall_Acc: 0.997, Mean_IOU: 0.638, Class_0: 0.999, Class_1: 0.420 
+epoch: 39, Seg_Loss: 0.201, Overall_Acc: 0.998, Mean_IOU: 0.731, Class_0: 0.999, Class_1: 0.599 
+epoch: 40, Seg_Loss: 0.163, Overall_Acc: 0.998, Mean_IOU: 0.763, Class_0: 0.999, Class_1: 0.677 
+epoch: 41, Seg_Loss: 0.174, Overall_Acc: 0.998, Mean_IOU: 0.754, Class_0: 0.999, Class_1: 0.656 
+epoch: 42, Seg_Loss: 0.201, Overall_Acc: 0.998, Mean_IOU: 0.726, Class_0: 0.999, Class_1: 0.600 
+epoch: 43, Seg_Loss: 0.156, Overall_Acc: 0.998, Mean_IOU: 0.777, Class_0: 0.999, Class_1: 0.690 
+epoch: 44, Seg_Loss: 0.161, Overall_Acc: 0.998, Mean_IOU: 0.767, Class_0: 0.999, Class_1: 0.683 
+epoch: 45, Seg_Loss: 0.173, Overall_Acc: 0.998, Mean_IOU: 0.754, Class_0: 0.999, Class_1: 0.656 
+epoch: 46, Seg_Loss: 0.160, Overall_Acc: 0.998, Mean_IOU: 0.767, Class_0: 0.999, Class_1: 0.681 
+epoch: 47, Seg_Loss: 0.148, Overall_Acc: 0.998, Mean_IOU: 0.778, Class_0: 0.999, Class_1: 0.708 
+epoch: 48, Seg_Loss: 0.167, Overall_Acc: 0.998, Mean_IOU: 0.761, Class_0: 0.999, Class_1: 0.670 
+epoch: 49, Seg_Loss: 0.170, Overall_Acc: 0.998, Mean_IOU: 0.755, Class_0: 0.999, Class_1: 0.664 
+epoch: 50, Seg_Loss: 0.158, Overall_Acc: 0.998, Mean_IOU: 0.771, Class_0: 0.999, Class_1: 0.686 
+epoch: 51, Seg_Loss: 0.148, Overall_Acc: 0.998, Mean_IOU: 0.779, Class_0: 0.999, Class_1: 0.707 
+epoch: 52, Seg_Loss: 0.154, Overall_Acc: 0.998, Mean_IOU: 0.775, Class_0: 0.999, Class_1: 0.695 
+epoch: 53, Seg_Loss: 0.152, Overall_Acc: 0.998, Mean_IOU: 0.774, Class_0: 0.999, Class_1: 0.699 
+epoch: 54, Seg_Loss: 0.144, Overall_Acc: 0.998, Mean_IOU: 0.786, Class_0: 0.999, Class_1: 0.714 
+epoch: 55, Seg_Loss: 0.167, Overall_Acc: 0.998, Mean_IOU: 0.760, Class_0: 0.999, Class_1: 0.668 
+epoch: 56, Seg_Loss: 0.159, Overall_Acc: 0.998, Mean_IOU: 0.770, Class_0: 0.999, Class_1: 0.684 
+epoch: 57, Seg_Loss: 0.236, Overall_Acc: 0.998, Mean_IOU: 0.697, Class_0: 0.999, Class_1: 0.529 
+epoch: 58, Seg_Loss: 0.160, Overall_Acc: 0.997, Mean_IOU: 0.762, Class_0: 0.999, Class_1: 0.685 
+epoch: 59, Seg_Loss: 0.162, Overall_Acc: 0.998, Mean_IOU: 0.768, Class_0: 0.999, Class_1: 0.678 
+epoch: 60, Seg_Loss: 0.137, Overall_Acc: 0.998, Mean_IOU: 0.793, Class_0: 0.999, Class_1: 0.731 
+epoch: 61, Seg_Loss: 0.148, Overall_Acc: 0.998, Mean_IOU: 0.778, Class_0: 0.999, Class_1: 0.706 
+epoch: 62, Seg_Loss: 0.129, Overall_Acc: 0.998, Mean_IOU: 0.802, Class_0: 0.999, Class_1: 0.745 
+epoch: 63, Seg_Loss: 0.133, Overall_Acc: 0.998, Mean_IOU: 0.797, Class_0: 0.999, Class_1: 0.736 
+epoch: 64, Seg_Loss: 0.170, Overall_Acc: 0.998, Mean_IOU: 0.754, Class_0: 0.999, Class_1: 0.662 
+epoch: 65, Seg_Loss: 0.177, Overall_Acc: 0.998, Mean_IOU: 0.747, Class_0: 0.999, Class_1: 0.647 
+epoch: 66, Seg_Loss: 0.146, Overall_Acc: 0.998, Mean_IOU: 0.782, Class_0: 0.999, Class_1: 0.711 
+epoch: 67, Seg_Loss: 0.142, Overall_Acc: 0.998, Mean_IOU: 0.786, Class_0: 0.999, Class_1: 0.719 
+epoch: 68, Seg_Loss: 0.133, Overall_Acc: 0.998, Mean_IOU: 0.798, Class_0: 0.999, Class_1: 0.737 
+epoch: 69, Seg_Loss: 0.132, Overall_Acc: 0.998, Mean_IOU: 0.798, Class_0: 0.999, Class_1: 0.741 
+epoch: 70, Seg_Loss: 0.131, Overall_Acc: 0.998, Mean_IOU: 0.800, Class_0: 0.999, Class_1: 0.741 
+epoch: 71, Seg_Loss: 0.161, Overall_Acc: 0.998, Mean_IOU: 0.769, Class_0: 0.999, Class_1: 0.680 
+epoch: 72, Seg_Loss: 0.134, Overall_Acc: 0.998, Mean_IOU: 0.795, Class_0: 0.999, Class_1: 0.735 
+epoch: 73, Seg_Loss: 0.142, Overall_Acc: 0.998, Mean_IOU: 0.787, Class_0: 0.999, Class_1: 0.720 
+epoch: 74, Seg_Loss: 0.150, Overall_Acc: 0.998, Mean_IOU: 0.777, Class_0: 0.999, Class_1: 0.702 
+epoch: 75, Seg_Loss: 0.149, Overall_Acc: 0.998, Mean_IOU: 0.778, Class_0: 0.999, Class_1: 0.706 
+epoch: 76, Seg_Loss: 0.135, Overall_Acc: 0.998, Mean_IOU: 0.795, Class_0: 0.999, Class_1: 0.733 
+epoch: 77, Seg_Loss: 0.146, Overall_Acc: 0.998, Mean_IOU: 0.785, Class_0: 0.999, Class_1: 0.710 
+epoch: 78, Seg_Loss: 0.145, Overall_Acc: 0.998, Mean_IOU: 0.786, Class_0: 0.999, Class_1: 0.713 
+epoch: 79, Seg_Loss: 0.134, Overall_Acc: 0.998, Mean_IOU: 0.798, Class_0: 0.999, Class_1: 0.734 
+epoch: 80, Seg_Loss: 0.139, Overall_Acc: 0.998, Mean_IOU: 0.788, Class_0: 0.999, Class_1: 0.726 
+epoch: 81, Seg_Loss: 0.137, Overall_Acc: 0.998, Mean_IOU: 0.791, Class_0: 0.999, Class_1: 0.730 
+epoch: 82, Seg_Loss: 0.135, Overall_Acc: 0.998, Mean_IOU: 0.793, Class_0: 0.999, Class_1: 0.733 
+epoch: 83, Seg_Loss: 0.131, Overall_Acc: 0.998, Mean_IOU: 0.800, Class_0: 0.999, Class_1: 0.742 
+epoch: 84, Seg_Loss: 0.151, Overall_Acc: 0.998, Mean_IOU: 0.784, Class_0: 0.999, Class_1: 0.701 
+epoch: 85, Seg_Loss: 0.131, Overall_Acc: 0.998, Mean_IOU: 0.804, Class_0: 0.999, Class_1: 0.741 
+epoch: 86, Seg_Loss: 0.136, Overall_Acc: 0.998, Mean_IOU: 0.794, Class_0: 0.999, Class_1: 0.731 
+epoch: 87, Seg_Loss: 0.164, Overall_Acc: 0.998, Mean_IOU: 0.765, Class_0: 0.999, Class_1: 0.674 
+epoch: 88, Seg_Loss: 0.142, Overall_Acc: 0.998, Mean_IOU: 0.791, Class_0: 0.999, Class_1: 0.717 
+epoch: 89, Seg_Loss: 0.145, Overall_Acc: 0.998, Mean_IOU: 0.783, Class_0: 0.999, Class_1: 0.713 
+epoch: 90, Seg_Loss: 0.139, Overall_Acc: 0.998, Mean_IOU: 0.788, Class_0: 0.999, Class_1: 0.724 
+epoch: 91, Seg_Loss: 0.158, Overall_Acc: 0.998, Mean_IOU: 0.765, Class_0: 0.999, Class_1: 0.688 
+epoch: 92, Seg_Loss: 0.145, Overall_Acc: 0.998, Mean_IOU: 0.785, Class_0: 0.999, Class_1: 0.712 
+epoch: 93, Seg_Loss: 0.140, Overall_Acc: 0.998, Mean_IOU: 0.790, Class_0: 0.999, Class_1: 0.721 
+epoch: 94, Seg_Loss: 0.127, Overall_Acc: 0.998, Mean_IOU: 0.804, Class_0: 0.999, Class_1: 0.748 
+epoch: 95, Seg_Loss: 0.140, Overall_Acc: 0.998, Mean_IOU: 0.790, Class_0: 0.999, Class_1: 0.722 
+epoch: 96, Seg_Loss: 0.147, Overall_Acc: 0.998, Mean_IOU: 0.778, Class_0: 0.999, Class_1: 0.711 
+epoch: 97, Seg_Loss: 0.136, Overall_Acc: 0.998, Mean_IOU: 0.795, Class_0: 0.999, Class_1: 0.731 
+epoch: 98, Seg_Loss: 0.124, Overall_Acc: 0.998, Mean_IOU: 0.809, Class_0: 0.999, Class_1: 0.756 
+epoch: 99, Seg_Loss: 0.131, Overall_Acc: 0.998, Mean_IOU: 0.799, Class_0: 0.999, Class_1: 0.740 
+epoch: 100, Seg_Loss: 0.133, Overall_Acc: 0.998, Mean_IOU: 0.800, Class_0: 0.999, Class_1: 0.736 
+epoch: 101, Seg_Loss: 0.126, Overall_Acc: 0.998, Mean_IOU: 0.805, Class_0: 0.999, Class_1: 0.751 
+epoch: 102, Seg_Loss: 0.119, Overall_Acc: 0.998, Mean_IOU: 0.813, Class_0: 0.999, Class_1: 0.763 
+epoch: 103, Seg_Loss: 0.130, Overall_Acc: 0.998, Mean_IOU: 0.799, Class_0: 0.999, Class_1: 0.743 
+epoch: 104, Seg_Loss: 0.128, Overall_Acc: 0.998, Mean_IOU: 0.803, Class_0: 0.999, Class_1: 0.747 
+epoch: 105, Seg_Loss: 0.122, Overall_Acc: 0.998, Mean_IOU: 0.809, Class_0: 0.999, Class_1: 0.758 
+epoch: 106, Seg_Loss: 0.126, Overall_Acc: 0.998, Mean_IOU: 0.805, Class_0: 0.999, Class_1: 0.749 
+epoch: 107, Seg_Loss: 0.131, Overall_Acc: 0.998, Mean_IOU: 0.804, Class_0: 0.999, Class_1: 0.740 
+epoch: 108, Seg_Loss: 0.131, Overall_Acc: 0.998, Mean_IOU: 0.798, Class_0: 0.999, Class_1: 0.741 
+epoch: 109, Seg_Loss: 0.125, Overall_Acc: 0.998, Mean_IOU: 0.806, Class_0: 0.999, Class_1: 0.754 
+epoch: 110, Seg_Loss: 0.135, Overall_Acc: 0.998, Mean_IOU: 0.793, Class_0: 0.999, Class_1: 0.735 
+epoch: 111, Seg_Loss: 0.124, Overall_Acc: 0.998, Mean_IOU: 0.808, Class_0: 0.999, Class_1: 0.756 
+epoch: 112, Seg_Loss: 0.120, Overall_Acc: 0.998, Mean_IOU: 0.813, Class_0: 0.999, Class_1: 0.763 
+epoch: 113, Seg_Loss: 0.137, Overall_Acc: 0.998, Mean_IOU: 0.792, Class_0: 0.999, Class_1: 0.729 
+epoch: 114, Seg_Loss: 0.129, Overall_Acc: 0.998, Mean_IOU: 0.801, Class_0: 0.999, Class_1: 0.746 
+epoch: 115, Seg_Loss: 0.119, Overall_Acc: 0.998, Mean_IOU: 0.813, Class_0: 0.999, Class_1: 0.766 
+epoch: 116, Seg_Loss: 0.116, Overall_Acc: 0.998, Mean_IOU: 0.817, Class_0: 0.999, Class_1: 0.771 
+epoch: 117, Seg_Loss: 0.124, Overall_Acc: 0.998, Mean_IOU: 0.807, Class_0: 0.999, Class_1: 0.755 
+epoch: 118, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.776 
+epoch: 119, Seg_Loss: 0.116, Overall_Acc: 0.998, Mean_IOU: 0.817, Class_0: 0.999, Class_1: 0.769 
+epoch: 120, Seg_Loss: 0.123, Overall_Acc: 0.998, Mean_IOU: 0.810, Class_0: 0.999, Class_1: 0.756 
+epoch: 121, Seg_Loss: 0.123, Overall_Acc: 0.998, Mean_IOU: 0.809, Class_0: 0.999, Class_1: 0.756 
+epoch: 122, Seg_Loss: 0.126, Overall_Acc: 0.998, Mean_IOU: 0.805, Class_0: 0.999, Class_1: 0.750 
+epoch: 123, Seg_Loss: 0.118, Overall_Acc: 0.998, Mean_IOU: 0.815, Class_0: 0.999, Class_1: 0.767 
+epoch: 124, Seg_Loss: 0.114, Overall_Acc: 0.999, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.774 
+epoch: 125, Seg_Loss: 0.126, Overall_Acc: 0.998, Mean_IOU: 0.804, Class_0: 0.999, Class_1: 0.750 
+epoch: 126, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.778 
+epoch: 127, Seg_Loss: 0.123, Overall_Acc: 0.998, Mean_IOU: 0.811, Class_0: 0.999, Class_1: 0.757 
+epoch: 128, Seg_Loss: 0.110, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.782 
+epoch: 129, Seg_Loss: 0.118, Overall_Acc: 0.998, Mean_IOU: 0.815, Class_0: 0.999, Class_1: 0.767 
+epoch: 130, Seg_Loss: 0.126, Overall_Acc: 0.998, Mean_IOU: 0.808, Class_0: 0.999, Class_1: 0.750 
+epoch: 131, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.774 
+epoch: 132, Seg_Loss: 0.117, Overall_Acc: 0.998, Mean_IOU: 0.815, Class_0: 0.999, Class_1: 0.768 
+epoch: 133, Seg_Loss: 0.119, Overall_Acc: 0.998, Mean_IOU: 0.812, Class_0: 0.999, Class_1: 0.766 
+epoch: 134, Seg_Loss: 0.148, Overall_Acc: 0.998, Mean_IOU: 0.779, Class_0: 0.999, Class_1: 0.705 
+epoch: 135, Seg_Loss: 0.116, Overall_Acc: 0.998, Mean_IOU: 0.818, Class_0: 0.999, Class_1: 0.771 
+epoch: 136, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.819, Class_0: 0.999, Class_1: 0.774 
+epoch: 137, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.779 
+epoch: 138, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.777 
+epoch: 139, Seg_Loss: 0.121, Overall_Acc: 0.998, Mean_IOU: 0.811, Class_0: 0.999, Class_1: 0.760 
+epoch: 140, Seg_Loss: 0.130, Overall_Acc: 0.998, Mean_IOU: 0.800, Class_0: 0.999, Class_1: 0.743 
+epoch: 141, Seg_Loss: 0.118, Overall_Acc: 0.998, Mean_IOU: 0.814, Class_0: 0.999, Class_1: 0.768 
+epoch: 142, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.818, Class_0: 0.999, Class_1: 0.773 
+epoch: 143, Seg_Loss: 0.109, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.785 
+epoch: 144, Seg_Loss: 0.110, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.783 
+epoch: 145, Seg_Loss: 0.116, Overall_Acc: 0.998, Mean_IOU: 0.816, Class_0: 0.999, Class_1: 0.770 
+epoch: 146, Seg_Loss: 0.122, Overall_Acc: 0.998, Mean_IOU: 0.809, Class_0: 0.999, Class_1: 0.758 
+epoch: 147, Seg_Loss: 0.122, Overall_Acc: 0.998, Mean_IOU: 0.810, Class_0: 0.999, Class_1: 0.759 
+epoch: 148, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.818, Class_0: 0.999, Class_1: 0.772 
+epoch: 149, Seg_Loss: 0.123, Overall_Acc: 0.998, Mean_IOU: 0.809, Class_0: 0.999, Class_1: 0.757 
+epoch: 150, Seg_Loss: 0.123, Overall_Acc: 0.998, Mean_IOU: 0.809, Class_0: 0.999, Class_1: 0.756 
+epoch: 151, Seg_Loss: 0.121, Overall_Acc: 0.998, Mean_IOU: 0.811, Class_0: 0.999, Class_1: 0.761 
+epoch: 152, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.775 
+epoch: 153, Seg_Loss: 0.128, Overall_Acc: 0.998, Mean_IOU: 0.807, Class_0: 0.999, Class_1: 0.747 
+epoch: 154, Seg_Loss: 0.132, Overall_Acc: 0.998, Mean_IOU: 0.795, Class_0: 0.999, Class_1: 0.741 
+epoch: 155, Seg_Loss: 0.120, Overall_Acc: 0.998, Mean_IOU: 0.814, Class_0: 0.999, Class_1: 0.764 
+epoch: 156, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.774 
+epoch: 157, Seg_Loss: 0.120, Overall_Acc: 0.998, Mean_IOU: 0.813, Class_0: 0.999, Class_1: 0.762 
+epoch: 158, Seg_Loss: 0.117, Overall_Acc: 0.998, Mean_IOU: 0.816, Class_0: 0.999, Class_1: 0.769 
+epoch: 159, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.780 
+epoch: 160, Seg_Loss: 0.117, Overall_Acc: 0.998, Mean_IOU: 0.815, Class_0: 0.999, Class_1: 0.768 
+epoch: 161, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.819, Class_0: 0.999, Class_1: 0.775 
+epoch: 162, Seg_Loss: 0.119, Overall_Acc: 0.998, Mean_IOU: 0.812, Class_0: 0.999, Class_1: 0.765 
+epoch: 163, Seg_Loss: 0.109, Overall_Acc: 0.998, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.785 
+epoch: 164, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.777 
+epoch: 165, Seg_Loss: 0.110, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.783 
+epoch: 166, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.791 
+epoch: 167, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.819, Class_0: 0.999, Class_1: 0.774 
+epoch: 168, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.791 
+epoch: 169, Seg_Loss: 0.130, Overall_Acc: 0.998, Mean_IOU: 0.803, Class_0: 0.999, Class_1: 0.742 
+epoch: 170, Seg_Loss: 0.131, Overall_Acc: 0.998, Mean_IOU: 0.800, Class_0: 0.999, Class_1: 0.740 
+epoch: 171, Seg_Loss: 0.116, Overall_Acc: 0.998, Mean_IOU: 0.816, Class_0: 0.999, Class_1: 0.771 
+epoch: 172, Seg_Loss: 0.125, Overall_Acc: 0.998, Mean_IOU: 0.809, Class_0: 0.999, Class_1: 0.753 
+epoch: 173, Seg_Loss: 0.129, Overall_Acc: 0.998, Mean_IOU: 0.803, Class_0: 0.999, Class_1: 0.745 
+epoch: 174, Seg_Loss: 0.128, Overall_Acc: 0.998, Mean_IOU: 0.802, Class_0: 0.999, Class_1: 0.748 
+epoch: 175, Seg_Loss: 0.129, Overall_Acc: 0.998, Mean_IOU: 0.801, Class_0: 0.999, Class_1: 0.745 
+epoch: 176, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.777 
+epoch: 177, Seg_Loss: 0.121, Overall_Acc: 0.998, Mean_IOU: 0.810, Class_0: 0.999, Class_1: 0.760 
+epoch: 178, Seg_Loss: 0.144, Overall_Acc: 0.998, Mean_IOU: 0.787, Class_0: 0.999, Class_1: 0.714 
+epoch: 179, Seg_Loss: 0.118, Overall_Acc: 0.998, Mean_IOU: 0.815, Class_0: 0.999, Class_1: 0.768 
+epoch: 180, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.776 
+epoch: 181, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.778 
+epoch: 182, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.777 
+epoch: 183, Seg_Loss: 0.117, Overall_Acc: 0.998, Mean_IOU: 0.816, Class_0: 0.999, Class_1: 0.769 
+epoch: 184, Seg_Loss: 0.110, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.783 
+epoch: 185, Seg_Loss: 0.125, Overall_Acc: 0.998, Mean_IOU: 0.807, Class_0: 0.999, Class_1: 0.753 
+epoch: 186, Seg_Loss: 0.117, Overall_Acc: 0.998, Mean_IOU: 0.817, Class_0: 0.999, Class_1: 0.768 
+epoch: 187, Seg_Loss: 0.118, Overall_Acc: 0.998, Mean_IOU: 0.815, Class_0: 0.999, Class_1: 0.767 
+epoch: 188, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.782 
+epoch: 189, Seg_Loss: 0.117, Overall_Acc: 0.998, Mean_IOU: 0.815, Class_0: 0.999, Class_1: 0.768 
+epoch: 190, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.777 
+epoch: 191, Seg_Loss: 0.116, Overall_Acc: 0.998, Mean_IOU: 0.818, Class_0: 0.999, Class_1: 0.771 
+epoch: 192, Seg_Loss: 0.118, Overall_Acc: 0.999, Mean_IOU: 0.815, Class_0: 0.999, Class_1: 0.766 
+epoch: 193, Seg_Loss: 0.118, Overall_Acc: 0.999, Mean_IOU: 0.815, Class_0: 0.999, Class_1: 0.766 
+epoch: 194, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.775 
+epoch: 195, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.780 
+epoch: 196, Seg_Loss: 0.116, Overall_Acc: 0.998, Mean_IOU: 0.817, Class_0: 0.999, Class_1: 0.772 
+epoch: 197, Seg_Loss: 0.124, Overall_Acc: 0.998, Mean_IOU: 0.809, Class_0: 0.999, Class_1: 0.756 
+epoch: 198, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.774 
+epoch: 199, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.790 
+epoch: 200, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.779 
+epoch: 201, Seg_Loss: 0.109, Overall_Acc: 0.998, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.785 
+epoch: 202, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.819, Class_0: 0.999, Class_1: 0.773 
+epoch: 203, Seg_Loss: 0.116, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.772 
+epoch: 204, Seg_Loss: 0.131, Overall_Acc: 0.998, Mean_IOU: 0.799, Class_0: 0.999, Class_1: 0.740 
+epoch: 205, Seg_Loss: 0.116, Overall_Acc: 0.998, Mean_IOU: 0.816, Class_0: 0.999, Class_1: 0.770 
+epoch: 206, Seg_Loss: 0.119, Overall_Acc: 0.998, Mean_IOU: 0.815, Class_0: 0.999, Class_1: 0.766 
+epoch: 207, Seg_Loss: 0.121, Overall_Acc: 0.998, Mean_IOU: 0.810, Class_0: 0.999, Class_1: 0.760 
+epoch: 208, Seg_Loss: 0.118, Overall_Acc: 0.998, Mean_IOU: 0.814, Class_0: 0.999, Class_1: 0.767 
+epoch: 209, Seg_Loss: 0.126, Overall_Acc: 0.998, Mean_IOU: 0.806, Class_0: 0.999, Class_1: 0.750 
+epoch: 210, Seg_Loss: 0.116, Overall_Acc: 0.998, Mean_IOU: 0.819, Class_0: 0.999, Class_1: 0.771 
+epoch: 211, Seg_Loss: 0.118, Overall_Acc: 0.998, Mean_IOU: 0.817, Class_0: 0.999, Class_1: 0.767 
+epoch: 212, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.782 
+epoch: 213, Seg_Loss: 0.114, Overall_Acc: 0.999, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.775 
+epoch: 214, Seg_Loss: 0.114, Overall_Acc: 0.999, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.775 
+epoch: 215, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.775 
+epoch: 216, Seg_Loss: 0.124, Overall_Acc: 0.998, Mean_IOU: 0.807, Class_0: 0.999, Class_1: 0.756 
+epoch: 217, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 218, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.784 
+epoch: 219, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.779 
+epoch: 220, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 221, Seg_Loss: 0.119, Overall_Acc: 0.998, Mean_IOU: 0.815, Class_0: 0.999, Class_1: 0.765 
+epoch: 222, Seg_Loss: 0.104, Overall_Acc: 0.999, Mean_IOU: 0.833, Class_0: 0.999, Class_1: 0.794 
+epoch: 223, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 224, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.789 
+epoch: 225, Seg_Loss: 0.124, Overall_Acc: 0.998, Mean_IOU: 0.811, Class_0: 0.999, Class_1: 0.754 
+epoch: 226, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.831, Class_0: 0.999, Class_1: 0.790 
+epoch: 227, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.776 
+epoch: 228, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.831, Class_0: 0.999, Class_1: 0.791 
+epoch: 229, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.775 
+epoch: 230, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.784 
+epoch: 231, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.777 
+epoch: 232, Seg_Loss: 0.110, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.782 
+epoch: 233, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.779 
+epoch: 234, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.780 
+epoch: 235, Seg_Loss: 0.107, Overall_Acc: 0.998, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.788 
+epoch: 236, Seg_Loss: 0.115, Overall_Acc: 0.999, Mean_IOU: 0.819, Class_0: 0.999, Class_1: 0.772 
+epoch: 237, Seg_Loss: 0.107, Overall_Acc: 0.999, Mean_IOU: 0.829, Class_0: 0.999, Class_1: 0.789 
+epoch: 238, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.785 
+epoch: 239, Seg_Loss: 0.109, Overall_Acc: 0.998, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.784 
+epoch: 240, Seg_Loss: 0.119, Overall_Acc: 0.998, Mean_IOU: 0.813, Class_0: 0.999, Class_1: 0.765 
+epoch: 241, Seg_Loss: 0.120, Overall_Acc: 0.998, Mean_IOU: 0.814, Class_0: 0.999, Class_1: 0.764 
+epoch: 242, Seg_Loss: 0.116, Overall_Acc: 0.998, Mean_IOU: 0.819, Class_0: 0.999, Class_1: 0.772 
+epoch: 243, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.780 
+epoch: 244, Seg_Loss: 0.123, Overall_Acc: 0.998, Mean_IOU: 0.811, Class_0: 0.999, Class_1: 0.757 
+epoch: 245, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.773 
+epoch: 246, Seg_Loss: 0.116, Overall_Acc: 0.998, Mean_IOU: 0.818, Class_0: 0.999, Class_1: 0.772 
+epoch: 247, Seg_Loss: 0.116, Overall_Acc: 0.998, Mean_IOU: 0.816, Class_0: 0.999, Class_1: 0.770 
+epoch: 248, Seg_Loss: 0.120, Overall_Acc: 0.998, Mean_IOU: 0.813, Class_0: 0.999, Class_1: 0.763 
+epoch: 249, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.780 
+epoch: 250, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.777 
+epoch: 251, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.781 
+epoch: 252, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.781 
+epoch: 253, Seg_Loss: 0.108, Overall_Acc: 0.998, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.786 
+epoch: 254, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.780 
+epoch: 255, Seg_Loss: 0.109, Overall_Acc: 0.998, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.784 
+epoch: 256, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.787 
+epoch: 257, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.781 
+epoch: 258, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.776 
+epoch: 259, Seg_Loss: 0.108, Overall_Acc: 0.998, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.788 
+epoch: 260, Seg_Loss: 0.109, Overall_Acc: 0.998, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.785 
+epoch: 261, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.819, Class_0: 0.999, Class_1: 0.773 
+epoch: 262, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.780 
+epoch: 263, Seg_Loss: 0.109, Overall_Acc: 0.998, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.785 
+epoch: 264, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.785 
+epoch: 265, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.781 
+epoch: 266, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.777 
+epoch: 267, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.786 
+epoch: 268, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.787 
+epoch: 269, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.829, Class_0: 0.999, Class_1: 0.790 
+epoch: 270, Seg_Loss: 0.108, Overall_Acc: 0.998, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.787 
+epoch: 271, Seg_Loss: 0.115, Overall_Acc: 0.999, Mean_IOU: 0.819, Class_0: 0.999, Class_1: 0.774 
+epoch: 272, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.780 
+epoch: 273, Seg_Loss: 0.107, Overall_Acc: 0.998, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.788 
+epoch: 274, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.818, Class_0: 0.999, Class_1: 0.773 
+epoch: 275, Seg_Loss: 0.105, Overall_Acc: 0.999, Mean_IOU: 0.832, Class_0: 0.999, Class_1: 0.793 
+epoch: 276, Seg_Loss: 0.106, Overall_Acc: 0.998, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.790 
+epoch: 277, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.790 
+epoch: 278, Seg_Loss: 0.110, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.783 
+epoch: 279, Seg_Loss: 0.105, Overall_Acc: 0.999, Mean_IOU: 0.831, Class_0: 0.999, Class_1: 0.792 
+epoch: 280, Seg_Loss: 0.107, Overall_Acc: 0.999, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.788 
+epoch: 281, Seg_Loss: 0.109, Overall_Acc: 0.998, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.785 
+epoch: 282, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.789 
+epoch: 283, Seg_Loss: 0.107, Overall_Acc: 0.999, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.790 
+epoch: 284, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.783 
+epoch: 285, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.829, Class_0: 0.999, Class_1: 0.786 
+epoch: 286, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.786 
+epoch: 287, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.790 
+epoch: 288, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.781 
+epoch: 289, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.831, Class_0: 0.999, Class_1: 0.791 
+epoch: 290, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.831, Class_0: 0.999, Class_1: 0.790 
+epoch: 291, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.787 
+epoch: 292, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 293, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.829, Class_0: 0.999, Class_1: 0.787 
+epoch: 294, Seg_Loss: 0.126, Overall_Acc: 0.998, Mean_IOU: 0.807, Class_0: 0.999, Class_1: 0.750 
+epoch: 295, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.787 
+epoch: 296, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.786 
+epoch: 297, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.787 
+epoch: 298, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.784 
+epoch: 299, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.829, Class_0: 0.999, Class_1: 0.787 
+epoch: 300, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.783 
+epoch: 301, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 302, Seg_Loss: 0.118, Overall_Acc: 0.998, Mean_IOU: 0.817, Class_0: 0.999, Class_1: 0.767 
+epoch: 303, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.776 
+epoch: 304, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.778 
+epoch: 305, Seg_Loss: 0.107, Overall_Acc: 0.999, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.789 
+epoch: 306, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.785 
+epoch: 307, Seg_Loss: 0.107, Overall_Acc: 0.998, Mean_IOU: 0.829, Class_0: 0.999, Class_1: 0.789 
+epoch: 308, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 309, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.782 
+epoch: 310, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.783 
+epoch: 311, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.781 
+epoch: 312, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.785 
+epoch: 313, Seg_Loss: 0.105, Overall_Acc: 0.999, Mean_IOU: 0.832, Class_0: 0.999, Class_1: 0.793 
+epoch: 314, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.780 
+epoch: 315, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.784 
+epoch: 316, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.777 
+epoch: 317, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.784 
+epoch: 318, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.785 
+epoch: 319, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.777 
+epoch: 320, Seg_Loss: 0.108, Overall_Acc: 0.998, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.786 
+epoch: 321, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.776 
+epoch: 322, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.787 
+epoch: 323, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.784 
+epoch: 324, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.778 
+epoch: 325, Seg_Loss: 0.107, Overall_Acc: 0.999, Mean_IOU: 0.829, Class_0: 0.999, Class_1: 0.789 
+epoch: 326, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.776 
+epoch: 327, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.831, Class_0: 0.999, Class_1: 0.791 
+epoch: 328, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.785 
+epoch: 329, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.784 
+epoch: 330, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.780 
+epoch: 331, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 332, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.784 
+epoch: 333, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.785 
+epoch: 334, Seg_Loss: 0.109, Overall_Acc: 0.998, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.785 
+epoch: 335, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.775 
+epoch: 336, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.783 
+epoch: 337, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.776 
+epoch: 338, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.782 
+epoch: 339, Seg_Loss: 0.107, Overall_Acc: 0.999, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.789 
+epoch: 340, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.783 
+epoch: 341, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.773 
+epoch: 342, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.774 
+epoch: 343, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.831, Class_0: 0.999, Class_1: 0.791 
+epoch: 344, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 345, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.783 
+epoch: 346, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.829, Class_0: 0.999, Class_1: 0.789 
+epoch: 347, Seg_Loss: 0.107, Overall_Acc: 0.999, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.790 
+epoch: 348, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 349, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 350, Seg_Loss: 0.110, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.782 
+epoch: 351, Seg_Loss: 0.117, Overall_Acc: 0.998, Mean_IOU: 0.818, Class_0: 0.999, Class_1: 0.769 
+epoch: 352, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.782 
+epoch: 353, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.778 
+epoch: 354, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.776 
+epoch: 355, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.779 
+epoch: 356, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 357, Seg_Loss: 0.115, Overall_Acc: 0.999, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.773 
+epoch: 358, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.785 
+epoch: 359, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.783 
+epoch: 360, Seg_Loss: 0.117, Overall_Acc: 0.998, Mean_IOU: 0.818, Class_0: 0.999, Class_1: 0.768 
+epoch: 361, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.777 
+epoch: 362, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.773 
+epoch: 363, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 364, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 365, Seg_Loss: 0.110, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.782 
+epoch: 366, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.774 
+epoch: 367, Seg_Loss: 0.116, Overall_Acc: 0.999, Mean_IOU: 0.819, Class_0: 0.999, Class_1: 0.771 
+epoch: 368, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.776 
+epoch: 369, Seg_Loss: 0.116, Overall_Acc: 0.998, Mean_IOU: 0.818, Class_0: 0.999, Class_1: 0.771 
+epoch: 370, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.776 
+epoch: 371, Seg_Loss: 0.107, Overall_Acc: 0.999, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.789 
+epoch: 372, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.782 
+epoch: 373, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.790 
+epoch: 374, Seg_Loss: 0.107, Overall_Acc: 0.999, Mean_IOU: 0.829, Class_0: 0.999, Class_1: 0.788 
+epoch: 375, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.787 
+epoch: 376, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.776 
+epoch: 377, Seg_Loss: 0.118, Overall_Acc: 0.998, Mean_IOU: 0.816, Class_0: 0.999, Class_1: 0.766 
+epoch: 378, Seg_Loss: 0.117, Overall_Acc: 0.998, Mean_IOU: 0.817, Class_0: 0.999, Class_1: 0.768 
+epoch: 379, Seg_Loss: 0.121, Overall_Acc: 0.998, Mean_IOU: 0.813, Class_0: 0.999, Class_1: 0.761 
+epoch: 380, Seg_Loss: 0.125, Overall_Acc: 0.998, Mean_IOU: 0.809, Class_0: 0.999, Class_1: 0.754 
+epoch: 381, Seg_Loss: 0.128, Overall_Acc: 0.998, Mean_IOU: 0.804, Class_0: 0.999, Class_1: 0.748 
+epoch: 382, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.776 
+epoch: 383, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.775 
+epoch: 384, Seg_Loss: 0.114, Overall_Acc: 0.999, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.774 
+epoch: 385, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.772 
+epoch: 386, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.780 
+epoch: 387, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.784 
+epoch: 388, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.778 
+epoch: 389, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.781 
+epoch: 390, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.790 
+epoch: 391, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.786 
+epoch: 392, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.787 
+epoch: 393, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.790 
+epoch: 394, Seg_Loss: 0.105, Overall_Acc: 0.999, Mean_IOU: 0.831, Class_0: 0.999, Class_1: 0.792 
+epoch: 395, Seg_Loss: 0.105, Overall_Acc: 0.999, Mean_IOU: 0.831, Class_0: 0.999, Class_1: 0.793 
+epoch: 396, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.787 
+epoch: 397, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.782 
+epoch: 398, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.786 
+epoch: 399, Seg_Loss: 0.116, Overall_Acc: 0.998, Mean_IOU: 0.818, Class_0: 0.999, Class_1: 0.771 
+epoch: 400, Seg_Loss: 0.108, Overall_Acc: 0.998, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.787 
+epoch: 401, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.779 
+epoch: 402, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.777 
+epoch: 403, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.786 
+epoch: 404, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.783 
+epoch: 405, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.783 
+epoch: 406, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 407, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.790 
+epoch: 408, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 409, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.785 
+epoch: 410, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.829, Class_0: 0.999, Class_1: 0.789 
+epoch: 411, Seg_Loss: 0.118, Overall_Acc: 0.998, Mean_IOU: 0.817, Class_0: 0.999, Class_1: 0.767 
+epoch: 412, Seg_Loss: 0.110, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.783 
+epoch: 413, Seg_Loss: 0.105, Overall_Acc: 0.999, Mean_IOU: 0.831, Class_0: 0.999, Class_1: 0.792 
+epoch: 414, Seg_Loss: 0.107, Overall_Acc: 0.999, Mean_IOU: 0.829, Class_0: 0.999, Class_1: 0.788 
+epoch: 415, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.777 
+epoch: 416, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.787 
+epoch: 417, Seg_Loss: 0.103, Overall_Acc: 0.999, Mean_IOU: 0.833, Class_0: 0.999, Class_1: 0.795 
+epoch: 418, Seg_Loss: 0.104, Overall_Acc: 0.999, Mean_IOU: 0.832, Class_0: 0.999, Class_1: 0.794 
+epoch: 419, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.786 
+epoch: 420, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.785 
+epoch: 421, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 422, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.787 
+epoch: 423, Seg_Loss: 0.105, Overall_Acc: 0.999, Mean_IOU: 0.832, Class_0: 0.999, Class_1: 0.792 
+epoch: 424, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.831, Class_0: 0.999, Class_1: 0.790 
+epoch: 425, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.790 
+epoch: 426, Seg_Loss: 0.106, Overall_Acc: 0.998, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.790 
+epoch: 427, Seg_Loss: 0.107, Overall_Acc: 0.999, Mean_IOU: 0.829, Class_0: 0.999, Class_1: 0.788 
+epoch: 428, Seg_Loss: 0.107, Overall_Acc: 0.998, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.788 
+epoch: 429, Seg_Loss: 0.109, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.783 
+epoch: 430, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.780 
+epoch: 431, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.772 
+epoch: 432, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.775 
+epoch: 433, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 434, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.781 
+epoch: 435, Seg_Loss: 0.116, Overall_Acc: 0.998, Mean_IOU: 0.817, Class_0: 0.999, Class_1: 0.769 
+epoch: 436, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.772 
+epoch: 437, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.784 
+epoch: 438, Seg_Loss: 0.114, Overall_Acc: 0.999, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.774 
+epoch: 439, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.775 
+epoch: 440, Seg_Loss: 0.120, Overall_Acc: 0.998, Mean_IOU: 0.813, Class_0: 0.999, Class_1: 0.761 
+epoch: 441, Seg_Loss: 0.115, Overall_Acc: 0.999, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.773 
+epoch: 442, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.773 
+epoch: 443, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.777 
+epoch: 444, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.778 
+epoch: 445, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.776 
+epoch: 446, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 447, Seg_Loss: 0.116, Overall_Acc: 0.998, Mean_IOU: 0.819, Class_0: 0.999, Class_1: 0.770 
+epoch: 448, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 449, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.819, Class_0: 0.999, Class_1: 0.774 
+epoch: 450, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.782 
+epoch: 451, Seg_Loss: 0.119, Overall_Acc: 0.998, Mean_IOU: 0.814, Class_0: 0.999, Class_1: 0.764 
+epoch: 452, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.786 
+epoch: 453, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.819, Class_0: 0.999, Class_1: 0.773 
+epoch: 454, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.784 
+epoch: 455, Seg_Loss: 0.109, Overall_Acc: 0.998, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.785 
+epoch: 456, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.780 
+epoch: 457, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.783 
+epoch: 458, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.779 
+epoch: 459, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.786 
+epoch: 460, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.773 
+epoch: 461, Seg_Loss: 0.107, Overall_Acc: 0.998, Mean_IOU: 0.829, Class_0: 0.999, Class_1: 0.788 
+epoch: 462, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.782 
+epoch: 463, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.773 
+epoch: 464, Seg_Loss: 0.107, Overall_Acc: 0.999, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.789 
+epoch: 465, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.784 
+epoch: 466, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.776 
+epoch: 467, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.780 
+epoch: 468, Seg_Loss: 0.108, Overall_Acc: 0.998, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.786 
+epoch: 469, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.782 
+epoch: 470, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 471, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.775 
+epoch: 472, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.779 
+epoch: 473, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 474, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 475, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.784 
+epoch: 476, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.783 
+epoch: 477, Seg_Loss: 0.109, Overall_Acc: 0.998, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.783 
+epoch: 478, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.777 
+epoch: 479, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.786 
+epoch: 480, Seg_Loss: 0.114, Overall_Acc: 0.999, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.773 
+epoch: 481, Seg_Loss: 0.110, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.782 
+epoch: 482, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.781 
+epoch: 483, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.783 
+epoch: 484, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.783 
+epoch: 485, Seg_Loss: 0.107, Overall_Acc: 0.999, Mean_IOU: 0.830, Class_0: 0.999, Class_1: 0.788 
+epoch: 486, Seg_Loss: 0.109, Overall_Acc: 0.998, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.784 
+epoch: 487, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 488, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.785 
+epoch: 489, Seg_Loss: 0.107, Overall_Acc: 0.999, Mean_IOU: 0.829, Class_0: 0.999, Class_1: 0.788 
+epoch: 490, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.781 
+epoch: 491, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.780 
+epoch: 492, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.777 
+epoch: 493, Seg_Loss: 0.107, Overall_Acc: 0.999, Mean_IOU: 0.829, Class_0: 0.999, Class_1: 0.788 
+epoch: 494, Seg_Loss: 0.108, Overall_Acc: 0.998, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.785 
+epoch: 495, Seg_Loss: 0.114, Overall_Acc: 0.999, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.774 
+epoch: 496, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.784 
+epoch: 497, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.780 
+epoch: 498, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 499, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.780 
+epoch: 500, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.783 
+epoch: 501, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.783 
+epoch: 502, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.777 
+epoch: 503, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 504, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 505, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 506, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.786 
+epoch: 507, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.782 
+epoch: 508, Seg_Loss: 0.109, Overall_Acc: 0.998, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.785 
+epoch: 509, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 510, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.829, Class_0: 0.999, Class_1: 0.786 
+epoch: 511, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.829, Class_0: 0.999, Class_1: 0.787 
+epoch: 512, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.776 
+epoch: 513, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.829, Class_0: 0.999, Class_1: 0.786 
+epoch: 514, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.785 
+epoch: 515, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.782 
+epoch: 516, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 517, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.784 
+epoch: 518, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.777 
+epoch: 519, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.777 
+epoch: 520, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.778 
+epoch: 521, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 522, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.779 
+epoch: 523, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.785 
+epoch: 524, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 525, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.781 
+epoch: 526, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 527, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.784 
+epoch: 528, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.781 
+epoch: 529, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.782 
+epoch: 530, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.785 
+epoch: 531, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.785 
+epoch: 532, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.780 
+epoch: 533, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.782 
+epoch: 534, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.777 
+epoch: 535, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.829, Class_0: 0.999, Class_1: 0.786 
+epoch: 536, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.787 
+epoch: 537, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.785 
+epoch: 538, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.785 
+epoch: 539, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.783 
+epoch: 540, Seg_Loss: 0.110, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.782 
+epoch: 541, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.781 
+epoch: 542, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.782 
+epoch: 543, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.786 
+epoch: 544, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.784 
+epoch: 545, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.785 
+epoch: 546, Seg_Loss: 0.106, Overall_Acc: 0.999, Mean_IOU: 0.831, Class_0: 0.999, Class_1: 0.790 
+epoch: 547, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.783 
+epoch: 548, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.781 
+epoch: 549, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 550, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.786 
+epoch: 551, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.778 
+epoch: 552, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.782 
+epoch: 553, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.783 
+epoch: 554, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.782 
+epoch: 555, Seg_Loss: 0.110, Overall_Acc: 0.998, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.783 
+epoch: 556, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.779 
+epoch: 557, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.779 
+epoch: 558, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.777 
+epoch: 559, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 560, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.777 
+epoch: 561, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.778 
+epoch: 562, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 563, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.778 
+epoch: 564, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 565, Seg_Loss: 0.110, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 566, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.777 
+epoch: 567, Seg_Loss: 0.109, Overall_Acc: 0.998, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.785 
+epoch: 568, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 569, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 570, Seg_Loss: 0.109, Overall_Acc: 0.998, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.783 
+epoch: 571, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.778 
+epoch: 572, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 573, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.777 
+epoch: 574, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.777 
+epoch: 575, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.780 
+epoch: 576, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.776 
+epoch: 577, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 578, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.784 
+epoch: 579, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.776 
+epoch: 580, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.781 
+epoch: 581, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.781 
+epoch: 582, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.777 
+epoch: 583, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.780 
+epoch: 584, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.781 
+epoch: 585, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.782 
+epoch: 586, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.775 
+epoch: 587, Seg_Loss: 0.110, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.782 
+epoch: 588, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 589, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.779 
+epoch: 590, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.779 
+epoch: 591, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 592, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.775 
+epoch: 593, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.785 
+epoch: 594, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.777 
+epoch: 595, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.775 
+epoch: 596, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.783 
+epoch: 597, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.778 
+epoch: 598, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 599, Seg_Loss: 0.114, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.775 
+epoch: 600, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 601, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.781 
+epoch: 602, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.776 
+epoch: 603, Seg_Loss: 0.116, Overall_Acc: 0.999, Mean_IOU: 0.819, Class_0: 0.999, Class_1: 0.770 
+epoch: 604, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.777 
+epoch: 605, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.779 
+epoch: 606, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 607, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.780 
+epoch: 608, Seg_Loss: 0.110, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.782 
+epoch: 609, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 610, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.783 
+epoch: 611, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 612, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 613, Seg_Loss: 0.114, Overall_Acc: 0.999, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.774 
+epoch: 614, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.819, Class_0: 0.999, Class_1: 0.771 
+epoch: 615, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.774 
+epoch: 616, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.780 
+epoch: 617, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 618, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.777 
+epoch: 619, Seg_Loss: 0.115, Overall_Acc: 0.999, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.773 
+epoch: 620, Seg_Loss: 0.116, Overall_Acc: 0.999, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.770 
+epoch: 621, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.781 
+epoch: 622, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.782 
+epoch: 623, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.777 
+epoch: 624, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 625, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 626, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.776 
+epoch: 627, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 628, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.776 
+epoch: 629, Seg_Loss: 0.110, Overall_Acc: 0.998, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.782 
+epoch: 630, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.777 
+epoch: 631, Seg_Loss: 0.110, Overall_Acc: 0.998, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.782 
+epoch: 632, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 633, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 634, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.781 
+epoch: 635, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.781 
+epoch: 636, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.774 
+epoch: 637, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 638, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 639, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 640, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 641, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.783 
+epoch: 642, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 643, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 644, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.779 
+epoch: 645, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.784 
+epoch: 646, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.784 
+epoch: 647, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.779 
+epoch: 648, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.776 
+epoch: 649, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.782 
+epoch: 650, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.777 
+epoch: 651, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.784 
+epoch: 652, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.781 
+epoch: 653, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 654, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.779 
+epoch: 655, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.776 
+epoch: 656, Seg_Loss: 0.115, Overall_Acc: 0.999, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.771 
+epoch: 657, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 658, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.782 
+epoch: 659, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 660, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.784 
+epoch: 661, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 662, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.776 
+epoch: 663, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.777 
+epoch: 664, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.776 
+epoch: 665, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.776 
+epoch: 666, Seg_Loss: 0.115, Overall_Acc: 0.999, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.772 
+epoch: 667, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.777 
+epoch: 668, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 669, Seg_Loss: 0.116, Overall_Acc: 0.998, Mean_IOU: 0.819, Class_0: 0.999, Class_1: 0.769 
+epoch: 670, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.780 
+epoch: 671, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.777 
+epoch: 672, Seg_Loss: 0.116, Overall_Acc: 0.999, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.770 
+epoch: 673, Seg_Loss: 0.115, Overall_Acc: 0.999, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.773 
+epoch: 674, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.776 
+epoch: 675, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 676, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 677, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.782 
+epoch: 678, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.777 
+epoch: 679, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 680, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 681, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.778 
+epoch: 682, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.775 
+epoch: 683, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.778 
+epoch: 684, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.780 
+epoch: 685, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.785 
+epoch: 686, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.777 
+epoch: 687, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.780 
+epoch: 688, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 689, Seg_Loss: 0.118, Overall_Acc: 0.998, Mean_IOU: 0.818, Class_0: 0.999, Class_1: 0.766 
+epoch: 690, Seg_Loss: 0.117, Overall_Acc: 0.998, Mean_IOU: 0.818, Class_0: 0.999, Class_1: 0.769 
+epoch: 691, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.828, Class_0: 0.999, Class_1: 0.785 
+epoch: 692, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.777 
+epoch: 693, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.776 
+epoch: 694, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.784 
+epoch: 695, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 696, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 697, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.778 
+epoch: 698, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.780 
+epoch: 699, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.784 
+epoch: 700, Seg_Loss: 0.108, Overall_Acc: 0.999, Mean_IOU: 0.829, Class_0: 0.999, Class_1: 0.787 
+epoch: 701, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 702, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 703, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 704, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 705, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.772 
+epoch: 706, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 707, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.781 
+epoch: 708, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 709, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 710, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 711, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.777 
+epoch: 712, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 713, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 714, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.775 
+epoch: 715, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 716, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.776 
+epoch: 717, Seg_Loss: 0.114, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.775 
+epoch: 718, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.776 
+epoch: 719, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.776 
+epoch: 720, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.773 
+epoch: 721, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.773 
+epoch: 722, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.778 
+epoch: 723, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 724, Seg_Loss: 0.114, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.773 
+epoch: 725, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.780 
+epoch: 726, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.777 
+epoch: 727, Seg_Loss: 0.111, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.780 
+epoch: 728, Seg_Loss: 0.114, Overall_Acc: 0.999, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.775 
+epoch: 729, Seg_Loss: 0.110, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.782 
+epoch: 730, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.779 
+epoch: 731, Seg_Loss: 0.110, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 732, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.776 
+epoch: 733, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.778 
+epoch: 734, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.778 
+epoch: 735, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.776 
+epoch: 736, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.776 
+epoch: 737, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.772 
+epoch: 738, Seg_Loss: 0.116, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.771 
+epoch: 739, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.775 
+epoch: 740, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.775 
+epoch: 741, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.820, Class_0: 0.999, Class_1: 0.772 
+epoch: 742, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 743, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.776 
+epoch: 744, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 745, Seg_Loss: 0.115, Overall_Acc: 0.998, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.773 
+epoch: 746, Seg_Loss: 0.110, Overall_Acc: 0.998, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.782 
+epoch: 747, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.778 
+epoch: 748, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 749, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.782 
+epoch: 750, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 751, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.777 
+epoch: 752, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 753, Seg_Loss: 0.115, Overall_Acc: 0.999, Mean_IOU: 0.821, Class_0: 0.999, Class_1: 0.772 
+epoch: 754, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.779 
+epoch: 755, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.783 
+epoch: 756, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.778 
+epoch: 757, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.775 
+epoch: 758, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 759, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.775 
+epoch: 760, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.776 
+epoch: 761, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.776 
+epoch: 762, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.822, Class_0: 0.999, Class_1: 0.776 
+epoch: 763, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.780 
+epoch: 764, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 765, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 766, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.780 
+epoch: 767, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.777 
+epoch: 768, Seg_Loss: 0.112, Overall_Acc: 0.998, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 769, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.777 
+epoch: 770, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 771, Seg_Loss: 0.113, Overall_Acc: 0.998, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.776 
+epoch: 772, Seg_Loss: 0.113, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.776 
+epoch: 773, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 774, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.781 
+epoch: 775, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.777 
+epoch: 776, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.783 
+epoch: 777, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.783 
+epoch: 778, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.783 
+epoch: 779, Seg_Loss: 0.110, Overall_Acc: 0.999, Mean_IOU: 0.826, Class_0: 0.999, Class_1: 0.781 
+epoch: 780, Seg_Loss: 0.109, Overall_Acc: 0.999, Mean_IOU: 0.827, Class_0: 0.999, Class_1: 0.784 
+epoch: 781, Seg_Loss: 0.111, Overall_Acc: 0.999, Mean_IOU: 0.825, Class_0: 0.999, Class_1: 0.781 
+epoch: 782, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+epoch: 783, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.823, Class_0: 0.999, Class_1: 0.778 
+epoch: 784, Seg_Loss: 0.112, Overall_Acc: 0.999, Mean_IOU: 0.824, Class_0: 0.999, Class_1: 0.779 
+>>>>>>> aedc1af179e19c0fc73896ed768cbc8496a641f3
+(epoch: 804, split: train) Seg_Loss: 0.063 
+(epoch: 804, split: validation) 
+(epoch: 804, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 805, split: train) Seg_Loss: 0.064 
+(epoch: 805, split: validation) 
+(epoch: 805, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.779 
+(epoch: 806, split: train) Seg_Loss: 0.063 
+(epoch: 806, split: validation) 
+(epoch: 806, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 807, split: train) Seg_Loss: 0.063 
+(epoch: 807, split: validation) 
+(epoch: 807, split: test) Seg_Loss: 0.109 Overall_Acc: 0.999 Mean_IOU: 0.826 Class_0: 0.999 Class_1: 0.783 
+(epoch: 808, split: train) Seg_Loss: 0.064 
+(epoch: 808, split: validation) 
+(epoch: 808, split: test) Seg_Loss: 0.109 Overall_Acc: 0.999 Mean_IOU: 0.827 Class_0: 0.999 Class_1: 0.784 
+(epoch: 809, split: train) Seg_Loss: 0.062 
+(epoch: 809, split: validation) 
+(epoch: 809, split: test) Seg_Loss: 0.110 Overall_Acc: 0.999 Mean_IOU: 0.826 Class_0: 0.999 Class_1: 0.782 
+(epoch: 810, split: train) Seg_Loss: 0.063 
+(epoch: 810, split: validation) 
+(epoch: 810, split: test) Seg_Loss: 0.110 Overall_Acc: 0.999 Mean_IOU: 0.826 Class_0: 0.999 Class_1: 0.781 
+(epoch: 811, split: train) Seg_Loss: 0.065 
+(epoch: 811, split: validation) 
+(epoch: 811, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.779 
+(epoch: 812, split: train) Seg_Loss: 0.063 
+(epoch: 812, split: validation) 
+(epoch: 812, split: test) Seg_Loss: 0.114 Overall_Acc: 0.999 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.773 
+(epoch: 813, split: train) Seg_Loss: 0.063 
+(epoch: 813, split: validation) 
+(epoch: 813, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.779 
+(epoch: 814, split: train) Seg_Loss: 0.063 
+(epoch: 814, split: validation) 
+(epoch: 814, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.776 
+(epoch: 815, split: train) Seg_Loss: 0.065 
+(epoch: 815, split: validation) 
+(epoch: 815, split: test) Seg_Loss: 0.110 Overall_Acc: 0.999 Mean_IOU: 0.826 Class_0: 0.999 Class_1: 0.782 
+(epoch: 816, split: train) Seg_Loss: 0.065 
+(epoch: 816, split: validation) 
+(epoch: 816, split: test) Seg_Loss: 0.109 Overall_Acc: 0.999 Mean_IOU: 0.827 Class_0: 0.999 Class_1: 0.784 
+(epoch: 817, split: train) Seg_Loss: 0.063 
+(epoch: 817, split: validation) 
+(epoch: 817, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 818, split: train) Seg_Loss: 0.063 
+(epoch: 818, split: validation) 
+(epoch: 818, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.779 
+(epoch: 819, split: train) Seg_Loss: 0.063 
+(epoch: 819, split: validation) 
+(epoch: 819, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 820, split: train) Seg_Loss: 0.065 
+(epoch: 820, split: validation) 
+(epoch: 820, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 821, split: train) Seg_Loss: 0.063 
+(epoch: 821, split: validation) 
+(epoch: 821, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 822, split: train) Seg_Loss: 0.063 
+(epoch: 822, split: validation) 
+(epoch: 822, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 823, split: train) Seg_Loss: 0.063 
+(epoch: 823, split: validation) 
+(epoch: 823, split: test) Seg_Loss: 0.114 Overall_Acc: 0.999 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.774 
+(epoch: 824, split: train) Seg_Loss: 0.062 
+(epoch: 824, split: validation) 
+(epoch: 824, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 825, split: train) Seg_Loss: 0.064 
+(epoch: 825, split: validation) 
+(epoch: 825, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.826 Class_0: 0.999 Class_1: 0.781 
+(epoch: 826, split: train) Seg_Loss: 0.062 
+(epoch: 826, split: validation) 
+(epoch: 826, split: test) Seg_Loss: 0.110 Overall_Acc: 0.999 Mean_IOU: 0.826 Class_0: 0.999 Class_1: 0.782 
+(epoch: 827, split: train) Seg_Loss: 0.063 
+(epoch: 827, split: validation) 
+(epoch: 827, split: test) Seg_Loss: 0.111 Overall_Acc: 0.998 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.781 
+(epoch: 828, split: train) Seg_Loss: 0.067 
+(epoch: 828, split: validation) 
+(epoch: 828, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 829, split: train) Seg_Loss: 0.063 
+(epoch: 829, split: validation) 
+(epoch: 829, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 830, split: train) Seg_Loss: 0.062 
+(epoch: 830, split: validation) 
+(epoch: 830, split: test) Seg_Loss: 0.111 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.779 
+(epoch: 831, split: train) Seg_Loss: 0.065 
+(epoch: 831, split: validation) 
+(epoch: 831, split: test) Seg_Loss: 0.110 Overall_Acc: 0.999 Mean_IOU: 0.826 Class_0: 0.999 Class_1: 0.781 
+(epoch: 832, split: train) Seg_Loss: 0.063 
+(epoch: 832, split: validation) 
+(epoch: 832, split: test) Seg_Loss: 0.111 Overall_Acc: 0.998 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.779 
+(epoch: 833, split: train) Seg_Loss: 0.063 
+(epoch: 833, split: validation) 
+(epoch: 833, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 834, split: train) Seg_Loss: 0.064 
+(epoch: 834, split: validation) 
+(epoch: 834, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 835, split: train) Seg_Loss: 0.064 
+(epoch: 835, split: validation) 
+(epoch: 835, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 836, split: train) Seg_Loss: 0.063 
+(epoch: 836, split: validation) 
+(epoch: 836, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 837, split: train) Seg_Loss: 0.063 
+(epoch: 837, split: validation) 
+(epoch: 837, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 838, split: train) Seg_Loss: 0.063 
+(epoch: 838, split: validation) 
+(epoch: 838, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 839, split: train) Seg_Loss: 0.063 
+(epoch: 839, split: validation) 
+(epoch: 839, split: test) Seg_Loss: 0.111 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.779 
+(epoch: 840, split: train) Seg_Loss: 0.063 
+(epoch: 840, split: validation) 
+(epoch: 840, split: test) Seg_Loss: 0.111 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.780 
+(epoch: 841, split: train) Seg_Loss: 0.063 
+(epoch: 841, split: validation) 
+(epoch: 841, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 842, split: train) Seg_Loss: 0.064 
+(epoch: 842, split: validation) 
+(epoch: 842, split: test) Seg_Loss: 0.110 Overall_Acc: 0.999 Mean_IOU: 0.826 Class_0: 0.999 Class_1: 0.782 
+(epoch: 843, split: train) Seg_Loss: 0.069 
+(epoch: 843, split: validation) 
+(epoch: 843, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 844, split: train) Seg_Loss: 0.062 
+(epoch: 844, split: validation) 
+(epoch: 844, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.776 
+(epoch: 845, split: train) Seg_Loss: 0.063 
+(epoch: 845, split: validation) 
+(epoch: 845, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.775 
+(epoch: 846, split: train) Seg_Loss: 0.064 
+(epoch: 846, split: validation) 
+(epoch: 846, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.776 
+(epoch: 847, split: train) Seg_Loss: 0.063 
+(epoch: 847, split: validation) 
+(epoch: 847, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 848, split: train) Seg_Loss: 0.069 
+(epoch: 848, split: validation) 
+(epoch: 848, split: test) Seg_Loss: 0.114 Overall_Acc: 0.999 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.775 
+(epoch: 849, split: train) Seg_Loss: 0.063 
+(epoch: 849, split: validation) 
+(epoch: 849, split: test) Seg_Loss: 0.111 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.779 
+(epoch: 850, split: train) Seg_Loss: 0.062 
+(epoch: 850, split: validation) 
+(epoch: 850, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.779 
+(epoch: 851, split: train) Seg_Loss: 0.064 
+(epoch: 851, split: validation) 
+(epoch: 851, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.779 
+(epoch: 852, split: train) Seg_Loss: 0.063 
+(epoch: 852, split: validation) 
+(epoch: 852, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.775 
+(epoch: 853, split: train) Seg_Loss: 0.063 
+(epoch: 853, split: validation) 
+(epoch: 853, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 854, split: train) Seg_Loss: 0.063 
+(epoch: 854, split: validation) 
+(epoch: 854, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 855, split: train) Seg_Loss: 0.063 
+(epoch: 855, split: validation) 
+(epoch: 855, split: test) Seg_Loss: 0.110 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.781 
+(epoch: 856, split: train) Seg_Loss: 0.063 
+(epoch: 856, split: validation) 
+(epoch: 856, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.778 
+(epoch: 857, split: train) Seg_Loss: 0.062 
+(epoch: 857, split: validation) 
+(epoch: 857, split: test) Seg_Loss: 0.110 Overall_Acc: 0.999 Mean_IOU: 0.827 Class_0: 0.999 Class_1: 0.783 
+(epoch: 858, split: train) Seg_Loss: 0.063 
+(epoch: 858, split: validation) 
+(epoch: 858, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 859, split: train) Seg_Loss: 0.063 
+(epoch: 859, split: validation) 
+(epoch: 859, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 860, split: train) Seg_Loss: 0.063 
+(epoch: 860, split: validation) 
+(epoch: 860, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 861, split: train) Seg_Loss: 0.063 
+(epoch: 861, split: validation) 
+(epoch: 861, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.780 
+(epoch: 862, split: train) Seg_Loss: 0.063 
+(epoch: 862, split: validation) 
+(epoch: 862, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 863, split: train) Seg_Loss: 0.063 
+(epoch: 863, split: validation) 
+(epoch: 863, split: test) Seg_Loss: 0.114 Overall_Acc: 0.999 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.775 
+(epoch: 864, split: train) Seg_Loss: 0.064 
+(epoch: 864, split: validation) 
+(epoch: 864, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 865, split: train) Seg_Loss: 0.063 
+(epoch: 865, split: validation) 
+(epoch: 865, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.779 
+(epoch: 866, split: train) Seg_Loss: 0.063 
+(epoch: 866, split: validation) 
+(epoch: 866, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 867, split: train) Seg_Loss: 0.064 
+(epoch: 867, split: validation) 
+(epoch: 867, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 868, split: train) Seg_Loss: 0.064 
+(epoch: 868, split: validation) 
+(epoch: 868, split: test) Seg_Loss: 0.115 Overall_Acc: 0.998 Mean_IOU: 0.820 Class_0: 0.999 Class_1: 0.772 
+(epoch: 869, split: train) Seg_Loss: 0.063 
+(epoch: 869, split: validation) 
+(epoch: 869, split: test) Seg_Loss: 0.114 Overall_Acc: 0.998 Mean_IOU: 0.821 Class_0: 0.999 Class_1: 0.773 
+(epoch: 870, split: train) Seg_Loss: 0.062 
+(epoch: 870, split: validation) 
+(epoch: 870, split: test) Seg_Loss: 0.114 Overall_Acc: 0.998 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.775 
+(epoch: 871, split: train) Seg_Loss: 0.064 
+(epoch: 871, split: validation) 
+(epoch: 871, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.781 
+(epoch: 872, split: train) Seg_Loss: 0.063 
+(epoch: 872, split: validation) 
+(epoch: 872, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.779 
+(epoch: 873, split: train) Seg_Loss: 0.065 
+(epoch: 873, split: validation) 
+(epoch: 873, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.779 
+(epoch: 874, split: train) Seg_Loss: 0.062 
+(epoch: 874, split: validation) 
+(epoch: 874, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.775 
+(epoch: 875, split: train) Seg_Loss: 0.063 
+(epoch: 875, split: validation) 
+(epoch: 875, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.779 
+(epoch: 876, split: train) Seg_Loss: 0.063 
+(epoch: 876, split: validation) 
+(epoch: 876, split: test) Seg_Loss: 0.111 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.780 
+(epoch: 877, split: train) Seg_Loss: 0.063 
+(epoch: 877, split: validation) 
+(epoch: 877, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.775 
+(epoch: 878, split: train) Seg_Loss: 0.063 
+(epoch: 878, split: validation) 
+(epoch: 878, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.776 
+(epoch: 879, split: train) Seg_Loss: 0.063 
+(epoch: 879, split: validation) 
+(epoch: 879, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.776 
+(epoch: 880, split: train) Seg_Loss: 0.063 
+(epoch: 880, split: validation) 
+(epoch: 880, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.777 
+(epoch: 881, split: train) Seg_Loss: 0.064 
+(epoch: 881, split: validation) 
+(epoch: 881, split: test) Seg_Loss: 0.116 Overall_Acc: 0.998 Mean_IOU: 0.819 Class_0: 0.999 Class_1: 0.770 
+(epoch: 882, split: train) Seg_Loss: 0.062 
+(epoch: 882, split: validation) 
+(epoch: 882, split: test) Seg_Loss: 0.114 Overall_Acc: 0.998 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.774 
+(epoch: 883, split: train) Seg_Loss: 0.063 
+(epoch: 883, split: validation) 
+(epoch: 883, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 884, split: train) Seg_Loss: 0.063 
+(epoch: 884, split: validation) 
+(epoch: 884, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 885, split: train) Seg_Loss: 0.063 
+(epoch: 885, split: validation) 
+(epoch: 885, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 886, split: train) Seg_Loss: 0.062 
+(epoch: 886, split: validation) 
+(epoch: 886, split: test) Seg_Loss: 0.111 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.780 
+(epoch: 887, split: train) Seg_Loss: 0.062 
+(epoch: 887, split: validation) 
+(epoch: 887, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 888, split: train) Seg_Loss: 0.064 
+(epoch: 888, split: validation) 
+(epoch: 888, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 889, split: train) Seg_Loss: 0.066 
+(epoch: 889, split: validation) 
+(epoch: 889, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.775 
+(epoch: 890, split: train) Seg_Loss: 0.063 
+(epoch: 890, split: validation) 
+(epoch: 890, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.778 
+(epoch: 891, split: train) Seg_Loss: 0.063 
+(epoch: 891, split: validation) 
+(epoch: 891, split: test) Seg_Loss: 0.111 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.780 
+(epoch: 892, split: train) Seg_Loss: 0.063 
+(epoch: 892, split: validation) 
+(epoch: 892, split: test) Seg_Loss: 0.110 Overall_Acc: 0.999 Mean_IOU: 0.826 Class_0: 0.999 Class_1: 0.782 
+(epoch: 893, split: train) Seg_Loss: 0.063 
+(epoch: 893, split: validation) 
+(epoch: 893, split: test) Seg_Loss: 0.109 Overall_Acc: 0.999 Mean_IOU: 0.827 Class_0: 0.999 Class_1: 0.784 
+(epoch: 894, split: train) Seg_Loss: 0.063 
+(epoch: 894, split: validation) 
+(epoch: 894, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 895, split: train) Seg_Loss: 0.062 
+(epoch: 895, split: validation) 
+(epoch: 895, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.776 
+(epoch: 896, split: train) Seg_Loss: 0.063 
+(epoch: 896, split: validation) 
+(epoch: 896, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.776 
+(epoch: 897, split: train) Seg_Loss: 0.063 
+(epoch: 897, split: validation) 
+(epoch: 897, split: test) Seg_Loss: 0.111 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.780 
+(epoch: 898, split: train) Seg_Loss: 0.063 
+(epoch: 898, split: validation) 
+(epoch: 898, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.779 
+(epoch: 899, split: train) Seg_Loss: 0.065 
+(epoch: 899, split: validation) 
+(epoch: 899, split: test) Seg_Loss: 0.115 Overall_Acc: 0.998 Mean_IOU: 0.821 Class_0: 0.999 Class_1: 0.773 
+(epoch: 900, split: train) Seg_Loss: 0.063 
+(epoch: 900, split: validation) 
+(epoch: 900, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 901, split: train) Seg_Loss: 0.064 
+(epoch: 901, split: validation) 
+(epoch: 901, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.778 
+(epoch: 902, split: train) Seg_Loss: 0.063 
+(epoch: 902, split: validation) 
+(epoch: 902, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 903, split: train) Seg_Loss: 0.063 
+(epoch: 903, split: validation) 
+(epoch: 903, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 904, split: train) Seg_Loss: 0.064 
+(epoch: 904, split: validation) 
+(epoch: 904, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.778 
+(epoch: 905, split: train) Seg_Loss: 0.063 
+(epoch: 905, split: validation) 
+(epoch: 905, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.779 
+(epoch: 906, split: train) Seg_Loss: 0.063 
+(epoch: 906, split: validation) 
+(epoch: 906, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.776 
+(epoch: 907, split: train) Seg_Loss: 0.062 
+(epoch: 907, split: validation) 
+(epoch: 907, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 908, split: train) Seg_Loss: 0.063 
+(epoch: 908, split: validation) 
+(epoch: 908, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 909, split: train) Seg_Loss: 0.062 
+(epoch: 909, split: validation) 
+(epoch: 909, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 910, split: train) Seg_Loss: 0.062 
+(epoch: 910, split: validation) 
+(epoch: 910, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 911, split: train) Seg_Loss: 0.063 
+(epoch: 911, split: validation) 
+(epoch: 911, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.776 
+(epoch: 912, split: train) Seg_Loss: 0.063 
+(epoch: 912, split: validation) 
+(epoch: 912, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.776 
+(epoch: 913, split: train) Seg_Loss: 0.062 
+(epoch: 913, split: validation) 
+(epoch: 913, split: test) Seg_Loss: 0.114 Overall_Acc: 0.998 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.775 
+(epoch: 914, split: train) Seg_Loss: 0.063 
+(epoch: 914, split: validation) 
+(epoch: 914, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.778 
+(epoch: 915, split: train) Seg_Loss: 0.065 
+(epoch: 915, split: validation) 
+(epoch: 915, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.780 
+(epoch: 916, split: train) Seg_Loss: 0.063 
+(epoch: 916, split: validation) 
+(epoch: 916, split: test) Seg_Loss: 0.114 Overall_Acc: 0.998 Mean_IOU: 0.821 Class_0: 0.999 Class_1: 0.774 
+(epoch: 917, split: train) Seg_Loss: 0.063 
+(epoch: 917, split: validation) 
+(epoch: 917, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 918, split: train) Seg_Loss: 0.063 
+(epoch: 918, split: validation) 
+(epoch: 918, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 919, split: train) Seg_Loss: 0.063 
+(epoch: 919, split: validation) 
+(epoch: 919, split: test) Seg_Loss: 0.110 Overall_Acc: 0.998 Mean_IOU: 0.826 Class_0: 0.999 Class_1: 0.782 
+(epoch: 920, split: train) Seg_Loss: 0.064 
+(epoch: 920, split: validation) 
+(epoch: 920, split: test) Seg_Loss: 0.111 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.779 
+(epoch: 921, split: train) Seg_Loss: 0.062 
+(epoch: 921, split: validation) 
+(epoch: 921, split: test) Seg_Loss: 0.110 Overall_Acc: 0.998 Mean_IOU: 0.826 Class_0: 0.999 Class_1: 0.782 
+(epoch: 922, split: train) Seg_Loss: 0.062 
+(epoch: 922, split: validation) 
+(epoch: 922, split: test) Seg_Loss: 0.110 Overall_Acc: 0.998 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.781 
+(epoch: 923, split: train) Seg_Loss: 0.063 
+(epoch: 923, split: validation) 
+(epoch: 923, split: test) Seg_Loss: 0.109 Overall_Acc: 0.999 Mean_IOU: 0.827 Class_0: 0.999 Class_1: 0.784 
+(epoch: 924, split: train) Seg_Loss: 0.063 
+(epoch: 924, split: validation) 
+(epoch: 924, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.778 
+(epoch: 925, split: train) Seg_Loss: 0.063 
+(epoch: 925, split: validation) 
+(epoch: 925, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 926, split: train) Seg_Loss: 0.063 
+(epoch: 926, split: validation) 
+(epoch: 926, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 927, split: train) Seg_Loss: 0.062 
+(epoch: 927, split: validation) 
+(epoch: 927, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.777 
+(epoch: 928, split: train) Seg_Loss: 0.063 
+(epoch: 928, split: validation) 
+(epoch: 928, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.776 
+(epoch: 929, split: train) Seg_Loss: 0.062 
+(epoch: 929, split: validation) 
+(epoch: 929, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 930, split: train) Seg_Loss: 0.062 
+(epoch: 930, split: validation) 
+(epoch: 930, split: test) Seg_Loss: 0.111 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.779 
+(epoch: 931, split: train) Seg_Loss: 0.063 
+(epoch: 931, split: validation) 
+(epoch: 931, split: test) Seg_Loss: 0.114 Overall_Acc: 0.999 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.774 
+(epoch: 932, split: train) Seg_Loss: 0.063 
+(epoch: 932, split: validation) 
+(epoch: 932, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.776 
+(epoch: 933, split: train) Seg_Loss: 0.063 
+(epoch: 933, split: validation) 
+(epoch: 933, split: test) Seg_Loss: 0.114 Overall_Acc: 0.998 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.775 
+(epoch: 934, split: train) Seg_Loss: 0.066 
+(epoch: 934, split: validation) 
+(epoch: 934, split: test) Seg_Loss: 0.116 Overall_Acc: 0.998 Mean_IOU: 0.819 Class_0: 0.999 Class_1: 0.770 
+(epoch: 935, split: train) Seg_Loss: 0.063 
+(epoch: 935, split: validation) 
+(epoch: 935, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.776 
+(epoch: 936, split: train) Seg_Loss: 0.063 
+(epoch: 936, split: validation) 
+(epoch: 936, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.776 
+(epoch: 937, split: train) Seg_Loss: 0.062 
+(epoch: 937, split: validation) 
+(epoch: 937, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 938, split: train) Seg_Loss: 0.063 
+(epoch: 938, split: validation) 
+(epoch: 938, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.776 
+(epoch: 939, split: train) Seg_Loss: 0.063 
+(epoch: 939, split: validation) 
+(epoch: 939, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.776 
+(epoch: 940, split: train) Seg_Loss: 0.063 
+(epoch: 940, split: validation) 
+(epoch: 940, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.779 
+(epoch: 941, split: train) Seg_Loss: 0.063 
+(epoch: 941, split: validation) 
+(epoch: 941, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.775 
+(epoch: 942, split: train) Seg_Loss: 0.062 
+(epoch: 942, split: validation) 
+(epoch: 942, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.776 
+(epoch: 943, split: train) Seg_Loss: 0.063 
+(epoch: 943, split: validation) 
+(epoch: 943, split: test) Seg_Loss: 0.117 Overall_Acc: 0.999 Mean_IOU: 0.818 Class_0: 0.999 Class_1: 0.767 
+(epoch: 944, split: train) Seg_Loss: 0.066 
+(epoch: 944, split: validation) 
+(epoch: 944, split: test) Seg_Loss: 0.119 Overall_Acc: 0.998 Mean_IOU: 0.817 Class_0: 0.999 Class_1: 0.763 
+(epoch: 945, split: train) Seg_Loss: 0.069 
+(epoch: 945, split: validation) 
+(epoch: 945, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.777 
+(epoch: 946, split: train) Seg_Loss: 0.063 
+(epoch: 946, split: validation) 
+(epoch: 946, split: test) Seg_Loss: 0.111 Overall_Acc: 0.998 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.779 
+(epoch: 947, split: train) Seg_Loss: 0.064 
+(epoch: 947, split: validation) 
+(epoch: 947, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.778 
+(epoch: 948, split: train) Seg_Loss: 0.063 
+(epoch: 948, split: validation) 
+(epoch: 948, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.779 
+(epoch: 949, split: train) Seg_Loss: 0.062 
+(epoch: 949, split: validation) 
+(epoch: 949, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 950, split: train) Seg_Loss: 0.063 
+(epoch: 950, split: validation) 
+(epoch: 950, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 951, split: train) Seg_Loss: 0.063 
+(epoch: 951, split: validation) 
+(epoch: 951, split: test) Seg_Loss: 0.111 Overall_Acc: 0.998 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 952, split: train) Seg_Loss: 0.064 
+(epoch: 952, split: validation) 
+(epoch: 952, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 953, split: train) Seg_Loss: 0.062 
+(epoch: 953, split: validation) 
+(epoch: 953, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.775 
+(epoch: 954, split: train) Seg_Loss: 0.063 
+(epoch: 954, split: validation) 
+(epoch: 954, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.777 
+(epoch: 955, split: train) Seg_Loss: 0.069 
+(epoch: 955, split: validation) 
+(epoch: 955, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.776 
+(epoch: 956, split: train) Seg_Loss: 0.067 
+(epoch: 956, split: validation) 
+(epoch: 956, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.777 
+(epoch: 957, split: train) Seg_Loss: 0.064 
+(epoch: 957, split: validation) 
+(epoch: 957, split: test) Seg_Loss: 0.111 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.779 
+(epoch: 958, split: train) Seg_Loss: 0.063 
+(epoch: 958, split: validation) 
+(epoch: 958, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 959, split: train) Seg_Loss: 0.063 
+(epoch: 959, split: validation) 
+(epoch: 959, split: test) Seg_Loss: 0.114 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.775 
+(epoch: 960, split: train) Seg_Loss: 0.063 
+(epoch: 960, split: validation) 
+(epoch: 960, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.776 
+(epoch: 961, split: train) Seg_Loss: 0.062 
+(epoch: 961, split: validation) 
+(epoch: 961, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.779 
+(epoch: 962, split: train) Seg_Loss: 0.070 
+(epoch: 962, split: validation) 
+(epoch: 962, split: test) Seg_Loss: 0.111 Overall_Acc: 0.998 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.779 
+(epoch: 963, split: train) Seg_Loss: 0.064 
+(epoch: 963, split: validation) 
+(epoch: 963, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 964, split: train) Seg_Loss: 0.063 
+(epoch: 964, split: validation) 
+(epoch: 964, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.779 
+(epoch: 965, split: train) Seg_Loss: 0.063 
+(epoch: 965, split: validation) 
+(epoch: 965, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.776 
+(epoch: 966, split: train) Seg_Loss: 0.062 
+(epoch: 966, split: validation) 
+(epoch: 966, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.779 
+(epoch: 967, split: train) Seg_Loss: 0.063 
+(epoch: 967, split: validation) 
+(epoch: 967, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 968, split: train) Seg_Loss: 0.062 
+(epoch: 968, split: validation) 
+(epoch: 968, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 969, split: train) Seg_Loss: 0.062 
+(epoch: 969, split: validation) 
+(epoch: 969, split: test) Seg_Loss: 0.110 Overall_Acc: 0.999 Mean_IOU: 0.826 Class_0: 0.999 Class_1: 0.782 
+(epoch: 970, split: train) Seg_Loss: 0.062 
+(epoch: 970, split: validation) 
+(epoch: 970, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.776 
+(epoch: 971, split: train) Seg_Loss: 0.062 
+(epoch: 971, split: validation) 
+(epoch: 971, split: test) Seg_Loss: 0.111 Overall_Acc: 0.998 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 972, split: train) Seg_Loss: 0.063 
+(epoch: 972, split: validation) 
+(epoch: 972, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.826 Class_0: 0.999 Class_1: 0.781 
+(epoch: 973, split: train) Seg_Loss: 0.062 
+(epoch: 973, split: validation) 
+(epoch: 973, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.775 
+(epoch: 974, split: train) Seg_Loss: 0.063 
+(epoch: 974, split: validation) 
+(epoch: 974, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.777 
+(epoch: 975, split: train) Seg_Loss: 0.063 
+(epoch: 975, split: validation) 
+(epoch: 975, split: test) Seg_Loss: 0.110 Overall_Acc: 0.998 Mean_IOU: 0.826 Class_0: 0.999 Class_1: 0.781 
+(epoch: 976, split: train) Seg_Loss: 0.063 
+(epoch: 976, split: validation) 
+(epoch: 976, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.775 
+(epoch: 977, split: train) Seg_Loss: 0.069 
+(epoch: 977, split: validation) 
+(epoch: 977, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.826 Class_0: 0.999 Class_1: 0.781 
+(epoch: 978, split: train) Seg_Loss: 0.062 
+(epoch: 978, split: validation) 
+(epoch: 978, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.777 
+(epoch: 979, split: train) Seg_Loss: 0.063 
+(epoch: 979, split: validation) 
+(epoch: 979, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 980, split: train) Seg_Loss: 0.062 
+(epoch: 980, split: validation) 
+(epoch: 980, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.776 
+(epoch: 981, split: train) Seg_Loss: 0.062 
+(epoch: 981, split: validation) 
+(epoch: 981, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.777 
+(epoch: 982, split: train) Seg_Loss: 0.063 
+(epoch: 982, split: validation) 
+(epoch: 982, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.779 
+(epoch: 983, split: train) Seg_Loss: 0.062 
+(epoch: 983, split: validation) 
+(epoch: 983, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.775 
+(epoch: 984, split: train) Seg_Loss: 0.063 
+(epoch: 984, split: validation) 
+(epoch: 984, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.775 
+(epoch: 985, split: train) Seg_Loss: 0.062 
+(epoch: 985, split: validation) 
+(epoch: 985, split: test) Seg_Loss: 0.114 Overall_Acc: 0.999 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.775 
+(epoch: 986, split: train) Seg_Loss: 0.062 
+(epoch: 986, split: validation) 
+(epoch: 986, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 987, split: train) Seg_Loss: 0.066 
+(epoch: 987, split: validation) 
+(epoch: 987, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.777 
+(epoch: 988, split: train) Seg_Loss: 0.062 
+(epoch: 988, split: validation) 
+(epoch: 988, split: test) Seg_Loss: 0.115 Overall_Acc: 0.998 Mean_IOU: 0.821 Class_0: 0.999 Class_1: 0.773 
+(epoch: 989, split: train) Seg_Loss: 0.063 
+(epoch: 989, split: validation) 
+(epoch: 989, split: test) Seg_Loss: 0.114 Overall_Acc: 0.999 Mean_IOU: 0.822 Class_0: 0.999 Class_1: 0.775 
+(epoch: 990, split: train) Seg_Loss: 0.062 
+(epoch: 990, split: validation) 
+(epoch: 990, split: test) Seg_Loss: 0.112 Overall_Acc: 0.998 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 991, split: train) Seg_Loss: 0.063 
+(epoch: 991, split: validation) 
+(epoch: 991, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.777 
+(epoch: 992, split: train) Seg_Loss: 0.062 
+(epoch: 992, split: validation) 
+(epoch: 992, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 993, split: train) Seg_Loss: 0.063 
+(epoch: 993, split: validation) 
+(epoch: 993, split: test) Seg_Loss: 0.111 Overall_Acc: 0.998 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 994, split: train) Seg_Loss: 0.063 
+(epoch: 994, split: validation) 
+(epoch: 994, split: test) Seg_Loss: 0.111 Overall_Acc: 0.998 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 995, split: train) Seg_Loss: 0.063 
+(epoch: 995, split: validation) 
+(epoch: 995, split: test) Seg_Loss: 0.112 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.778 
+(epoch: 996, split: train) Seg_Loss: 0.062 
+(epoch: 996, split: validation) 
+(epoch: 996, split: test) Seg_Loss: 0.113 Overall_Acc: 0.998 Mean_IOU: 0.823 Class_0: 0.999 Class_1: 0.777 
+(epoch: 997, split: train) Seg_Loss: 0.062 
+(epoch: 997, split: validation) 
+(epoch: 997, split: test) Seg_Loss: 0.113 Overall_Acc: 0.999 Mean_IOU: 0.824 Class_0: 0.999 Class_1: 0.777 
+(epoch: 998, split: train) Seg_Loss: 0.062 
+(epoch: 998, split: validation) 
+(epoch: 998, split: test) Seg_Loss: 0.111 Overall_Acc: 0.999 Mean_IOU: 0.825 Class_0: 0.999 Class_1: 0.780 
+(epoch: 999, split: train) Seg_Loss: 0.063 
+(epoch: 999, split: validation) 
+(epoch: 999, split: test) Seg_Loss: 0.110 Overall_Acc: 0.999 Mean_IOU: 0.827 Class_0: 0.999 Class_1: 0.783 
