@@ -2999,3 +2999,8 @@
 (epoch: 999, split: train) Seg_Loss: 0.057 
 (epoch: 999, split: validation) 
 (epoch: 999, split: test) Seg_Loss: 0.099 Overall_Acc: 0.999 Mean_IOU: 0.845 Class_0: 0.999 Class_1: 0.803 
+================ Training Loss (Tue May 26 10:45:59 2020) ================
+================ Training Loss (Tue May 26 10:47:01 2020) ================
+(epoch: 0, split: train) Seg_Loss: 0.523 
+(epoch: 0, split: validation) 
+(epoch: 0, split: test) Seg_Loss: 0.501 Overall_Acc: 0.993 Mean_IOU: 0.497 Class_0: 0.996 Class_1: 0.002 

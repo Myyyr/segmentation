@@ -2,7 +2,7 @@
   "training":{
     "arch_type": "acdc_sax",
     "n_epochs": 1000,
-    "save_epoch_freq": 10,
+    "save_epoch_freq": 99,
     "lr_policy": "step",
     "lr_decay_iters": 250,
     "batchSize": 2,
@@ -31,21 +31,20 @@
   },
   "model":{
     "type":"seg",
-    "continue_train": false,
-    "which_epoch": 0,
-    "model_type": "revunet_big",
+    "continue_train": true,
+    "which_epoch": 198,
+    "model_type": "revunet_dsv",
     "tensor_dim": "3D",
     "division_factor": 16,
     "input_nc": 1,
     "output_nc": 2,
     "lr_rate": 5e-2,
-    "init" : 5e-2,
     "l2_reg_weight": 5e-4,
     "feature_scale": 4,
     "gpu_ids": [0],
     "isTrain": true,
     "checkpoints_dir": "./checkpoints",
-    "experiment_name": "revunet_big1",
+    "experiment_name": "revunet_dsv1",
     "criterion": "dice_loss"
   }
 }
