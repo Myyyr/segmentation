@@ -2,7 +2,7 @@
   "training":{
     "arch_type": "acdc_sax",
     "n_epochs": 1000,
-    "save_epoch_freq": 99,
+    "save_epoch_freq": 249,
     "lr_policy": "step",
     "lr_decay_iters": 250,
     "batchSize": 2,
@@ -31,8 +31,8 @@
   },
   "model":{
     "type":"seg",
-    "continue_train": true,
-    "which_epoch": 198,
+    "continue_train": false,
+    "which_epoch": -1,
     "model_type": "revunet_dsv",
     "tensor_dim": "3D",
     "division_factor": 16,
