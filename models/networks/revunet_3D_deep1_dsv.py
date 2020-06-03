@@ -130,7 +130,7 @@ class NoNewReversible_deep_dsv(nn.Module):
     def __init__(self):
         super(NoNewReversible_deep_dsv, self).__init__()
         depth = 1
-        self.levels = 5
+        self.levels = 6
         n_classes = 2
 
         self.firstConv = nn.Conv3d(1, CHANNELS[0], 3, padding=1, bias=False)
