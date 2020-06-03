@@ -2,7 +2,7 @@
   "training":{
     "arch_type": "acdc_sax",
     "n_epochs": 1000,
-    "save_epoch_freq": 10,
+    "save_epoch_freq": 249,
     "lr_policy": "step",
     "lr_decay_iters": 250,
     "batchSize": 2,
@@ -33,7 +33,7 @@
     "type":"seg",
     "continue_train": false,
     "which_epoch": -1,
-    "model_type": "vnet",
+    "model_type": "revunet_deep_dsv",
     "tensor_dim": "3D",
     "division_factor": 16,
     "input_nc": 1,
@@ -44,7 +44,7 @@
     "gpu_ids": [0],
     "isTrain": true,
     "checkpoints_dir": "./checkpoints",
-    "experiment_name": "my_vnet1",
+    "experiment_name": "revunet_deep_dsv",
     "criterion": "dice_loss"
   }
 }
