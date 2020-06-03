@@ -135,7 +135,7 @@ class NoNewReversible_deep_dsv(nn.Module):
 
         self.firstConv = nn.Conv3d(1, CHANNELS[0], 3, padding=1, bias=False)
         #self.dropout = nn.Dropout3d(0.2, True)
-        self.lastConv = nn.Conv3d(n_classes*4, n_classes, 1, bias=True)
+        self.lastConv = nn.Conv3d(n_classes*(self.levels - 1), n_classes, 1, bias=True)
 
         #create encoder levels
         encoderModules = []
