@@ -70,7 +70,7 @@ def _get_model_instance(name, tensor_dim):
     return {
         'vnet':{'3D':VNet},
         'revunet_dsv':{'3D':NoNewReversible_dsv},
-        'revunet_dsv':{'3D':NoNewReversible_deep_dsv},
+        'revunet_deep_dsv':{'3D':NoNewReversible_deep_dsv},
         'revunet':{'3D':NoNewReversible},
         'revunet_big':{'3D':NoNewReversible_big},
         'unet':{'2D': unet_2D, '3D': unet_3D},
