@@ -51,12 +51,15 @@ def train(arguments):
         exit()
 
     # Setup Data Loader
+    print("\n\n\n\n\nOK FOR DATASET\n\n\n\n\n\n")
     train_dataset = ds_class(ds_path, split='train',      transform=ds_transform['train'], preload_data=train_opts.preloadData)
     valid_dataset = ds_class(ds_path, split='validation', transform=ds_transform['valid'], preload_data=train_opts.preloadData)
     test_dataset  = ds_class(ds_path, split='test',       transform=ds_transform['valid'], preload_data=train_opts.preloadData)
     train_loader = DataLoader(dataset=train_dataset, num_workers=1, batch_size=train_opts.batchSize, shuffle=True)
     valid_loader = DataLoader(dataset=valid_dataset, num_workers=1, batch_size=train_opts.batchSize, shuffle=False)
     test_loader  = DataLoader(dataset=test_dataset,  num_workers=1, batch_size=train_opts.batchSize, shuffle=False)
+
+    print("\n\n\n\n\nOK FOR DATASET\n\n\n\n\n\n")
 
     # Visualisation Parameters
     visualizer = Visualiser(json_opts.visualisation, save_dir=model.save_dir)
