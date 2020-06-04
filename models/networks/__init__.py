@@ -14,13 +14,14 @@ from .vnet import *
 from .revunet_3D_dsv import *
 from .revunet_3D_deep1_dsv import *
 from .revunet_3D_wide_dsv import *
+from .fully_reversible import *
 
 def get_network(name, n_classes, in_channels=3, feature_scale=4, tensor_dim='2D',
                 nonlocal_mode='embedded_gaussian', attention_dsample=(2,2,2),
                 aggregation_mode='concat'):
     model = _get_model_instance(name, tensor_dim)
 
-    if name in ['revunet', 'revunet_big', 'revunet_dsv', 'revunet_deep_dsv', "revunet_wide_dsv"]:
+    if name in ['revunet', 'revunet_big', 'revunet_dsv', 'revunet_deep_dsv', "revunet_wide_dsv", "fully_reversible"]:
         model = model()
 
     elif name in ['vnet']:
@@ -69,6 +70,7 @@ def get_network(name, n_classes, in_channels=3, feature_scale=4, tensor_dim='2D'
 
 def _get_model_instance(name, tensor_dim):
     return {
+        'fully_reversible':{'3D':FullyReversible},
         'vnet':{'3D':VNet},
         'revunet_dsv':{'3D':NoNewReversible_dsv},
         'revunet_wide_dsv':{'3D':NoNewReversible_wide_dsv},
