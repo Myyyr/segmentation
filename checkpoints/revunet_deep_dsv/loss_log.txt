@@ -2812,3 +2812,192 @@
 (epoch: 936, split: train) Seg_Loss: 0.067 
 (epoch: 936, split: validation) 
 (epoch: 936, split: test) Seg_Loss: 0.100 Overall_Acc: 0.999 Mean_IOU: 0.838 Class_0: 0.999 Class_1: 0.801 
+(epoch: 937, split: train) Seg_Loss: 0.064 
+(epoch: 937, split: validation) 
+(epoch: 937, split: test) Seg_Loss: 0.100 Overall_Acc: 0.999 Mean_IOU: 0.838 Class_0: 0.999 Class_1: 0.801 
+(epoch: 938, split: train) Seg_Loss: 0.065 
+(epoch: 938, split: validation) 
+(epoch: 938, split: test) Seg_Loss: 0.103 Overall_Acc: 0.999 Mean_IOU: 0.835 Class_0: 0.999 Class_1: 0.795 
+(epoch: 939, split: train) Seg_Loss: 0.063 
+(epoch: 939, split: validation) 
+(epoch: 939, split: test) Seg_Loss: 0.103 Overall_Acc: 0.999 Mean_IOU: 0.834 Class_0: 0.999 Class_1: 0.795 
+(epoch: 940, split: train) Seg_Loss: 0.063 
+(epoch: 940, split: validation) 
+(epoch: 940, split: test) Seg_Loss: 0.103 Overall_Acc: 0.999 Mean_IOU: 0.834 Class_0: 0.999 Class_1: 0.796 
+(epoch: 941, split: train) Seg_Loss: 0.063 
+(epoch: 941, split: validation) 
+(epoch: 941, split: test) Seg_Loss: 0.102 Overall_Acc: 0.999 Mean_IOU: 0.837 Class_0: 0.999 Class_1: 0.798 
+(epoch: 942, split: train) Seg_Loss: 0.062 
+(epoch: 942, split: validation) 
+(epoch: 942, split: test) Seg_Loss: 0.103 Overall_Acc: 0.999 Mean_IOU: 0.835 Class_0: 0.999 Class_1: 0.796 
+(epoch: 943, split: train) Seg_Loss: 0.063 
+(epoch: 943, split: validation) 
+(epoch: 943, split: test) Seg_Loss: 0.103 Overall_Acc: 0.999 Mean_IOU: 0.836 Class_0: 0.999 Class_1: 0.796 
+(epoch: 944, split: train) Seg_Loss: 0.062 
+(epoch: 944, split: validation) 
+(epoch: 944, split: test) Seg_Loss: 0.100 Overall_Acc: 0.999 Mean_IOU: 0.839 Class_0: 0.999 Class_1: 0.802 
+(epoch: 945, split: train) Seg_Loss: 0.062 
+(epoch: 945, split: validation) 
+(epoch: 945, split: test) Seg_Loss: 0.100 Overall_Acc: 0.999 Mean_IOU: 0.839 Class_0: 0.999 Class_1: 0.802 
+(epoch: 946, split: train) Seg_Loss: 0.070 
+(epoch: 946, split: validation) 
+(epoch: 946, split: test) Seg_Loss: 0.103 Overall_Acc: 0.999 Mean_IOU: 0.836 Class_0: 0.999 Class_1: 0.795 
+(epoch: 947, split: train) Seg_Loss: 0.062 
+(epoch: 947, split: validation) 
+(epoch: 947, split: test) Seg_Loss: 0.103 Overall_Acc: 0.999 Mean_IOU: 0.835 Class_0: 0.999 Class_1: 0.795 
+(epoch: 948, split: train) Seg_Loss: 0.062 
+(epoch: 948, split: validation) 
+(epoch: 948, split: test) Seg_Loss: 0.105 Overall_Acc: 0.999 Mean_IOU: 0.834 Class_0: 0.999 Class_1: 0.791 
+(epoch: 949, split: train) Seg_Loss: 0.063 
+(epoch: 949, split: validation) 
+(epoch: 949, split: test) Seg_Loss: 0.102 Overall_Acc: 0.999 Mean_IOU: 0.839 Class_0: 0.999 Class_1: 0.799 
+(epoch: 950, split: train) Seg_Loss: 0.061 
+(epoch: 950, split: validation) 
+(epoch: 950, split: test) Seg_Loss: 0.100 Overall_Acc: 0.999 Mean_IOU: 0.840 Class_0: 0.999 Class_1: 0.803 
+(epoch: 951, split: train) Seg_Loss: 0.063 
+(epoch: 951, split: validation) 
+(epoch: 951, split: test) Seg_Loss: 0.102 Overall_Acc: 0.999 Mean_IOU: 0.837 Class_0: 0.999 Class_1: 0.798 
+(epoch: 952, split: train) Seg_Loss: 0.062 
+(epoch: 952, split: validation) 
+(epoch: 952, split: test) Seg_Loss: 0.098 Overall_Acc: 0.999 Mean_IOU: 0.841 Class_0: 0.999 Class_1: 0.805 
+(epoch: 953, split: train) Seg_Loss: 0.062 
+(epoch: 953, split: validation) 
+(epoch: 953, split: test) Seg_Loss: 0.097 Overall_Acc: 0.999 Mean_IOU: 0.843 Class_0: 0.999 Class_1: 0.808 
+(epoch: 954, split: train) Seg_Loss: 0.062 
+(epoch: 954, split: validation) 
+(epoch: 954, split: test) Seg_Loss: 0.101 Overall_Acc: 0.999 Mean_IOU: 0.838 Class_0: 0.999 Class_1: 0.801 
+(epoch: 955, split: train) Seg_Loss: 0.062 
+(epoch: 955, split: validation) 
+(epoch: 955, split: test) Seg_Loss: 0.098 Overall_Acc: 0.999 Mean_IOU: 0.841 Class_0: 0.999 Class_1: 0.805 
+(epoch: 956, split: train) Seg_Loss: 0.062 
+(epoch: 956, split: validation) 
+(epoch: 956, split: test) Seg_Loss: 0.099 Overall_Acc: 0.999 Mean_IOU: 0.840 Class_0: 0.999 Class_1: 0.803 
+(epoch: 957, split: train) Seg_Loss: 0.062 
+(epoch: 957, split: validation) 
+(epoch: 957, split: test) Seg_Loss: 0.099 Overall_Acc: 0.999 Mean_IOU: 0.839 Class_0: 0.999 Class_1: 0.803 
+(epoch: 958, split: train) Seg_Loss: 0.065 
+(epoch: 958, split: validation) 
+(epoch: 958, split: test) Seg_Loss: 0.106 Overall_Acc: 0.999 Mean_IOU: 0.835 Class_0: 0.999 Class_1: 0.790 
+(epoch: 959, split: train) Seg_Loss: 0.064 
+(epoch: 959, split: validation) 
+(epoch: 959, split: test) Seg_Loss: 0.107 Overall_Acc: 0.998 Mean_IOU: 0.828 Class_0: 0.999 Class_1: 0.789 
+(epoch: 960, split: train) Seg_Loss: 0.063 
+(epoch: 960, split: validation) 
+(epoch: 960, split: test) Seg_Loss: 0.098 Overall_Acc: 0.999 Mean_IOU: 0.842 Class_0: 0.999 Class_1: 0.807 
+(epoch: 961, split: train) Seg_Loss: 0.063 
+(epoch: 961, split: validation) 
+(epoch: 961, split: test) Seg_Loss: 0.098 Overall_Acc: 0.999 Mean_IOU: 0.842 Class_0: 0.999 Class_1: 0.806 
+(epoch: 962, split: train) Seg_Loss: 0.062 
+(epoch: 962, split: validation) 
+(epoch: 962, split: test) Seg_Loss: 0.099 Overall_Acc: 0.999 Mean_IOU: 0.839 Class_0: 0.999 Class_1: 0.803 
+(epoch: 963, split: train) Seg_Loss: 0.069 
+(epoch: 963, split: validation) 
+(epoch: 963, split: test) Seg_Loss: 0.097 Overall_Acc: 0.999 Mean_IOU: 0.841 Class_0: 0.999 Class_1: 0.808 
+(epoch: 964, split: train) Seg_Loss: 0.062 
+(epoch: 964, split: validation) 
+(epoch: 964, split: test) Seg_Loss: 0.096 Overall_Acc: 0.999 Mean_IOU: 0.844 Class_0: 0.999 Class_1: 0.810 
+(epoch: 965, split: train) Seg_Loss: 0.062 
+(epoch: 965, split: validation) 
+(epoch: 965, split: test) Seg_Loss: 0.097 Overall_Acc: 0.999 Mean_IOU: 0.842 Class_0: 0.999 Class_1: 0.808 
+(epoch: 966, split: train) Seg_Loss: 0.062 
+(epoch: 966, split: validation) 
+(epoch: 966, split: test) Seg_Loss: 0.096 Overall_Acc: 0.999 Mean_IOU: 0.843 Class_0: 0.999 Class_1: 0.810 
+(epoch: 967, split: train) Seg_Loss: 0.060 
+(epoch: 967, split: validation) 
+(epoch: 967, split: test) Seg_Loss: 0.098 Overall_Acc: 0.999 Mean_IOU: 0.841 Class_0: 0.999 Class_1: 0.806 
+(epoch: 968, split: train) Seg_Loss: 0.062 
+(epoch: 968, split: validation) 
+(epoch: 968, split: test) Seg_Loss: 0.103 Overall_Acc: 0.999 Mean_IOU: 0.834 Class_0: 0.999 Class_1: 0.796 
+(epoch: 969, split: train) Seg_Loss: 0.062 
+(epoch: 969, split: validation) 
+(epoch: 969, split: test) Seg_Loss: 0.101 Overall_Acc: 0.999 Mean_IOU: 0.838 Class_0: 0.999 Class_1: 0.800 
+(epoch: 970, split: train) Seg_Loss: 0.061 
+(epoch: 970, split: validation) 
+(epoch: 970, split: test) Seg_Loss: 0.098 Overall_Acc: 0.999 Mean_IOU: 0.842 Class_0: 0.999 Class_1: 0.807 
+(epoch: 971, split: train) Seg_Loss: 0.060 
+(epoch: 971, split: validation) 
+(epoch: 971, split: test) Seg_Loss: 0.095 Overall_Acc: 0.999 Mean_IOU: 0.845 Class_0: 0.999 Class_1: 0.811 
+(epoch: 972, split: train) Seg_Loss: 0.061 
+(epoch: 972, split: validation) 
+(epoch: 972, split: test) Seg_Loss: 0.096 Overall_Acc: 0.999 Mean_IOU: 0.843 Class_0: 0.999 Class_1: 0.809 
+(epoch: 973, split: train) Seg_Loss: 0.061 
+(epoch: 973, split: validation) 
+(epoch: 973, split: test) Seg_Loss: 0.097 Overall_Acc: 0.999 Mean_IOU: 0.843 Class_0: 0.999 Class_1: 0.808 
+(epoch: 974, split: train) Seg_Loss: 0.060 
+(epoch: 974, split: validation) 
+(epoch: 974, split: test) Seg_Loss: 0.097 Overall_Acc: 0.999 Mean_IOU: 0.843 Class_0: 0.999 Class_1: 0.807 
+(epoch: 975, split: train) Seg_Loss: 0.060 
+(epoch: 975, split: validation) 
+(epoch: 975, split: test) Seg_Loss: 0.097 Overall_Acc: 0.999 Mean_IOU: 0.842 Class_0: 0.999 Class_1: 0.807 
+(epoch: 976, split: train) Seg_Loss: 0.060 
+(epoch: 976, split: validation) 
+(epoch: 976, split: test) Seg_Loss: 0.099 Overall_Acc: 0.999 Mean_IOU: 0.840 Class_0: 0.999 Class_1: 0.803 
+(epoch: 977, split: train) Seg_Loss: 0.061 
+(epoch: 977, split: validation) 
+(epoch: 977, split: test) Seg_Loss: 0.098 Overall_Acc: 0.999 Mean_IOU: 0.840 Class_0: 0.999 Class_1: 0.805 
+(epoch: 978, split: train) Seg_Loss: 0.061 
+(epoch: 978, split: validation) 
+(epoch: 978, split: test) Seg_Loss: 0.100 Overall_Acc: 0.999 Mean_IOU: 0.838 Class_0: 0.999 Class_1: 0.801 
+(epoch: 979, split: train) Seg_Loss: 0.065 
+(epoch: 979, split: validation) 
+(epoch: 979, split: test) Seg_Loss: 0.102 Overall_Acc: 0.999 Mean_IOU: 0.834 Class_0: 0.999 Class_1: 0.798 
+(epoch: 980, split: train) Seg_Loss: 0.061 
+(epoch: 980, split: validation) 
+(epoch: 980, split: test) Seg_Loss: 0.104 Overall_Acc: 0.999 Mean_IOU: 0.835 Class_0: 0.999 Class_1: 0.795 
+(epoch: 981, split: train) Seg_Loss: 0.061 
+(epoch: 981, split: validation) 
+(epoch: 981, split: test) Seg_Loss: 0.099 Overall_Acc: 0.999 Mean_IOU: 0.840 Class_0: 0.999 Class_1: 0.804 
+(epoch: 982, split: train) Seg_Loss: 0.061 
+(epoch: 982, split: validation) 
+(epoch: 982, split: test) Seg_Loss: 0.100 Overall_Acc: 0.999 Mean_IOU: 0.838 Class_0: 0.999 Class_1: 0.801 
+(epoch: 983, split: train) Seg_Loss: 0.060 
+(epoch: 983, split: validation) 
+(epoch: 983, split: test) Seg_Loss: 0.100 Overall_Acc: 0.999 Mean_IOU: 0.838 Class_0: 0.999 Class_1: 0.801 
+(epoch: 984, split: train) Seg_Loss: 0.061 
+(epoch: 984, split: validation) 
+(epoch: 984, split: test) Seg_Loss: 0.101 Overall_Acc: 0.999 Mean_IOU: 0.837 Class_0: 0.999 Class_1: 0.799 
+(epoch: 985, split: train) Seg_Loss: 0.060 
+(epoch: 985, split: validation) 
+(epoch: 985, split: test) Seg_Loss: 0.102 Overall_Acc: 0.999 Mean_IOU: 0.836 Class_0: 0.999 Class_1: 0.798 
+(epoch: 986, split: train) Seg_Loss: 0.060 
+(epoch: 986, split: validation) 
+(epoch: 986, split: test) Seg_Loss: 0.102 Overall_Acc: 0.999 Mean_IOU: 0.836 Class_0: 0.999 Class_1: 0.798 
+(epoch: 987, split: train) Seg_Loss: 0.061 
+(epoch: 987, split: validation) 
+(epoch: 987, split: test) Seg_Loss: 0.098 Overall_Acc: 0.999 Mean_IOU: 0.841 Class_0: 0.999 Class_1: 0.805 
+(epoch: 988, split: train) Seg_Loss: 0.061 
+(epoch: 988, split: validation) 
+(epoch: 988, split: test) Seg_Loss: 0.100 Overall_Acc: 0.999 Mean_IOU: 0.839 Class_0: 0.999 Class_1: 0.801 
+(epoch: 989, split: train) Seg_Loss: 0.061 
+(epoch: 989, split: validation) 
+(epoch: 989, split: test) Seg_Loss: 0.110 Overall_Acc: 0.999 Mean_IOU: 0.832 Class_0: 0.999 Class_1: 0.783 
+(epoch: 990, split: train) Seg_Loss: 0.061 
+(epoch: 990, split: validation) 
+(epoch: 990, split: test) Seg_Loss: 0.103 Overall_Acc: 0.999 Mean_IOU: 0.839 Class_0: 0.999 Class_1: 0.795 
+(epoch: 991, split: train) Seg_Loss: 0.061 
+(epoch: 991, split: validation) 
+(epoch: 991, split: test) Seg_Loss: 0.103 Overall_Acc: 0.999 Mean_IOU: 0.837 Class_0: 0.999 Class_1: 0.796 
+(epoch: 992, split: train) Seg_Loss: 0.062 
+(epoch: 992, split: validation) 
+(epoch: 992, split: test) Seg_Loss: 0.101 Overall_Acc: 0.999 Mean_IOU: 0.837 Class_0: 0.999 Class_1: 0.801 
+(epoch: 993, split: train) Seg_Loss: 0.061 
+(epoch: 993, split: validation) 
+(epoch: 993, split: test) Seg_Loss: 0.097 Overall_Acc: 0.999 Mean_IOU: 0.842 Class_0: 0.999 Class_1: 0.808 
+(epoch: 994, split: train) Seg_Loss: 0.061 
+(epoch: 994, split: validation) 
+(epoch: 994, split: test) Seg_Loss: 0.099 Overall_Acc: 0.999 Mean_IOU: 0.840 Class_0: 0.999 Class_1: 0.804 
+(epoch: 995, split: train) Seg_Loss: 0.062 
+(epoch: 995, split: validation) 
+(epoch: 995, split: test) Seg_Loss: 0.102 Overall_Acc: 0.999 Mean_IOU: 0.837 Class_0: 0.999 Class_1: 0.798 
+(epoch: 996, split: train) Seg_Loss: 0.061 
+(epoch: 996, split: validation) 
+(epoch: 996, split: test) Seg_Loss: 0.099 Overall_Acc: 0.999 Mean_IOU: 0.840 Class_0: 0.999 Class_1: 0.803 
+(epoch: 997, split: train) Seg_Loss: 0.060 
+(epoch: 997, split: validation) 
+(epoch: 997, split: test) Seg_Loss: 0.098 Overall_Acc: 0.999 Mean_IOU: 0.842 Class_0: 0.999 Class_1: 0.806 
+(epoch: 998, split: train) Seg_Loss: 0.061 
+(epoch: 998, split: validation) 
+(epoch: 998, split: test) Seg_Loss: 0.099 Overall_Acc: 0.999 Mean_IOU: 0.840 Class_0: 0.999 Class_1: 0.804 
+(epoch: 999, split: train) Seg_Loss: 0.060 
+(epoch: 999, split: validation) 
+(epoch: 999, split: test) Seg_Loss: 0.101 Overall_Acc: 0.999 Mean_IOU: 0.837 Class_0: 0.999 Class_1: 0.800 
