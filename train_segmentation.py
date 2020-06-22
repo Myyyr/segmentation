@@ -13,8 +13,9 @@ from models import get_model
 import torch
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = '3'
-
+os.environ["CUDA_VISIBLE_DEVICES"] = '0' 
+# 0 -> quadro
+# 3 -> GTX2 
 
 
 def convert_bytes(size):
