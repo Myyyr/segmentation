@@ -15,6 +15,8 @@ from .revunet_3D_dsv import *
 from .revunet_3D_deep1_dsv import *
 from .revunet_3D_wide_dsv import *
 from .fully_reversible import *
+from .iunet import *
+from .iunet_layers import create_double_module
 
 def get_network(name, n_classes, in_channels=3, feature_scale=4, tensor_dim='2D',
                 nonlocal_mode='embedded_gaussian', attention_dsample=(2,2,2),
@@ -26,6 +28,16 @@ def get_network(name, n_classes, in_channels=3, feature_scale=4, tensor_dim='2D'
 
     elif name in ['vnet']:
         model = model()
+
+    elif name in ['iunet']:
+        model = model(
+              32, # input channels or input shape, must be at least as large as slice_fraction
+              dim=3, # 3D data input
+              architecture=[5]*5, # 7*10*2=140 convolutional layers
+              create_module_fn=create_double_module,
+              slice_fraction = 4, # Fraction of 
+              learnable_downsampling=True, # Otherwise, 3D Haar wavelets are used
+              disable_custom_gradient=False)
 
     elif name in ['unet', 'unet_ct_dsv']:
         model = model(n_classes=n_classes,
@@ -70,6 +82,7 @@ def get_network(name, n_classes, in_channels=3, feature_scale=4, tensor_dim='2D'
 
 def _get_model_instance(name, tensor_dim):
     return {
+        'iunet' : {'3D':iUNet},
         'fully_reversible':{'3D':FullyReversible},
         'vnet':{'3D':VNet},
         'revunet_dsv':{'3D':NoNewReversible_dsv},
