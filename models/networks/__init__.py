@@ -33,7 +33,7 @@ def get_network(name, n_classes, in_channels=3, feature_scale=4, tensor_dim='2D'
         model = model(
               32, # input channels or input shape, must be at least as large as slice_fraction
               dim=3, # 3D data input
-              architecture=[5]*5, # 7*10*2=140 convolutional layers
+              architecture=[3]*5, # 7*10*2=140 convolutional layers
               create_module_fn=create_double_module,
               slice_fraction = 4, # Fraction of 
               learnable_downsampling=True, # Otherwise, 3D Haar wavelets are used
