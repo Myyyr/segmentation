@@ -7,7 +7,7 @@ from models.networks_other import init_weights
 class unet_3D(nn.Module):
 
     def __init__(self, feature_scale=4, n_classes=21, is_deconv=True, in_channels=3, is_batchnorm=True):
-        super(unet_CT_dsv_3D, self).__init__()
+        super(unet_3D, self).__init__()
         self.is_deconv = is_deconv
         self.in_channels = in_channels
         self.is_batchnorm = is_batchnorm
