@@ -55,7 +55,7 @@ class unet_3D(nn.Module):
                 init_weights(m, init_type='kaiming')
 
     def forward(self, inputs):
-        if im_dim != None:
+        if self.im_dim != None:
             with torch.no_grad():
                 inputs = nn.functional.interpolate(inputs, self.im_dim, mode='bicubic')
 
