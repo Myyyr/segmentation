@@ -52,9 +52,9 @@ def train(arguments):
         exit()
 
     # Setup Data Loader
-    train_dataset = ds_class(ds_path, split='train',      transform=ds_transform['train'], preload_data=train_opts.preloadData)
-    valid_dataset = ds_class(ds_path, split='validation', transform=ds_transform['valid'], preload_data=train_opts.preloadData)
-    test_dataset  = ds_class(ds_path, split='test',       transform=ds_transform['valid'], preload_data=train_opts.preloadData)
+    train_dataset = ds_class(ds_path, split='train',      im_dim=train_opts.im_dim, transform=ds_transform['train'], preload_data=train_opts.preloadData)
+    valid_dataset = ds_class(ds_path, split='validation', im_dim=train_opts.im_dim, transform=ds_transform['valid'], preload_data=train_opts.preloadData)
+    test_dataset  = ds_class(ds_path, split='test',       im_dim=train_opts.im_dim, transform=ds_transform['valid'], preload_data=train_opts.preloadData)
     train_loader = DataLoader(dataset=train_dataset, num_workers=16, batch_size=train_opts.batchSize, shuffle=True)
     valid_loader = DataLoader(dataset=valid_dataset, num_workers=16, batch_size=train_opts.batchSize, shuffle=False)
     test_loader  = DataLoader(dataset=test_dataset,  num_workers=16, batch_size=train_opts.batchSize, shuffle=False)

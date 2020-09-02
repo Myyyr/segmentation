@@ -7,7 +7,7 @@ import random
 
 
 CHANNELS = 32 # MUST BE AN EVEN NUMBER
-N_BLOCK  = 100
+N_BLOCK  = 20
 N_CLASSES = 2
 
 
@@ -19,15 +19,17 @@ class FGFunction(nn.Module):
 	"""
 	def __init__(self, channels):
 		super(FGFunction, self).__init__()
-		self.bn1 = nn.BatchNorm3d(channels)
+		# self.bn1 = nn.BatchNorm3d(channels)
+		self.gn1 = nn.GroupNorm(1, channels, eps=1e-3)
 		self.conv1 = nn.Conv3d(channels, channels, 3, padding=1, bias=False)
 
-		self.bn2 = nn.BatchNorm3d(channels)
+		# self.bn2 = nn.BatchNorm3d(channels)
+		self.gn2 = nn.GroupNorm(1, channels, eps=1e-3)
 		self.conv2 = nn.Conv3d(channels, channels, 3, padding=1, bias=False)
 
 	def forward(self, x):
-		x = F.relu(self.bn1(self.conv1(x)), inplace=True)
-		x = F.relu(self.bn2(self.conv2(x)), inplace=True)
+		x = self.gn1(F.leaky_relu(self.conv1(x), inplace=True))
+		x = self.gn2(F.leaky_relu(self.conv2(x), inplace=True))
 		return x
 
 def revBlock(channels):
@@ -85,14 +87,18 @@ class FullyReversible(nn.Module):
 		super(FullyReversible, self).__init__()
 
 		self.sequence = revSequence(CHANNELS, N_BLOCK)
-		self.linear = nn.Linear(CHANNELS, N_CLASSES)
+
+		self.first = nn.Conv3d(1, CHANNELS, 1, bias=False)
+		self.end = nn.Conv3d(CHANNELS, 2, 1, bias=False)
 
 
 	def forward(self, x):
-		x = duplicate(x, CHANNELS)
+		#x = duplicate(x, CHANNELS)
+		x = self.first(x)
 		x = self.sequence(x)
-		x = self.linear(x.permute(0,4,2,3,1))
-		return x.permute(0,4,2,3,1)
+		#x = self.linear(x.permute(0,4,2,3,1))
+		x = self.end(x)	
+		return x #x.permute(0,4,2,3,1)
 
 		
 

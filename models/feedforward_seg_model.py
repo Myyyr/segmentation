@@ -5,7 +5,7 @@ import torch.optim as optim
 from collections import OrderedDict
 import utils.util as util
 from .base_model import BaseModel
-from .networks import get_network
+from .same_dim import get_network
 from .layers.loss import *
 from .networks_other import get_scheduler, print_network, benchmark_fp_bp_time
 from .utils import segmentation_stats, get_optimizer, get_criterion
