@@ -107,7 +107,7 @@ class Transformations:
 
     def cmr_3d_sax_transform(self):
 
-        train_transform = ts.Compose([ts.PadNumpy(size=self.scale_size),
+        train_transform = ts.Compose([#ts.PadNumpy(size=self.scale_size),
                                       ts.ToTensor(),
                                       ts.ChannelsFirst(),
                                       ts.TypeCast(['float', 'float']),
@@ -122,7 +122,7 @@ class Transformations:
                                       ts.TypeCast(['float', 'long'])
                                 ])
 
-        valid_transform = ts.Compose([ts.PadNumpy(size=self.scale_size),
+        valid_transform = ts.Compose([#ts.PadNumpy(size=self.scale_size),
                                       ts.ToTensor(),
                                       ts.ChannelsFirst(),
                                       ts.TypeCast(['float', 'float']),

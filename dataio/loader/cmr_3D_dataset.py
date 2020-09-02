@@ -8,6 +8,8 @@ from .utils import load_nifti_img, check_exceptions, is_image_file
 
 import torchvision
 import skimage.transform
+import torchsample.transforms as ts
+
 
 class CMR3DDataset(data.Dataset):
     def __init__(self, root_dir, split, im_dim = None, transform=None, preload_data=False):
@@ -52,17 +54,21 @@ class CMR3DDataset(data.Dataset):
 
         
 
-        if self.im_dim != None:
-            input = skimage.transform.resize(input, self.im_dim)
+        # if self.im_dim != None:
+        #     input = skimage.transform.resize(input, self.im_dim)
 
         check_exceptions(input, target)
         if self.transform:
             input, target = self.transform(input, target)
 
 
-        
-
-
+        if self.im_dim != None:
+            input = input.numpy()
+            print("||||||  SHAPE", input.shape)
+            input = skimage.transform.resize(input, self.im_dim)
+            print("||||||  SHAPE", input.shape)
+            input = torch.Tensor(input)
+            print("||||||  SHAPE", input.shape)
 
         
 
