@@ -7,7 +7,7 @@ def get_network(name, n_classes, in_channels=3, feature_scale=4, tensor_dim='2D'
     model = _get_model_instance(name, tensor_dim)
 
     
-    elif name in ['unet_3d']:
+    if name in ['unet_3d']:
         model = model(n_classes=n_classes,
                       is_batchnorm=True,
                       in_channels=in_channels,
