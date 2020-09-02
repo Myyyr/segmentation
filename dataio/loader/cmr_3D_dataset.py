@@ -7,6 +7,7 @@ from os.path import join
 from .utils import load_nifti_img, check_exceptions, is_image_file
 
 import torchvision
+import cv2
 
 class CMR3DDataset(data.Dataset):
     def __init__(self, root_dir, split, im_dim = None, transform=None, preload_data=False):
@@ -51,10 +52,12 @@ class CMR3DDataset(data.Dataset):
 
         if self.im_dim != None:
             # print("||||||| INPUT SHAPE :", input.shape)
-            input = torchvision.transforms.ToTensor()(input)
-            input = torchvision.transforms.ToPILImage()(input)
-            input = torchvision.transforms.functional.resize(input, self.im_dim, interpolation=2)
-            input = torchvision.transforms.ToTensor()(input)
+            # input = torchvision.transforms.ToTensor()(input)
+            # input = torchvision.transforms.ToPILImage()(input)
+            # input = torchvision.transforms.functional.resize(input, self.im_dim, interpolation=2)
+            # input = torchvision.transforms.ToTensor()(input)
+            input = cv2.resize(input, dsize=self.im_dim, interpolation=cv2.INTER_CUBIC)
+
 
 
         check_exceptions(input, target)
