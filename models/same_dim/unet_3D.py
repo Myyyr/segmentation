@@ -1,6 +1,6 @@
 import math
 import torch.nn as nn
-from .utils import UnetConv3, UnetUp3
+from ..utils import UnetConv3, UnetUp3
 import torch.nn.functional as F
 from models.networks_other import init_weights
 
