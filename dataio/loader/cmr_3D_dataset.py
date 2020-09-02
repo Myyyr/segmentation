@@ -7,7 +7,7 @@ from os.path import join
 from .utils import load_nifti_img, check_exceptions, is_image_file
 
 import torchvision
-import skimage
+import skimage.transform
 
 class CMR3DDataset(data.Dataset):
     def __init__(self, root_dir, split, im_dim = None, transform=None, preload_data=False):
