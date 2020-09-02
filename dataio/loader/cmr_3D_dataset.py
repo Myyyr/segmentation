@@ -48,12 +48,18 @@ class CMR3DDataset(data.Dataset):
             target = np.copy(self.raw_labels[index])
 
         # handle exceptions
+
+        if self.im_dim != None:
+            input = torchvision.transforms.ToPILImage()(input)
+            input = torchvision.transforms.functional.resize(input, self.im_dim, interpolation=2)
+            input = torchvision.transforms.ToTensor()(input)
+
+            
         check_exceptions(input, target)
         if self.transform:
             input, target = self.transform(input, target)
 
-        if self.im_dim != None:
-            input = torchvision.transforms.functional.resize(input, self.im_dim, interpolation=2)
+
 
         
 
