@@ -50,7 +50,8 @@ class CMR3DDataset(data.Dataset):
         # handle exceptions
 
         if self.im_dim != None:
-            print("||||||| INPUT SHAPE :", input.shape)
+            # print("||||||| INPUT SHAPE :", input.shape)
+            input = torchvision.transforms.ToTensor()(input)
             input = torchvision.transforms.ToPILImage()(input)
             input = torchvision.transforms.functional.resize(input, self.im_dim, interpolation=2)
             input = torchvision.transforms.ToTensor()(input)
