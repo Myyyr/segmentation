@@ -12,6 +12,8 @@ def get_dataset(name):
 
     :param name:
     """
+
+    print("||| GET DATASET |||")
     return {
         'ukbb_sax': CMR3DDataset,
         'acdc_sax': CMR3DDataset,

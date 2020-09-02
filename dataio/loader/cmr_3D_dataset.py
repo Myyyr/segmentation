@@ -6,10 +6,13 @@ from os import listdir
 from os.path import join
 from .utils import load_nifti_img, check_exceptions, is_image_file
 
+import torchvision
 
 class CMR3DDataset(data.Dataset):
-    def __init__(self, root_dir, split, transform=None, preload_data=False):
+    def __init__(self, root_dir, split, im_dim = None, transform=None, preload_data=False):
         super(CMR3DDataset, self).__init__()
+        print("||| CMR3DDataset |||")
+        self.im_dim = im_dim
         image_dir = join(root_dir, split, 'image')
         # print("\n\n\n", image_dir,"\n\n\n")
         target_dir = join(root_dir, split, 'label')
@@ -45,9 +48,13 @@ class CMR3DDataset(data.Dataset):
             target = np.copy(self.raw_labels[index])
 
         # handle exceptions
+        if self.im_dim != None:
+            input = torchvision.transforms.functional.resize(input, self.im_dim, interpolation=2)
         check_exceptions(input, target)
         if self.transform:
             input, target = self.transform(input, target)
+
+        
 
         return input, target
 
