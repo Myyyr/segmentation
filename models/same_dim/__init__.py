@@ -3,7 +3,7 @@ from .unet_3D import *
 
 def get_network(name, n_classes, in_channels=3, feature_scale=4, tensor_dim='2D',
                 nonlocal_mode='embedded_gaussian', attention_dsample=(2,2,2),
-                aggregation_mode='concat'):
+                aggregation_mode='concat', im_dim=None):
     model = _get_model_instance(name, tensor_dim)
 
     
@@ -12,7 +12,8 @@ def get_network(name, n_classes, in_channels=3, feature_scale=4, tensor_dim='2D'
                       is_batchnorm=True,
                       in_channels=in_channels,
                       feature_scale=feature_scale,
-                      is_deconv=False)
+                      is_deconv=False,
+                      im_dim = im_dim)
     
     else:
         raise 'Model {} not available'.format(name)

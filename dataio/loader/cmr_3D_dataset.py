@@ -62,13 +62,13 @@ class CMR3DDataset(data.Dataset):
             input, target = self.transform(input, target)
 
 
-        if self.im_dim != None:
-            input = input.numpy()
-            print("||||||  SHAPE", input.shape)
-            input = skimage.transform.resize(input, self.im_dim)
-            print("||||||  SHAPE", input.shape)
-            input = torch.Tensor(input)
-            print("||||||  SHAPE", input.shape)
+        # if self.im_dim != None:
+        #     input = input.numpy()
+        #     print("||||||  SHAPE", input.shape)
+        #     input = skimage.transform.resize(input, self.im_dim)
+        #     print("||||||  SHAPE", input.shape)
+        #     input = torch.Tensor(input)
+        #     print("||||||  SHAPE", input.shape)
 
         
 

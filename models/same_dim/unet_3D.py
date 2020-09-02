@@ -3,10 +3,11 @@ import torch.nn as nn
 from models.networks.utils import UnetConv3, UnetUp3, UnetUp3_CT
 import torch.nn.functional as F
 from models.networks_other import init_weights
+import torch
 
 class unet_3D(nn.Module):
 
-    def __init__(self, feature_scale=4, n_classes=21, is_deconv=True, in_channels=3, is_batchnorm=True):
+    def __init__(self, feature_scale=4, n_classes=21, is_deconv=True, in_channels=3, is_batchnorm=True, im_dim = None):
         super(unet_3D, self).__init__()
         self.is_deconv = is_deconv
         self.in_channels = in_channels
@@ -15,6 +16,8 @@ class unet_3D(nn.Module):
 
         filters = [64, 128, 256, 512, 1024]
         filters = [int(x / self.feature_scale) for x in filters]
+
+        self.im_dim = im_dim
 
         # downsampling
         self.conv1 = UnetConv3(self.in_channels, filters[0], self.is_batchnorm, kernel_size=(3,3,3), padding_size=(1,1,1))
@@ -52,6 +55,10 @@ class unet_3D(nn.Module):
                 init_weights(m, init_type='kaiming')
 
     def forward(self, inputs):
+        if im_dim != None:
+            with torch.no_grad():
+                inputs = nn.functional.interpolate(inputs, self.im_dim, mode='bicubic')
+
         conv1 = self.conv1(inputs)
         maxpool1 = self.maxpool1(conv1)
 

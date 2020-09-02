@@ -45,7 +45,7 @@ def train(arguments):
     ds_transform = get_dataset_transformation(arch_type, opts=json_opts.augmentation)
 
     # Setup the NN Model
-    model = get_model(json_opts.model)
+    model = get_model(json_opts.model, im_dim = train_opts.im_dim)
     if network_debug:
         print('# of pars: ', model.get_number_parameters())
         print('fp time: {0:.3f} sec\tbp time: {1:.3f} sec per sample'.format(*model.get_fp_bp_time()))
