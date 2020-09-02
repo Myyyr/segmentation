@@ -52,15 +52,15 @@ class CMR3DDataset(data.Dataset):
 
         
 
-
+        if self.im_dim != None:
+            input = skimage.transform.resize(input, self.im_dim)
 
         check_exceptions(input, target)
         if self.transform:
             input, target = self.transform(input, target)
 
 
-        if self.im_dim != None:
-            input = skimage.transform.resize(input, self.im_dim)
+        
 
 
 
