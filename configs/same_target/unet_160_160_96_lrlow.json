@@ -3,7 +3,7 @@
     "arch_type": "acdc_sax",
     "n_epochs": 100,
     "save_epoch_freq": 49,
-    "lr_policy": "step_warmstart",
+    "lr_policy": "step_warmstart2",
     "lr_decay_iters": 250,
     "batchSize": 2,
     "preloadData": true,
