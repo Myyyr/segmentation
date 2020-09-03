@@ -57,6 +57,7 @@ class unet_3D(nn.Module):
     def forward(self, X):
         print("||start|| memory :",convert_bytes(torch.cuda.max_memory_allocated()))
         print("||start|| cur memory :", convert_bytes(torch.cuda.memory_allocated()))
+        print("|||| X size :", convert_bytes(X.element_size() * X.nelement()))
         if self.im_dim != None:
             with torch.no_grad():
                 # print("|||| INPUT SHAPE", inputs.shape)
@@ -65,6 +66,7 @@ class unet_3D(nn.Module):
 
         print("||interpolate|| memory :",convert_bytes(torch.cuda.max_memory_allocated()))
         print("||interpolate|| cur memory :", convert_bytes(torch.cuda.memory_allocated()))
+        print("|||| inputs size :", convert_bytes(inputs.element_size() * inputs.nelement()))
         del X
         print("||del|| memory :",convert_bytes(torch.cuda.max_memory_allocated()))
         print("||del|| cur memory :", convert_bytes(torch.cuda.memory_allocated()))
