@@ -57,6 +57,7 @@ class unet_3D(nn.Module):
     def forward(self, inputs):
         if self.im_dim != None:
             with torch.no_grad():
+                print("|||| INPUT SHAPE", inputs.shape)
                 inputs = nn.functional.interpolate(inputs, self.im_dim, mode='bicubic')
 
         conv1 = self.conv1(inputs)
