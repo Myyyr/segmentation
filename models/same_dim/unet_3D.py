@@ -41,7 +41,7 @@ class unet_3D(nn.Module):
         self.up_concat1 = UnetUp3_CT(filters[1], filters[0], is_batchnorm)
 
         # final conv (without any concat)
-        self.final = nn.Conv3d(n_classes*4, n_classes, 1)
+        self.final = nn.Conv3d(filters[0], n_classes, 1)
 
         # interpolation
         self.interpolation = nn.Upsample(size = (512,512,256), mode = "trilinear")
