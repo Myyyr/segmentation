@@ -82,7 +82,7 @@ class FeedForwardSegmentation(BaseModel):
         if split == 'train':
             with torch.enable_grad():
                 self.prediction = self.net(Variable(self.input))
-                del self.input
+                # del self.input
         elif split == 'test':
             with torch.no_grad():
                 self.prediction = self.net(Variable(self.input, volatile=True))
@@ -94,7 +94,7 @@ class FeedForwardSegmentation(BaseModel):
                 # print("Sum 1 :",np.sum(self.logits.cpu().numpy()[:,1,...]))
                 self.pred_seg = self.logits.data.max(1)[1].unsqueeze(1)
                 # print("Sum :", self.pred_seg.sum())
-                del self.input
+                # del self.input
             
     def backward(self):
         self.loss_S = self.criterion(self.prediction, self.target)
@@ -106,8 +106,8 @@ class FeedForwardSegmentation(BaseModel):
 
         self.optimizer_S.zero_grad()
         self.backward()
-        del self.prediction
-        del self.target
+        # del self.prediction
+        # del self.target
         self.optimizer_S.step()
 
     # This function updates the network parameters every "accumulate_iters"
