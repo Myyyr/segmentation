@@ -55,19 +55,19 @@ class unet_3D(nn.Module):
                 init_weights(m, init_type='kaiming')
 
     def forward(self, X):
-        print("||start|| memory :",torch.cuda.max_memory_allocated())
-        print("||start|| cur memory :",torch.cuda.memory_allocated())
+        print("||start|| memory :",convert_bytes(torch.cuda.max_memory_allocated()))
+        print("||start|| cur memory :", convert_bytes(torch.cuda.memory_allocated()))
         if self.im_dim != None:
             with torch.no_grad():
                 # print("|||| INPUT SHAPE", inputs.shape)
                 inputs = nn.functional.interpolate(X, self.im_dim, mode='trilinear')
                 # print("|||| INPUT SHAPE", inputs.shape)
 
-        print("||interpolate|| memory :",torch.cuda.max_memory_allocated())
-        print("||interpolate|| cur memory :",torch.cuda.memory_allocated())
+        print("||interpolate|| memory :",convert_bytes(torch.cuda.max_memory_allocated()))
+        print("||interpolate|| cur memory :", convert_bytes(torch.cuda.memory_allocated()))
         del X
-        print("||del|| memory :",torch.cuda.max_memory_allocated())
-        print("||del|| cur memory :",torch.cuda.memory_allocated())
+        print("||del|| memory :",convert_bytes(torch.cuda.max_memory_allocated()))
+        print("||del|| cur memory :", convert_bytes(torch.cuda.memory_allocated()))
 
         conv1 = self.conv1(inputs)
         maxpool1 = self.maxpool1(conv1)
@@ -87,12 +87,19 @@ class unet_3D(nn.Module):
         up2 = self.up_concat2(conv2, up3)
         up1 = self.up_concat1(conv1, up2)
 
+        print("||down/up|| memory :",convert_bytes(torch.cuda.max_memory_allocated()))
+        print("||down/up|| cur memory :", convert_bytes(torch.cuda.memory_allocated()))
+
+        del maxpool1, maxpool2, maxpool3, maxpool4, center
+        print("||del maxpool|| memory :",convert_bytes(torch.cuda.max_memory_allocated()))
+        print("||del maxpool|| cur memory :", convert_bytes(torch.cuda.memory_allocated()))
+
         final = self.final(up1)
-        print("||final|| memory :",torch.cuda.max_memory_allocated())
-        print("||final|| cur memory :",torch.cuda.memory_allocated())
+        print("||final|| memory :",convert_bytes(torch.cuda.max_memory_allocated()))
+        print("||final|| cur memory :", convert_bytes(torch.cuda.memory_allocated()))
         final = self.interpolation(final)
-        print("||interpolation|| memory :",torch.cuda.max_memory_allocated())
-        print("||interpolation|| cur memory :",torch.cuda.memory_allocated())
+        print("||interpolation|| memory :",convert_bytes(torch.cuda.max_memory_allocated()))
+        print("||interpolation|| cur memory :", convert_bytes(torch.cuda.memory_allocated()))
 
         return final
 
@@ -102,6 +109,15 @@ class unet_3D(nn.Module):
 
         return log_p
 
+
+
+def convert_bytes(size):
+    for x in ['bytes', 'KB', 'MB', 'GB', 'TB']:
+        if size < 1024.0:
+            return "%3.2f %s" % (size, x)
+        size /= 1024.0
+
+    return size
 
 
 
