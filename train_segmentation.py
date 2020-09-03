@@ -79,6 +79,8 @@ def train(arguments):
             errors = model.get_current_errors()
             error_logger.update(errors, split='train')
 
+            del images, labels
+
         # Validation and Testing Iterations
         for loader, split in zip([valid_loader, test_loader], ['validation', 'test']):
             for epoch_iter, (images, labels) in tqdm(enumerate(loader, 1), total=len(loader)):
@@ -95,6 +97,8 @@ def train(arguments):
                 # Visualise predictions
                 visuals = model.get_current_visuals()
                 visualizer.display_current_results(visuals, epoch=epoch, save_result=False)
+
+                del images, labels
 
         # Update the plots
         for split in ['train', 'validation', 'test']:
