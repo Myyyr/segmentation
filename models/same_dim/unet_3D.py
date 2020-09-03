@@ -59,10 +59,10 @@ class unet_3D(nn.Module):
             with torch.no_grad():
                 print("|||| INPUT SHAPE", inputs.shape)
                 # b,c,x,y,z = inputs.shape
-                inputs = torch.squeeze(inputs)#, (b,x,y,z))
+                # inputs = torch.squeeze(inputs)#, (b,x,y,z))
                 inputs = nn.functional.interpolate(inputs, self.im_dim, mode='trilinear')
                 # b,x,y,z = inputs.shape
-                inputs = torch.unsqueeze(inputs, 1)#, (b,c,x,y,z))
+                # inputs = torch.unsqueeze(inputs, 1)#, (b,c,x,y,z))
                 print("|||| INPUT SHAPE", inputs.shape)
 
 
