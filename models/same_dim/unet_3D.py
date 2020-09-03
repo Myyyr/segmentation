@@ -54,17 +54,20 @@ class unet_3D(nn.Module):
             elif isinstance(m, nn.BatchNorm3d):
                 init_weights(m, init_type='kaiming')
 
-    def forward(self, inputs):
+    def forward(self, X):
+        print("||start|| memory :",torch.cuda.max_memory_allocated())
+        print("||start|| cur memory :",torch.cuda.memory_allocated())
         if self.im_dim != None:
             with torch.no_grad():
-                print("|||| INPUT SHAPE", inputs.shape)
-                # b,c,x,y,z = inputs.shape
-                # inputs = torch.squeeze(inputs)#, (b,x,y,z))
-                inputs = nn.functional.interpolate(inputs, self.im_dim, mode='trilinear')
-                # b,x,y,z = inputs.shape
-                # inputs = torch.unsqueeze(inputs, 1)#, (b,c,x,y,z))
-                print("|||| INPUT SHAPE", inputs.shape)
+                # print("|||| INPUT SHAPE", inputs.shape)
+                inputs = nn.functional.interpolate(X, self.im_dim, mode='trilinear')
+                # print("|||| INPUT SHAPE", inputs.shape)
 
+        print("||interpolate|| memory :",torch.cuda.max_memory_allocated())
+        print("||interpolate|| cur memory :",torch.cuda.memory_allocated())
+        del X
+        print("||del|| memory :",torch.cuda.max_memory_allocated())
+        print("||del|| cur memory :",torch.cuda.memory_allocated())
 
         conv1 = self.conv1(inputs)
         maxpool1 = self.maxpool1(conv1)
@@ -85,7 +88,11 @@ class unet_3D(nn.Module):
         up1 = self.up_concat1(conv1, up2)
 
         final = self.final(up1)
+        print("||final|| memory :",torch.cuda.max_memory_allocated())
+        print("||final|| cur memory :",torch.cuda.memory_allocated())
         final = self.interpolation(final)
+        print("||interpolation|| memory :",torch.cuda.max_memory_allocated())
+        print("||interpolation|| cur memory :",torch.cuda.memory_allocated())
 
         return final
 
