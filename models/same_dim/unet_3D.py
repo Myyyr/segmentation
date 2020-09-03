@@ -60,7 +60,7 @@ class unet_3D(nn.Module):
                 print("|||| INPUT SHAPE", inputs.shape)
                 b,c,x,y,z = inputs.shape
                 inputs = torch.reshape(inputs, (b,x,y,z))
-                inputs = nn.functional.interpolate(inputs, self.im_dim, mode='bicubic')
+                inputs = nn.functional.interpolate(inputs, self.im_dim, mode='bilinear')
                 b,x,y,z = inputs.shape
                 inputs = torch.reshape(inputs, (b,c,x,y,z))
 
