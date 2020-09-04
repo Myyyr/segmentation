@@ -114,6 +114,8 @@ def train(arguments):
         """
         # Update the model learning rate
         model.update_learning_rate()
+        if epoch == 30:
+            exit(0)
 
 
 if __name__ == '__main__':
