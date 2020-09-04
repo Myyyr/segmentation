@@ -67,7 +67,7 @@ def train(arguments):
     model.set_scheduler(train_opts)
     for epoch in range(model.which_epoch, train_opts.n_epochs):
         print('(epoch: %d, total # iters: %d)' % (epoch, len(train_loader)))
-        """
+        
         # Training Iterations
         for epoch_iter, (images, labels) in tqdm(enumerate(train_loader, 1), total=len(train_loader)):
             # Make a training update
@@ -111,11 +111,10 @@ def train(arguments):
         # Save the model parameters
         if epoch % train_opts.save_epoch_freq == 0:
             model.save(epoch)
-        """
+        
         # Update the model learning rate
         model.update_learning_rate()
-        if epoch == 30:
-            exit(0)
+
 
 
 if __name__ == '__main__':

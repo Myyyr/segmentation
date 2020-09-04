@@ -118,7 +118,7 @@ def get_scheduler(optimizer, opt):
             elif 75 <= epoch:
                 lr_l = 0.0008
             return lr_l
-        print("Lr change with ...")
+        # print("Lr change with ...")
         scheduler = lr_scheduler.LambdaLR(optimizer, lr_lambda=lambda_rule)
     elif opt.lr_policy == 'step_warmstart2':
         def lambda_rule(epoch):
