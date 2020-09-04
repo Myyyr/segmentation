@@ -13,7 +13,7 @@ from models import get_model
 import torch
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = '0'
+os.environ["CUDA_VISIBLE_DEVICES"] = '1'
 # 0 -> quadro
 # 3 -> GTX2 
 
