@@ -1,6 +1,6 @@
 {
   "training":{
-    "arch_type": "acdc_sax",
+    "arch_type": "split_tcia",
     "n_epochs": 100,
     "save_epoch_freq": 49,
     "lr_policy": "step_warmstart",
@@ -17,7 +17,7 @@
     "display_single_pane_ncols": 0
   },
   "data_path": {
-    "acdc_sax": "/etudiants/siscol/t/themyr_l/TCIA_torch"
+    "split_tcia": "/etudiants/siscol/t/themyr_l/TCIA_torch"
   },
   "augmentation": {
     "acdc_sax": {
