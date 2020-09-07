@@ -88,7 +88,7 @@ class SplitTCIA3DDataset(data.Dataset):
         #     input = torch.Tensor(input)
         #     print("||||||  SHAPE", input.shape)
 
-        print("shapes : " input.shape, target.shape)
+        print("shapes : ", input.shape, target.shape)
 
         return input, target
 
