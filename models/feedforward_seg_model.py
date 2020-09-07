@@ -76,7 +76,7 @@ class FeedForwardSegmentation(BaseModel):
                 self.input = _input.cuda() if self.use_cuda else _input
             elif idx == 1:
                 self.target = Variable(_input.cuda()) if self.use_cuda else Variable(_input)
-                assert self.input.size() == self.target.size()
+                # assert self.input.size() == self.target.size()
 
     def forward(self, split):
         if split == 'train':
