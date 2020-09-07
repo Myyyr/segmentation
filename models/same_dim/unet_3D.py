@@ -58,10 +58,10 @@ class unet_3D(nn.Module):
         # print("||start|| memory :",convert_bytes(torch.cuda.max_memory_allocated()))
         # print("||start|| cur memory :", convert_bytes(torch.cuda.memory_allocated()))
         # print("|||| X size :", convert_bytes(X.element_size() * X.nelement()))
-        if self.im_dim != None:
-            with torch.no_grad():
-                # print("|||| INPUT SHAPE", inputs.shape)
-                inputs = nn.functional.interpolate(X, self.im_dim, mode='trilinear')
+        # if self.im_dim != None:
+        #     with torch.no_grad():
+        #         # print("|||| INPUT SHAPE", inputs.shape)
+        #         inputs = nn.functional.interpolate(X, self.im_dim, mode='trilinear')
                 # print("|||| INPUT SHAPE", inputs.shape)
 
         # print("||interpolate|| memory :",convert_bytes(torch.cuda.max_memory_allocated()))

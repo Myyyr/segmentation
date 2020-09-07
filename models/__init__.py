@@ -29,13 +29,13 @@ class ModelOpts:
         self.aggregation_mode = 'concatenation'
 
 
-    def initialise(self, json_opts):
+    def initialise(self, json_opts, split = 0):
         opts = json_opts
 
         self.raw = json_opts
         self.gpu_ids = opts.gpu_ids
         self.isTrain = opts.isTrain
-        self.save_dir = os.path.join(opts.checkpoints_dir, opts.experiment_name)
+        self.save_dir = os.path.join(opts.checkpoints_dir, opts.experiment_name + '_split_' + str(split))
         self.model_type = opts.model_type
         self.input_nc = opts.input_nc
         self.output_nc = opts.output_nc
@@ -56,12 +56,12 @@ class ModelOpts:
         # Classifier
         if hasattr(opts, 'aggregation_mode'): self.aggregation_mode = opts.aggregation_mode
 
-def get_model(json_opts, im_dim = None):
+def get_model(json_opts, im_dim = None, split = 0):
 
     # Neural Network Model Initialisation
     model = None
     model_opts = ModelOpts()
-    model_opts.initialise(json_opts)
+    model_opts.initialise(json_opts, split)
 
     # Print the model type
     print('\nInitialising model {}'.format(model_opts.model_type))
