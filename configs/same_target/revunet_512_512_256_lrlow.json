@@ -17,7 +17,7 @@
     "display_single_pane_ncols": 0
   },
   "data_path": {
-    "split_tcia": "/etudiants/siscol/t/themyr_l/TCIA_torch"
+    "split_tcia": "/etudiants/siscol/t/themyr_l/data"
   },
   "augmentation": {
     "split_tcia": {
