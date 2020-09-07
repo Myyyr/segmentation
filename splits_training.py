@@ -92,7 +92,7 @@ def train(arguments, data_splits, n_split = 0):
             # Error visualisation
             errors = model.get_current_errors()
             stats = model.get_segmentation_stats()
-            # error_logger.update({**errors, **stats}, split=split)
+            error_logger.update({**errors, **stats}, split=split)
 
             # Visualise predictions
             visuals = model.get_current_visuals()
