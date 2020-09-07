@@ -7,7 +7,7 @@
     "lr_decay_iters": 250,
     "batchSize": 2,
     "preloadData": true,
-    "im_dim": "160_160_96]"
+    "im_dim": "160_160_96"
   },
   "visualisation":{
     "display_port": 8097,
