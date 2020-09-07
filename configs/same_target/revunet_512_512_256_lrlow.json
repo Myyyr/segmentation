@@ -1,13 +1,13 @@
 {
   "training":{
-    "arch_type": "acdc_sax",
+    "arch_type": "split_tcia",
     "n_epochs": 100,
     "save_epoch_freq": 49,
     "lr_policy": "step_warmstart2",
     "lr_decay_iters": 250,
     "batchSize": 2,
     "preloadData": true,
-    "im_dim": [512,512,256]
+    "im_dim": "512_512_256"
   },
   "visualisation":{
     "display_port": 8097,
@@ -17,10 +17,10 @@
     "display_single_pane_ncols": 0
   },
   "data_path": {
-    "acdc_sax": "/etudiants/siscol/t/themyr_l/TCIA_torch"
+    "split_tcia": "/etudiants/siscol/t/themyr_l/TCIA_torch"
   },
   "augmentation": {
-    "acdc_sax": {
+    "split_tcia": {
       "shift": [0.1,0.1],
       "rotate": 15.0,
       "scale": [0.7,1.3],
@@ -45,7 +45,7 @@
     "gpu_ids": [0],
     "isTrain": true,
     "checkpoints_dir": "./checkpoints/same_dim/",
-    "experiment_name": "revunet_3d_lrlow",
+    "experiment_name": "revunet_3d",
     "criterion": "dice_loss"
   }
 }
