@@ -76,8 +76,8 @@ class SplitTCIA3DDataset(data.Dataset):
 
         #check_exceptions(input, target)
         if self.transform:
-            input, _ = self.transform(input, torch.from_numpy(np.ones(input.shape)) )
-            _, target = self.transform(torch.from_numpy(np.ones(target.shape)), target)
+            input, _ = self.transform(input, np.ones(input.shape) )
+            _, target = self.transform(np.ones(target.shape), target)
 
 
         # if self.im_dim != None:
