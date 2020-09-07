@@ -13,7 +13,7 @@ from models import get_model
 import torch
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = '0'
+os.environ["CUDA_VISIBLE_DEVICES"] = '1'
 # 0 -> quadro
 # 3 -> GTX2 
 
@@ -125,7 +125,7 @@ if __name__ == '__main__':
     parser.add_argument('-c', '--config',  help='training config file', required=True)
     parser.add_argument('-d', '--debug',   help='returns number of parameters and bp/fp runtime', action='store_true')
     args = parser.parse_args()
-    data_splits = {}
+    data_splits = {'train'=[], 'test'=[]}
     all_splits = ['split_'+str(i+1) for i in range(6)]
     for i in range(6):
         data_splits['test'] = all_splits[i]
