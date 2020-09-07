@@ -123,14 +123,10 @@ def get_scheduler(optimizer, opt):
     elif opt.lr_policy == 'step_warmstart2':
         def lambda_rule(epoch):
             #print(epoch)
-            if epoch < 25:
+            if epoch < 60:
                 lr_l = 0.01
-            elif 25 <= epoch < 50:
+            elif 60 <= epoch < 101:
                 lr_l = 0.002
-            elif 50 <= epoch < 75:
-                lr_l = 0.0004
-            elif 75 <= epoch:
-                lr_l = 0.00008
             return lr_l
         scheduler = lr_scheduler.LambdaLR(optimizer, lr_lambda=lambda_rule)
     else:
