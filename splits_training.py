@@ -128,7 +128,7 @@ if __name__ == '__main__':
     data_splits = {'train':[], 'test':[]}
     all_splits = ['split_'+str(i+1) for i in range(6)]
     for i in range(6):
-        data_splits['test'] = all_splits[i]
+        data_splits['test'] = [all_splits[i]]
         data_splits['train'] = all_splits[:i] + all_splits[i+1:]
 
         train(args, data_splits, i+1)
