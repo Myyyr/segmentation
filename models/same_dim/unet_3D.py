@@ -67,11 +67,12 @@ class unet_3D(nn.Module):
         # print("||interpolate|| memory :",convert_bytes(torch.cuda.max_memory_allocated()))
         # print("||interpolate|| cur memory :", convert_bytes(torch.cuda.memory_allocated()))
         # print("|||| inputs size :", convert_bytes(inputs.element_size() * inputs.nelement()))
-        del X
+        # del X
         # print("||del|| memory :",convert_bytes(torch.cuda.max_memory_allocated()))
         # print("||del|| cur memory :", convert_bytes(torch.cuda.memory_allocated()))
 
-        conv1 = self.conv1(inputs)
+        conv1 = self.conv1(X)
+        del X
         maxpool1 = self.maxpool1(conv1)
 
         conv2 = self.conv2(maxpool1)
