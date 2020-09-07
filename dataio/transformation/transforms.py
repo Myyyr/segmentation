@@ -29,6 +29,8 @@ class Transformations:
             'test_sax': self.test_3d_sax_transform,
             'acdc_sax': self.cmr_3d_sax_transform,
             'us':       self.ultrasound_transform,
+            'split_tcia': self.cmr_3d_sax_transform,
+
         }[self.name]()
 
     def print(self):

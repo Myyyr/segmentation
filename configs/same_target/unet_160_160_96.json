@@ -20,7 +20,7 @@
     "split_tcia": "/etudiants/siscol/t/themyr_l/TCIA_torch"
   },
   "augmentation": {
-    "acdc_sax": {
+    "split_tcia": {
       "shift": [0.1,0.1],
       "rotate": 15.0,
       "scale": [0.7,1.3],
