@@ -34,7 +34,7 @@
     "type":"seg",
     "continue_train": false,
     "which_epoch": -1,
-    "model_type": "unet_3d",
+    "model_type": "revunet",
     "tensor_dim": "3D",
     "division_factor": 16,
     "input_nc": 1,

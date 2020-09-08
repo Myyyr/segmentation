@@ -122,9 +122,9 @@ class DecoderModule(nn.Module):
             x = F.interpolate(x, scale_factor=2, mode="trilinear", align_corners=False)
         return x
 
-class NoNewReversible_big(nn.Module):
+class RevUnet3D(nn.Module):
     def __init__(self):
-        super(NoNewReversible_big, self).__init__()
+        super(RevUnet3D, self).__init__()
         depth = 1
         self.levels = 5
 
