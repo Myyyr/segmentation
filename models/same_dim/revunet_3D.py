@@ -28,7 +28,7 @@ INPLACE = True
 #CHANNELS = [36, 72, 144, 288, 576] #normal doubling strategy
 # CHANNELS = [60, 120, 240, 360, 480]
 CHANNELS = [64, 128, 256, 512, 1024]
-CHANNELS = [int(x/16) for x in CHANNELS]
+CHANNELS = [int(x) for x in CHANNELS]
 INITIAL_LR = 1e-4
 L2_REGULARIZER = 1e-5
 
