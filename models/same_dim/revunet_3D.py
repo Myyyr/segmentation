@@ -144,7 +144,11 @@ class NoNewReversible_big(nn.Module):
             decoderModules.append(DecoderModule(getChannelsAtIndex(self.levels - i - 1), getChannelsAtIndex(self.levels - i - 2), depth, i != (self.levels -1)))
         self.decoders = nn.ModuleList(decoderModules)
 
+
+        self.interpolation = nn.Upsample(size = (512,512,256), mode = "trilinear")
+
     def forward(self, x):
+        tibo_in_shape = x.shape[-3:]
         x = self.firstConv(x)
         #x = self.dropout(x)
 
@@ -160,6 +164,9 @@ class NoNewReversible_big(nn.Module):
                 x = x + inputStack.pop()
 
         x = self.lastConv(x)
+
+        if tibo_in_shape != [512,512,256]:
+            x = self.interpolation(x)
         #x = torch.sigmoid(x)
         return x
 
