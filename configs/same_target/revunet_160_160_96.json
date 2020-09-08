@@ -1,0 +1,54 @@
+{
+  "training":{
+    "arch_type": "split_tcia",
+    "n_epochs": 100,
+    "save_epoch_freq": 49,
+    "lr_policy": "step_warmstart2",
+    "lr_decay_iters": 250,
+    "batchSize": 2,
+    "preloadData": true,
+    "im_dim": "160_160_96"
+  },
+  "visualisation":{
+    "display_port": 8097,
+    "no_html": true,
+    "display_winsize": 96,
+    "display_id": 0,
+    "display_single_pane_ncols": 0
+  },
+  "data_path": {
+    "split_tcia": "/etudiants/siscol/t/themyr_l/data"
+  },
+  "augmentation": {
+    "split_tcia": {
+      "shift": [0.1,0.1],
+      "rotate": 15.0,
+      "scale": [0.7,1.3],
+      "intensity": [1.0,1.0],
+      "random_flip_prob": 0.5,
+      "scale_size": [160,160,96],
+      "patch_size": [160,160,96]
+    }
+  },
+  "model":{
+    "type":"seg",
+    "continue_train": false,
+    "which_epoch": -1,
+    "model_type": "unet_3d",
+    "tensor_dim": "3D",
+    "division_factor": 16,
+    "input_nc": 1,
+    "output_nc": 2,
+    "lr_rate": 1e-2,
+    "l2_reg_weight": 5e-4,
+    "feature_scale": 16,
+    "gpu_ids": [0],
+    "isTrain": true,
+    "checkpoints_dir": "./checkpoints/same_dim/",
+    "experiment_name": "revunet_3d_160_160_96",
+    "criterion": "dice_loss"
+  }
+}
+
+
+
