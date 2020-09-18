@@ -107,7 +107,7 @@ class unet_3D(nn.Module):
         del Y
         print("||interpolation|| memory :",convert_bytes(torch.cuda.max_memory_allocated()))
         print("||interpolation|| cur memory :", convert_bytes(torch.cuda.memory_allocated()))
-
+        exit(0)
         return final
 
     @staticmethod
