@@ -32,8 +32,8 @@
   },
   "model":{
     "type":"seg",
-    "continue_train": false,
-    "which_epoch": -1,
+    "continue_train": true,
+    "which_epoch": 98,
     "model_type": "unet_3d",
     "tensor_dim": "3D",
     "division_factor": 16,
