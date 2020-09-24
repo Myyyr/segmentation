@@ -81,16 +81,16 @@ def train(arguments, data_splits, n_split = 0):
 
         # Visualise predictions
         visuals = model.get_current_visuals()
-        visualizer.display_current_results(visuals, epoch=epoch, save_result=False)
+        visualizer.display_current_results(visuals, epoch=1, save_result=False)
 
         del images, labels
 
     # Update the plots
     for split in ['test']:
-        visualizer.plot_current_errors(epoch, error_logger.get_errors(split), split_name=split)
-        visualizer.print_current_errors(epoch, error_logger.get_errors(split), split_name=split)
+        visualizer.plot_current_errors(1, error_logger.get_errors(split), split_name=split)
+        visualizer.print_current_errors(1, error_logger.get_errors(split), split_name=split)
     error_logger.reset()
-    print("Memory Usage :", convert_bytes(torch.cuda.max_memory_allocated()))
+    # print("Memory Usage :", convert_bytes(torch.cuda.max_memory_allocated()))
     print("Number of parameters :", model.get_number_parameters())
 
     
