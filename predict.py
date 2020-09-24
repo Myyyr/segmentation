@@ -72,7 +72,7 @@ def train(arguments, data_splits, n_split = 0):
 
         # Make a forward pass with the model
         model.set_input(images, labels)
-        model.pretict(predict_path)
+        model.predict(predict_path)
 
         # Error visualisation
         errors = model.get_current_errors()
