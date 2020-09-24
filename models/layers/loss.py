@@ -79,7 +79,7 @@ class One_Hot(nn.Module):
     def __init__(self, depth):
         super(One_Hot, self).__init__()
         self.depth = depth
-        self.ones = torch.sparse.torch.eye(depth).cuda()
+        self.ones = torch.sparse.torch.eye(depth)#.cuda()
 
     def forward(self, X_in):
         n_dim = X_in.dim()
@@ -100,6 +100,6 @@ if __name__ == '__main__':
     encoder = One_Hot(depth=depth).forward
     y = Variable(torch.LongTensor(batch_size, 1, 1, 2 ,2).random_() % depth).cuda()  # 4 classes,1x3x3 img
     y_onehot = encoder(y)
-    x = Variable(torch.randn(y_onehot.size()).float()).cuda()
+    x = Variable(torch.randn(y_onehot.size()).float())#.cuda()
     dicemetric = SoftDiceLoss(n_classes=depth)
     dicemetric(x,y)
