@@ -20,6 +20,7 @@ class FeedForwardSegmentation(BaseModel):
     def initialize(self, opts, im_dim = None,**kwargs):
         BaseModel.initialize(self, opts, **kwargs)
         self.isTrain = opts.isTrain
+        self.index = 0
 
         # define network input and output pars
         self.input = None
@@ -130,6 +131,16 @@ class FeedForwardSegmentation(BaseModel):
         self.net.eval()
         self.forward(split='test')
         self.loss_S = self.criterion(self.prediction, self.target)
+
+    def predict(self, path):
+        self.index += 1
+        self.net.eval()
+        self.forward(split='test')
+
+        np.save(path+"input_"+str(self.index), self.input.numpy())
+        np.save(path+"target_"+str(self.index), self.target.numpy())
+        np.save(path+"prediction_"+str(self.index), self.prediction.numpy())
+
 
     def get_segmentation_stats(self):
         self.seg_scores, self.dice_score = segmentation_stats(self.prediction, self.target)
