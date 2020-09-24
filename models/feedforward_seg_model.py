@@ -141,6 +141,9 @@ class FeedForwardSegmentation(BaseModel):
         np.save(path+"target_"+str(self.index), self.target.numpy())
         np.save(path+"prediction_"+str(self.index), self.prediction.numpy())
 
+        self.loss_S = self.criterion(self.prediction, self.target)
+
+
 
     def get_segmentation_stats(self):
         self.seg_scores, self.dice_score = segmentation_stats(self.prediction, self.target)

@@ -55,6 +55,9 @@ class BaseModel():
     def get_input_size(self):
         return self.input.size() if input else None
 
+    def predict(self, path):
+        pass
+
     def save(self, label):
         pass
 
