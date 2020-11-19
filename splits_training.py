@@ -46,6 +46,12 @@ def train(arguments, data_splits, n_split = 0):
 
     # Setup the NN Model
     model = get_model(json_opts.model, im_dim = train_opts.im_dim, split=n_split)
+    
+    if not os.path.exists(arguments.load):
+        torch.save(model, arguments.load)
+    else:
+        model.load(arguments.load)
+
     if network_debug:
         print('# of pars: ', model.get_number_parameters())
         print('fp time: {0:.3f} sec\tbp time: {1:.3f} sec per sample'.format(*model.get_fp_bp_time()))
@@ -125,6 +131,7 @@ if __name__ == '__main__':
     parser.add_argument('-c', '--config',  help='training config file', required=True)
     parser.add_argument('-d', '--debug',   help='returns number of parameters and bp/fp runtime', action='store_true')
     parser.add_argument('-g', '--gpu',  help='gpu to use', required=True)
+    parser.add_argument('-l', '--load', help='load parameters path', required=True)
     args = parser.parse_args()
 
     os.environ["CUDA_VISIBLE_DEVICES"] = str(args.gpu)

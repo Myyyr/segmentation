@@ -25,3 +25,4 @@ Pytorch implementation of attention gates used in U-Net and VGG-16 models. The f
 ### Installation
 pip install --process-dependency-links -e .
 
+jupyter-notebook --port=8888 --no-browser --ip=0.0.0.0 --allow-root

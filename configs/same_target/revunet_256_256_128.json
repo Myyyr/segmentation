@@ -6,7 +6,7 @@
     "lr_policy": "step_warmstart2",
     "lr_decay_iters": 250,
     "batchSize": 2,
-    "preloadData": true,
+    "preloadData": false,
     "im_dim": "256_256_128"
   },
   "visualisation":{
