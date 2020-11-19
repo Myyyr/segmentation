@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 # from models.networks_other import init_weights
-from segmentation.models.networks_other import init_weights
+from models.networks_other import init_weights
 
 class conv2DBatchNorm(nn.Module):
     def __init__(self, in_channels, n_filters, k_size,  stride, padding, bias=True):
