@@ -32,7 +32,7 @@
   },
   "model":{
     "type":"seg",
-    "continue_train": true,
+    "continue_train": false,
     "which_epoch": 98,
     "model_type": "revunet",
     "tensor_dim": "3D",
