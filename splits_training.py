@@ -45,6 +45,7 @@ def train(arguments, data_splits, n_split = 0):
     ds_transform = get_dataset_transformation(arch_type, opts=json_opts.augmentation)
 
     # Setup the NN Model
+    print("########GET MODEL########")
     model = get_model(json_opts.model, im_dim = train_opts.im_dim, split=n_split)
 
     print("########LOAD OR SAVE MODEL########")
