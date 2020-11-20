@@ -17,7 +17,7 @@
     "display_single_pane_ncols": 0
   },
   "data_path": {
-    "split_tcia": "/etudiants/siscol/t/themyr_l/data/"
+    "split_tcia": "/local/SSD_DEEPLEARNING/PANCREAS_MULTI_RES/"
   },
   "augmentation": {
     "split_tcia": {
