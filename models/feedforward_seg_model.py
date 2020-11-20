@@ -1,18 +1,28 @@
 import torch
+print("ok import torchfor imports : ")
 from torch.autograd import Variable
+print("ok for imports : from torch.autograd import Variable")
 import torch.optim as optim
-
+print("ok for imports : import torch.optim as optim")
 from collections import OrderedDict
+print("ok for imports : from collections import OrderedDict")
 import utils.util as util
+print("ok for imports :import utils.util as util ")
 from .base_model import BaseModel
+print("ok for imports : from .base_model import BaseModel")
 from .same_dim import get_network
+print("ok for imports : from .same_dim import get_network")
 from .layers.loss import *
+print("ok for imports : from .layers.loss import *")
 from .networks_other import get_scheduler, print_network, benchmark_fp_bp_time
+print("ok for imports : from .networks_other import get_scheduler, print_network, benchmark_fp_bp_time")
 from .utils import segmentation_stats, get_optimizer, get_criterion
+print("ok for imports : from .utils import segmentation_stats, get_optimizer, get_criterion")
 from .networks.utils import HookBasedFeatureExtractor
+print("ok for imports : from .networks.utils import HookBasedFeatureExtractor")
 
 import numpy as np
-print("ok for imports")
+print("ok for imports : np")
 exit(0)
 class FeedForwardSegmentation(BaseModel):
 
