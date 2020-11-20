@@ -8,7 +8,7 @@ print("import torch.nn.functional as F")
 print("# from models.networks_other import init_weights")
 from models.networks_other import init_weights
 print("from models.networks_other import init_weights")
-exit(0)
+
 class conv2DBatchNorm(nn.Module):
     def __init__(self, in_channels, n_filters, k_size,  stride, padding, bias=True):
         super(conv2DBatchNorm, self).__init__()
@@ -464,3 +464,6 @@ class UnetDsv3(nn.Module):
 
     def forward(self, input):
         return self.dsv(input)
+
+print("end file")
+exit(0)
