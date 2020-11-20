@@ -53,7 +53,7 @@ def train(arguments, data_splits, n_split = 0):
     if not os.path.exists(arguments.load):
         torch.save(model, arguments.load)
     else:
-        model.net.load(arguments.load)
+        model.load_network_from_path(model.net, arguments.load, False)
 
     print("########LOAD OR SAVE MODEL : DONE########")
 
