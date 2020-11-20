@@ -1,10 +1,16 @@
 import math
+print("import math")
 import torch.nn as nn
+print("import torch.nn as nn")
 from models.networks.utils import UnetConv3, UnetUp3, UnetUp3_CT
+print("from models.networks.utils import UnetConv3, UnetUp3, UnetUp3_CT")
 import torch.nn.functional as F
+print("import torch.nn.functional as F")
 from models.networks_other import init_weights
+print("from models.networks_other import init_weights")
 import torch
-
+print("import torch")
+exit(0)
 class unet_3D(nn.Module):
 
     def __init__(self, feature_scale=4, n_classes=21, is_deconv=True, in_channels=3, is_batchnorm=True, im_dim = None):
