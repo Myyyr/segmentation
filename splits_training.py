@@ -57,7 +57,6 @@ def train(arguments, data_splits, n_split = 0):
         model.net.load_state_dict(torch.load(arguments.load))
 
     print("########LOAD OR SAVE MODEL : DONE########")
-    exit(0)
     if network_debug:
         print('# of pars: ', model.get_number_parameters())
         print('fp time: {0:.3f} sec\tbp time: {1:.3f} sec per sample'.format(*model.get_fp_bp_time()))
