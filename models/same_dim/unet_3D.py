@@ -1,17 +1,9 @@
 import math
-print("import math")
 import torch.nn as nn
-print("import torch.nn as nn")
 import models.networks.utils as mnu #UnetConv3, UnetUp3_CT
-print("from models.networks.utils import UnetConv3, UnetUp3, UnetUp3_CT")
-exit(0)
 import torch.nn.functional as F
-print("import torch.nn.functional as F")
 from models.networks_other import init_weights
-print("from models.networks_other import init_weights")
 import torch
-print("import torch")
-exit(0)
 class unet_3D(nn.Module):
 
     def __init__(self, feature_scale=4, n_classes=21, is_deconv=True, in_channels=3, is_batchnorm=True, im_dim = None):
@@ -62,12 +54,8 @@ class unet_3D(nn.Module):
                 init_weights(m, init_type='kaiming')
 
     def forward(self, X):
-        # print("||start|| memory :",convert_bytes(torch.cuda.max_memory_allocated()))
-        # print("||start|| cur memory :", convert_bytes(torch.cuda.memory_allocated()))
-        # print("|||| X size :", convert_bytes(X.element_size() * X.nelement()))
         # if self.im_dim != None:
         #     with torch.no_grad():
-        #         # print("|||| INPUT SHAPE", inputs.shape)
         #         inputs = nn.functional.interpolate(X, self.im_dim, mode='trilinear')
                 # print("|||| INPUT SHAPE", inputs.shape)
 

@@ -1,36 +1,22 @@
 import torch
-print("ok import torchfor imports : ")
 from torch.autograd import Variable
-print("ok for imports : from torch.autograd import Variable")
 import torch.optim as optim
-print("ok for imports : import torch.optim as optim")
 from collections import OrderedDict
-print("ok for imports : from collections import OrderedDict")
 import utils.util as util
-print("ok for imports :import utils.util as util ")
 from .base_model import BaseModel
-print("ok for imports : from .base_model import BaseModel")
 from .same_dim import get_network
-print("ok for imports : from .same_dim import get_network")
 from .layers.loss import *
-print("ok for imports : from .layers.loss import *")
 from .networks_other import get_scheduler, print_network, benchmark_fp_bp_time
-print("ok for imports : from .networks_other import get_scheduler, print_network, benchmark_fp_bp_time")
 from .utils import segmentation_stats, get_optimizer, get_criterion
-print("ok for imports : from .utils import segmentation_stats, get_optimizer, get_criterion")
 from .networks.utils import HookBasedFeatureExtractor
-print("ok for imports : from .networks.utils import HookBasedFeatureExtractor")
 
 import numpy as np
-print("ok for imports : np")
-exit(0)
 class FeedForwardSegmentation(BaseModel):
 
     def name(self):
         return 'FeedForwardSegmentation'
 
     def initialize(self, opts, im_dim = None,**kwargs):
-        print('seg model initialize ...')
         BaseModel.initialize(self, opts, **kwargs)
         self.isTrain = opts.isTrain
         self.index = 0
@@ -41,13 +27,10 @@ class FeedForwardSegmentation(BaseModel):
         self.tensor_dim = opts.tensor_dim
 
         # load/define networks
-        print('seg model get _network ...')
         self.net = get_network(opts.model_type, n_classes=opts.output_nc,
                                in_channels=opts.input_nc, nonlocal_mode=opts.nonlocal_mode,
                                tensor_dim=opts.tensor_dim, feature_scale=opts.feature_scale,
                                attention_dsample=opts.attention_dsample, im_dim =im_dim)
-        print('seg model get network done ...')
-        exit(0)
         if self.use_cuda: self.net = self.net.cuda()
 
         # load the model if a path is specified or it is in inference mode
