@@ -1,17 +1,26 @@
 import sys
+print("import sys")
 import torch
+print("import torch")
 import torch.optim as optim
+print("import torch.optim as optim")
 import torch.nn as nn
+print("import torch.nn as nn")
 import torch.nn.functional as F
+print("import torch.nn.functional as F")
 import revtorch.revtorch as rv
+print("import revtorch.revtorch as rv")
 import random
+print("import random")
 from models.networks_other import init_weights
-
+print("from models.networks_other import init_weights")
 import numpy as np
-
+print("import numpy as np")
 import os
+print("import os")
 os.environ["CUDA_VISIBLE_DEVICES"] = '3'
-
+print("os.environ['CUDA_VISIBLE_DEVICES'] = '3'")
+exit(0)
 
 
 
