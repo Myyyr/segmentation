@@ -12,6 +12,8 @@ from .utils import segmentation_stats, get_optimizer, get_criterion
 from .networks.utils import HookBasedFeatureExtractor
 
 import numpy as np
+print("ok for imports")
+exit(0)
 class FeedForwardSegmentation(BaseModel):
 
     def name(self):
