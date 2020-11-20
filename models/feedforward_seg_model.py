@@ -18,6 +18,7 @@ class FeedForwardSegmentation(BaseModel):
         return 'FeedForwardSegmentation'
 
     def initialize(self, opts, im_dim = None,**kwargs):
+        print('seg model initialize ...')
         BaseModel.initialize(self, opts, **kwargs)
         self.isTrain = opts.isTrain
         self.index = 0
@@ -28,10 +29,13 @@ class FeedForwardSegmentation(BaseModel):
         self.tensor_dim = opts.tensor_dim
 
         # load/define networks
+        print('seg model get _network ...')
         self.net = get_network(opts.model_type, n_classes=opts.output_nc,
                                in_channels=opts.input_nc, nonlocal_mode=opts.nonlocal_mode,
                                tensor_dim=opts.tensor_dim, feature_scale=opts.feature_scale,
                                attention_dsample=opts.attention_dsample, im_dim =im_dim)
+        print('seg model get network done ...')
+        exit(0)
         if self.use_cuda: self.net = self.net.cuda()
 
         # load the model if a path is specified or it is in inference mode
