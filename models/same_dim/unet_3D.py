@@ -2,7 +2,7 @@ import math
 print("import math")
 import torch.nn as nn
 print("import torch.nn as nn")
-from models.networks.utils import UnetConv3, UnetUp3, UnetUp3_CT
+import models.networks.utils as mnu #UnetConv3, UnetUp3_CT
 print("from models.networks.utils import UnetConv3, UnetUp3, UnetUp3_CT")
 exit(0)
 import torch.nn.functional as F
