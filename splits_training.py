@@ -46,11 +46,15 @@ def train(arguments, data_splits, n_split = 0):
 
     # Setup the NN Model
     model = get_model(json_opts.model, im_dim = train_opts.im_dim, split=n_split)
+
+    print("########LOAD OR SAVE MODEL########")
     
     if not os.path.exists(arguments.load):
         torch.save(model, arguments.load)
     else:
         model.load(arguments.load)
+
+    print("########LOAD OR SAVE MODEL : DONE########")
 
     if network_debug:
         print('# of pars: ', model.get_number_parameters())
