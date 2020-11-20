@@ -1,7 +1,11 @@
+print("samedim")
 from .memory_unet_3D import *
+print("from .memory_unet_3D import *")
 from .revunet_3D import *
+print("from .revunet_3D import *")
 from .unet_3D import *
-
+print("from .unet_3D import *")
+exit(0)
 def get_network(name, n_classes, in_channels=3, feature_scale=4, tensor_dim='2D',
                 nonlocal_mode='embedded_gaussian', attention_dsample=(2,2,2),
                 aggregation_mode='concat', im_dim=None):
