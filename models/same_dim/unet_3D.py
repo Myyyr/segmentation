@@ -4,6 +4,7 @@ import torch.nn as nn
 print("import torch.nn as nn")
 from models.networks.utils import UnetConv3, UnetUp3, UnetUp3_CT
 print("from models.networks.utils import UnetConv3, UnetUp3, UnetUp3_CT")
+exit(0)
 import torch.nn.functional as F
 print("import torch.nn.functional as F")
 from models.networks_other import init_weights
