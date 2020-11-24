@@ -137,12 +137,13 @@ if __name__ == '__main__':
     parser.add_argument('-d', '--debug',   help='returns number of parameters and bp/fp runtime', action='store_true')
     parser.add_argument('-g', '--gpu',  help='gpu to use', required=True)
     parser.add_argument('-l', '--load', help='load parameters path', required=True)
+    parser.add_argument('-s', '--split', help='starting split', default='0')
     args = parser.parse_args()
 
     os.environ["CUDA_VISIBLE_DEVICES"] = str(args.gpu)
     data_splits = {'train':[], 'test':[]}
     all_splits = ['split_'+str(i+1) for i in range(6)]
-    for i in range(6):
+    for i in range(int(args.split), 6):
         data_splits['test'] = [all_splits[i]]
         data_splits['train'] = all_splits[:i] + all_splits[i+1:]
 
