@@ -6,7 +6,7 @@
     "lr_policy": "step_warmstart2",
     "lr_decay_iters": 250,
     "batchSize": 2,
-    "preloadData": true,
+    "preloadData": false,
     "im_dim": "512_512_256"
   },
   "visualisation":{
@@ -17,7 +17,7 @@
     "display_single_pane_ncols": 0
   },
   "data_path": {
-    "split_tcia": "/etudiants/siscol/t/themyr_l/data"
+    "split_tcia": "/local/SSD_DEEPLEARNING/PANCREAS_MULTI_RES/"
   },
   "augmentation": {
     "split_tcia": {
@@ -33,7 +33,7 @@
   "model":{
     "type":"seg",
     "continue_train": false,
-    "which_epoch": -1,
+    "which_epoch": 98,
     "model_type": "revunet",
     "tensor_dim": "3D",
     "division_factor": 16,
@@ -45,7 +45,7 @@
     "gpu_ids": [0],
     "isTrain": true,
     "checkpoints_dir": "./checkpoints/same_dim/",
-    "experiment_name": "revunet_3d",
+    "experiment_name": "revunet_3d_512_512_256",
     "criterion": "dice_loss"
   }
 }
