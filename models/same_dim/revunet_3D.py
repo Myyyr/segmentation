@@ -165,8 +165,8 @@ class RevUnet3D(nn.Module):
 
         x = self.lastConv(x)
 
-        if tibo_in_shape != [512,512,256]:
-            x = self.interpolation(x)
+        # if tibo_in_shape != [512,512,256]:
+        #     x = self.interpolation(x)
         #x = torch.sigmoid(x)
         return x
 
