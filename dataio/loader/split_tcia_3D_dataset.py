@@ -67,8 +67,8 @@ class SplitTCIA3DDataset(data.Dataset):
             input, target = self.transform(input, target )
 
         # target = self._toEvaluationOneHot(target)
-        input = torch.from_numpy(input[None,:,:,:]).float()
-        target = torch.from_numpy(target).float()
+        # input = torch.from_numpy(input[None,:,:,:]).float()
+        # target = torch.from_numpy(target).float()
          
 
         
