@@ -45,13 +45,18 @@ def train(arguments, data_splits, n_split = 0):
     ds_transform = get_dataset_transformation(arch_type, opts=json_opts.augmentation)
 
     # Setup the NN Model
+    print("########GET MODEL########")
     model = get_model(json_opts.model, im_dim = train_opts.im_dim, split=n_split)
+
+    print("########LOAD OR SAVE MODEL########")
     
     if not os.path.exists(arguments.load):
-        torch.save(model, arguments.load)
+        torch.save(model.net.state_dict(), arguments.load)
     else:
-        model.load(arguments.load)
+        # model.load_network_from_path(model.get_net(), arguments.load, False)
+        model.net.load_state_dict(torch.load(arguments.load))
 
+    print("########LOAD OR SAVE MODEL : DONE########")
     if network_debug:
         print('# of pars: ', model.get_number_parameters())
         print('fp time: {0:.3f} sec\tbp time: {1:.3f} sec per sample'.format(*model.get_fp_bp_time()))
@@ -132,12 +137,13 @@ if __name__ == '__main__':
     parser.add_argument('-d', '--debug',   help='returns number of parameters and bp/fp runtime', action='store_true')
     parser.add_argument('-g', '--gpu',  help='gpu to use', required=True)
     parser.add_argument('-l', '--load', help='load parameters path', required=True)
+    parser.add_argument('-s', '--split', help='starting split', default='0')
     args = parser.parse_args()
 
     os.environ["CUDA_VISIBLE_DEVICES"] = str(args.gpu)
     data_splits = {'train':[], 'test':[]}
     all_splits = ['split_'+str(i+1) for i in range(6)]
-    for i in range(6):
+    for i in range(int(args.split), 6):
         data_splits['test'] = [all_splits[i]]
         data_splits['train'] = all_splits[:i] + all_splits[i+1:]
 

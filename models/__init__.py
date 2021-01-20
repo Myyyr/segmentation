@@ -69,7 +69,9 @@ def get_model(json_opts, im_dim = None, split = 0):
     model_type = model_opts.type
     if model_type == 'seg':
         # Return the model type
+        print('seg model import ...')
         from .feedforward_seg_model import FeedForwardSegmentation
+        print('seg model load ...')
         model = FeedForwardSegmentation()
 
     elif model_type == 'classifier':

@@ -9,7 +9,7 @@ class BaseModel():
         self.input = None
         self.net = None
         self.isTrain = False
-        self.use_cuda = False
+        self.use_cuda = True
         self.schedulers = []
         self.optimizers = []
         self.save_dir = None

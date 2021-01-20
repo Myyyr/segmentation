@@ -5,7 +5,9 @@ from .unet_3D import *
 def get_network(name, n_classes, in_channels=3, feature_scale=4, tensor_dim='2D',
                 nonlocal_mode='embedded_gaussian', attention_dsample=(2,2,2),
                 aggregation_mode='concat', im_dim=None):
+    print('seg model _get_model_instance ...')
     model = _get_model_instance(name, tensor_dim)
+    print('seg model _get_model_instance done ...')
 
     
     if name in ['unet_3d']:
