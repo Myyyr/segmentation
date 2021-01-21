@@ -63,12 +63,12 @@ class SplitTCIA3DDataset(data.Dataset):
         
 
         #check_exceptions(input, target)
-        if self.transform:
-            input, target = self.transform(input, target )
+        # if self.transform:
+        #     input, target = self.transform(input, target )
 
-        # target = self._toEvaluationOneHot(target)
-        # input = torch.from_numpy(input[None,:,:,:]).float()
-        # target = torch.from_numpy(target).float()
+        target = self._toEvaluationOneHot(target)
+        input = torch.from_numpy(input[None,:,:,:]).float()
+        target = torch.from_numpy(target).float()
          
 
         
