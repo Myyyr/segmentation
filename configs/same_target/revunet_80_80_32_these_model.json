@@ -45,7 +45,7 @@
     "gpu_ids": [0],
     "isTrain": true,
     "checkpoints_dir": "./checkpoints/same_dim/",
-    "experiment_name": "revunet_3d_80_80_32_these_model",
+    "experiment_name": "revunet_3d_80_80_32_these_model_div16",
     "criterion": "dice_loss"
   }
 }
